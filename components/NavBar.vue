@@ -1,6 +1,6 @@
 /* eslint-disable vue/multi-word-component-names */
 <template>
-  <nav class="navbar bg-gray-900">
+  <nav class="navbar bg-indigo-800">
     <div class="max-w-15xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-20">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -68,7 +68,7 @@
                 :href="item.type === 'a' ? item.href : undefined"
                 :class="[
                   item.current ? 'nav-item-current' : 'nav-item-not-current',
-                  'px-4 py-3 text-sm font-medium subpixel-antialiased font-bold align-middle',
+                  'px-4 py-3 text-sm font-medium subpixel-antialiased font-bold align-middle ',
                 ]"
                 :aria-current="item.current ? 'page' : undefined"
                 >{{ item.name }}

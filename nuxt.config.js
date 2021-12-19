@@ -13,14 +13,8 @@ export default {
   css: [],
   plugins: [],
   components: true,
-  buildModules: [
-    '@nuxt/typescript-build',
-    '@nuxtjs/tailwindcss',
-  ],
-  modules: [
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa',
-  ],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
 
   axios: {
     baseURL: '/',
