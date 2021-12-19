@@ -8,7 +8,12 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'dark-gray': '#202020',
+        'footer-color': '#191919',
+      },
+    },
   },
   variants: {
     extend: {},
