@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="bg-dark-gray">
     <NavBar />
-    <div class="">
+    <div>
       <article
         class="prose prose-sm prose-invert sm:prose lg:prose-lg xl:prose-2xl mx-auto"
       >
