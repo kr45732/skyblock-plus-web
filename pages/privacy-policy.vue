@@ -13,11 +13,10 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   async asyncData({ $content }) {
     const page = await $content("privacypolicy").fetch();
-
     return {
       page,
     };
