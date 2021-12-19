@@ -25,10 +25,7 @@
       Users<br />
       <h3 class="subpixel-antialiased font-semibold">1234</h3>
     </div>
-
   </div>
-
-
 </template>
 
 <script lang="ts">
