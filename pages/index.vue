@@ -24,6 +24,7 @@
           </button></a
         >
       </div>
+      <Stats />
     </div>
   </div>
 </template>
