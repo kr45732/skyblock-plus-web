@@ -1,8 +1,10 @@
 <template>
-  <div class="main bg-dark-gray h-screen">
+  <div>
     <NavBar />
+    <div class="main bg-dark-gray h-screen">
+      <div class="text-white text-9xl flex place-content-center">WIP</div>
+    </div>
     <Footer />
-    <div class="text-white text-9xl flex place-content-center">WIP</div>
   </div>
 </template>
 

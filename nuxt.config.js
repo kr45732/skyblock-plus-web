@@ -14,7 +14,7 @@ export default {
   plugins: [],
   components: true,
   buildModules: ["@nuxt/typescript-build", "@nuxtjs/tailwindcss"],
-  modules: ["@nuxtjs/axios", "@nuxtjs/pwa"],
+  modules: ["@nuxtjs/axios", "@nuxtjs/pwa", "@nuxt/content"],
 
   axios: {
     baseURL: "/",

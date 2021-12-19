@@ -1,14 +1,26 @@
 <template>
-  <div class="h-screen bg-dark-gray">
+  <div>
     <NavBar />
+    <div class="">
+      <article
+        class="prose prose-sm prose-invert sm:prose lg:prose-lg xl:prose-2xl mx-auto"
+      >
+        <h1>{{ page.title }}</h1>
+        <nuxt-content class="" :document="page" />
+      </article>
+    </div>
     <Footer />
   </div>
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+export default {
+  async asyncData({ $content }) {
+    const page = await $content("privacypolicy").fetch();
 
-export default Vue.extend({
-  name: "PrivacyPolicyPage",
-});
+    return {
+      page,
+    };
+  },
+};
 </script>
