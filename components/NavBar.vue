@@ -123,7 +123,7 @@ export default Vue.extend({
         {
           name: "Discord",
           type: "a",
-          href: "https://discord.gg/FaqErC82Xr",
+          href: "https://dsc.gg/skyblock-plus",
           current: false,
         },
         {
