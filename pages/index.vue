@@ -1,7 +1,6 @@
 <template>
   <div class="h-screen bg-dark-gray">
     <NavBar />
-    <Footer />
     <div>
       <h1
         class="flex justify-center mb-0 p-12 font-semibold text-8xl text-red-700"
@@ -17,6 +16,7 @@
       </h3>
       <InviteButton />
       <Stats />
+      <Footer />
     </div>
   </div>
 </template>
