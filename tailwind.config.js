@@ -1,17 +1,17 @@
 module.exports = {
   purge: [
-    './components/**/*.{vue,js}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',
+    "./components/**/*.{vue,js}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
   ],
   darkMode: false,
   theme: {
     extend: {
       colors: {
-        'dark-gray': '#202020',
-        'footer-color': '#191919',
+        "dark-gray": "#202020",
+        "footer-color": "#191919",
       },
     },
   },
@@ -19,4 +19,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};

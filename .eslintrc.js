@@ -4,8 +4,8 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ['@nuxtjs/eslint-config-typescript', 'prettier'],
+  extends: ["@nuxtjs/eslint-config-typescript", "prettier"],
   plugins: [],
   // add your custom rules here
   rules: {},
-}
+};

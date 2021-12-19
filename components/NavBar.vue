@@ -102,46 +102,46 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
 export default Vue.extend({
-  name: 'NavBar',
+  name: "NavBar",
   data() {
     return {
       navigation: [
         {
-          name: 'Home',
-          type: 'NuxtLink',
-          href: '/',
-          current: this.$route.path === '/',
+          name: "Home",
+          type: "NuxtLink",
+          href: "/",
+          current: this.$route.path === "/",
         },
         {
-          name: 'Commands',
-          type: 'NuxtLink',
-          href: '/commands',
-          current: this.$route.path.startsWith('/commands'),
+          name: "Commands",
+          type: "NuxtLink",
+          href: "/commands",
+          current: this.$route.path.startsWith("/commands"),
         },
         {
-          name: 'Discord',
-          type: 'a',
-          href: 'https://discord.gg/FaqErC82Xr',
+          name: "Discord",
+          type: "a",
+          href: "https://discord.gg/FaqErC82Xr",
           current: false,
         },
         {
-          name: 'patreon',
-          type: 'a',
-          href: 'https://www.patreon.com/skyblock_plus ',
+          name: "patreon",
+          type: "a",
+          href: "https://www.patreon.com/skyblock_plus ",
           current: false,
         },
       ],
       mobileHidden: true,
-    }
+    };
   },
   methods: {
     mobileMenuClick() {
-      this.mobileHidden = !this.mobileHidden
+      this.mobileHidden = !this.mobileHidden;
     },
   },
-})
+});
 </script>
 
 <style>
