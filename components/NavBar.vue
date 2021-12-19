@@ -1,6 +1,6 @@
 /* eslint-disable vue/multi-word-component-names */
 <template>
-  <nav class="navbar bg-indigo-800">
+  <nav class="navbar bg-red-700">
     <div class="max-w-15xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-20">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">

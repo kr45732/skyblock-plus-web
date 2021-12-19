@@ -7,7 +7,7 @@
         <div class="w-full md:w-4/12 px-4">
           <div class="text-lg text-white font-semibold py-4">
             Copyright © {{ date }} Skyblock Plus
-            <div class="text-sm  text-white">
+            <div class="text-sm text-white">
               Website made by
               <a class="text-red-600" href="https://github.com/TrashCan69420"
                 >TrashCan#8913</a
