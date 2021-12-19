@@ -121,12 +121,6 @@ export default Vue.extend({
           current: this.$route.path.startsWith('/commands'),
         },
         {
-          name: 'Invite',
-          type: 'a',
-          href: 'https://dsc.gg/inv-skyblock-plus',
-          current: false,
-        },
-        {
           name: 'Discord',
           type: 'a',
           href: 'https://discord.gg/FaqErC82Xr',
@@ -152,6 +146,7 @@ export default Vue.extend({
 
 <style>
 .navbar {
+  font-family: Montserrat, Tajawal, sans-serif;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
   position: relative;
 }
