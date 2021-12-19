@@ -1,6 +1,7 @@
 <template>
-  <div class="h-screen bg-dark-gray">
+  <div>
     <NavBar />
+    <div class="h-screen bg-dark-gray"></div>
     <Footer />
   </div>
 </template>
