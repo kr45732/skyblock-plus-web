@@ -36,7 +36,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'Footer',
+  name: 'FooterComponent',
   data() {
     return {
       date: new Date().getFullYear(),
