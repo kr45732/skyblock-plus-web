@@ -68,7 +68,7 @@
                 :href="item.type === 'a' ? item.href : undefined"
                 :class="[
                   item.current ? 'nav-item-current' : 'nav-item-not-current',
-                  'px-4 py-3 text-sm font-medium subpixel-antialiased font-bold align-middle ',
+                  'px-4 py-3 text-medium font-lg subpixel-antialiased font-bold align-middle ',
                 ]"
                 :aria-current="item.current ? 'page' : undefined"
                 >{{ item.name }}
@@ -123,7 +123,7 @@ export default Vue.extend({
         {
           name: "Discord",
           type: "a",
-          href: "https://discord.gg/FaqErC82Xr",
+          href: "https://dsc.gg/skyblock-plus",
           current: false,
         },
         {
