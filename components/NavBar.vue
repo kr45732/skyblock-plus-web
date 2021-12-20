@@ -123,13 +123,13 @@ export default Vue.extend({
         {
           name: "Discord",
           type: "a",
-          href: process.env.DISCORD_INVITE,
+          href: "https://dsc.gg/skyblock-plus",
           current: false,
         },
         {
           name: "patreon",
           type: "a",
-          href: process.env.PATREON_LINK,
+          href: "https://www.patreon.com/skyblock_plus",
           current: false,
         },
       ],
