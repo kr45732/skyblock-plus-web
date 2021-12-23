@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-dark-gray">
+  <div>
     <NavBar />
     <div>
       <article
-        class="prose prose-sm prose-invert sm:prose lg:prose-lg xl:prose-2xl mx-auto"
+        class="prose prose-invert prose-sm prose-invert sm:prose lg:prose-lg xl:prose-2xl mx-auto"
       >
         <h1>{{ page.title }}</h1>
         <nuxt-content class="" :document="page" />
@@ -13,8 +13,9 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
+  // @ts-ignore stfu i dont care if it has any type
   async asyncData({ $content }) {
     const page = await $content("privacypolicy").fetch();
     return {
