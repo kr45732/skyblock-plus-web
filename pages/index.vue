@@ -26,5 +26,14 @@ import Vue from "vue";
 
 export default Vue.extend({
   name: "IndexPage",
+  head: {
+    meta: [
+      {
+        hid: 'description',
+        name: 'Skyblock Plus',
+        content: 'A Discord bot with many commands & customizable features to improve the experience for SkyBlock players and guild staff!'
+      }
+    ],
+  }
 });
 </script>
