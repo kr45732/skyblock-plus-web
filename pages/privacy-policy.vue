@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="bg-dark-gray">
     <NavBar />
     <div>
       <article
-        class="prose prose-invert prose-sm prose-invert sm:prose lg:prose-lg xl:prose-2xl mx-auto"
+        class="prose invert prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto"
       >
         <h1>{{ page.title }}</h1>
         <nuxt-content class="" :document="page" />
