@@ -1,6 +1,6 @@
 {
   "name": "skyblock-plus",
-  "version": "1.22.17",
+  "version": "1.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
