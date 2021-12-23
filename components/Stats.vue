@@ -4,13 +4,13 @@
       class="relative object-scale-down subpixel-antialiased px-4 py-2 font-extrabold text-xl text-center rounded-lg bg-red-700 w-36 h-18 text-white"
     >
       Servers<br />
-      <h3 class="subpixel-antialiased font-semibold">1234</h3>
+      <h3 class="subpixel-antialiased font-semibold">{{ stats.guild_count }}</h3>
     </div>
     <div
       class="relative object-scale-down subpixel-antialiased px-4 py-2 font-extrabold text-xl text-center rounded-lg bg-red-700 w-36 h-18 text-white"
     >
       Users<br />
-      <h3 class="subpixel-antialiased font-semibold">1234</h3>
+      <h3 class="subpixel-antialiased font-semibold">{{ stats.user_count }}</h3>
     </div>
   </div>
 </template>
@@ -22,11 +22,11 @@ export default Vue.extend({
   name: "StatsComponent",
   data() {
     return {
-      stats: [],
+      stats: {},
     };
   },
   async fetch() {
-    this.stats = await fetch("https://api.nuxtjs.dev/mountains").then((res) =>
+    this.stats = await fetch("https://skyblock-plus.ml/api/public/get/stats").then((res) =>
       res.json()
     );
   },
