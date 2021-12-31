@@ -7,6 +7,7 @@
   <div class="flex-none px-2 mx-2 flex">
     <div class="flex items-stretch">
       <a class="btn btn-ghost btn-sm rounded-btn font-bold" href="commands"> Commands </a>
+      <a class="btn btn-ghost btn-sm rounded-btn font-bold" href="stats"> Stats </a>
       <a class="btn btn-ghost btn-sm rounded-btn font-bold" href="https://dsc.gg/skyblock-plus">
         Discord
       </a>
