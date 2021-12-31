@@ -6,6 +6,8 @@ const config = {
   theme: {
     extend: {
       colors: {
+        navbar: "",
+        footer: "#191919",
         ...colors
       }
     }
