@@ -1,4 +1,4 @@
-<footer class="items-center p-4 footer bg-footer bottom-0 fixed">
+<footer class="items-center p-6 footer bg-footer bottom-0 fixed">
   <div class="items-center grid-flow-col">
     <svg
       width="36"
