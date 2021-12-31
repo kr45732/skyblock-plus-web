@@ -5,6 +5,6 @@
 
 <div class="bg-black h-screen text-white">
   <Navbar />
-  <div class=" " />
+  <div>yo</div>
   <Footer />
 </div>
