@@ -6,6 +6,7 @@
     "target": "es2020",
     "importsNotUsedAsValues": "error",
     "isolatedModules": true,
+    "strict": true,
     "resolveJsonModule": true,
     "sourceMap": true,
     "esModuleInterop": true,
