@@ -14,7 +14,7 @@
       />
     </svg>
     <p class="subpixel-antialiased font-semibold font-lg">
-      Copyright © 2021 SkyBlockPlus - All right reserved
+      Copyright © 2022 SkyBlockPlus - All right reserved
     </p>
   </div>
   <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end ">
