@@ -23,7 +23,7 @@
     "daisyui": "1.20.1",
     "postcss": "8.4.5",
     "svelte": "3.44.3",
-    "mdsvex": "^0.9.8",
+    "mdsvex": "0.9.8",
     "tslib": "2.3.1"
   },
   "type": "module"
