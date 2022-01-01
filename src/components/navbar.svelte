@@ -9,9 +9,6 @@
       <a class="btn btn-ghost btn-sm rounded-btn font-bold hover:opacity-75" href="commands">
         Commands
       </a>
-      <a class="btn btn-ghost btn-sm rounded-btn font-bold hover:opacity-75" href="stats">
-        Stats
-      </a>
       <a
         class="btn btn-ghost btn-sm rounded-btn font-bold hover:opacity-75"
         href="https://dsc.gg/skyblock-plus"
