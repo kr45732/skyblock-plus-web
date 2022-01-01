@@ -6,7 +6,7 @@
 <div>
   <div class="bg-black h-screen text-white overflow-hidden">
     <Navbar />
-    <div class="hero h-screen">
+    <div class="hero min-h-screen">
       <div class="text-center hero-content">
         <div class="max-w-md">
           <h1 class="mb-5 text-5xl font-bold">Skyblock Plus</h1>
