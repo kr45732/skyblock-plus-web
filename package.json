@@ -23,7 +23,6 @@
     "prettier": "2.5.1",
     "postcss": "8.4.5",
     "svelte": "3.44.3",
-    "axios": "0.24.0",
     "mdsvex": "0.9.8",
     "tslib": "2.3.1"
   },
