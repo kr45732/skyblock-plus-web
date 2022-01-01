@@ -3,8 +3,9 @@
   import Footer from "../components/footer.svelte";
 </script>
 
-<div class="bg-black h-screen text-white">
-  <Navbar />
-  <div>stats</div>
-  <Footer />
+<div>
+  <div class="bg-black h-screen text-white">
+    <Navbar />
+    <Footer />
+  </div>
 </div>
