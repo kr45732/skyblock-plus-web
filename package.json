@@ -14,7 +14,7 @@
     "prettier-plugin-svelte": "2.5.1",
     "@sveltejs/adapter-auto": "next",
     "svelte-preprocess": "4.10.1",
-    "autoprefixer": "10.4.1",
+    "autoprefixer": "10.4.2",
     "svelte-check": "2.2.12",
     "@sveltejs/kit": "next",
     "tailwindcss": "3.0.13",
