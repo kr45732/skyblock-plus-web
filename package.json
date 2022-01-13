@@ -15,7 +15,7 @@
     "@sveltejs/adapter-auto": "next",
     "svelte-preprocess": "4.10.1",
     "autoprefixer": "10.4.1",
-    "svelte-check": "2.2.11",
+    "svelte-check": "2.2.12",
     "@sveltejs/kit": "next",
     "tailwindcss": "3.0.9",
     "typescript": "4.5.4",
