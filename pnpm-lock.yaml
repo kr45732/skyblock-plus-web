@@ -4,7 +4,7 @@ specifiers:
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   autoprefixer: 10.4.1
-  daisyui: 1.21.0
+  daisyui: 1.22.2
   mdsvex: 0.9.8
   postcss: 8.4.5
   prettier: 2.5.1
@@ -18,9 +18,9 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.10
-  '@sveltejs/kit': 1.0.0-next.218_svelte@3.44.3
+  '@sveltejs/kit': 1.0.0-next.227_svelte@3.44.3
   autoprefixer: 10.4.1_postcss@8.4.5
-  daisyui: 1.21.0
+  daisyui: 1.22.2
   mdsvex: 0.9.8_svelte@3.44.3
   postcss: 8.4.5
   prettier: 2.5.1
@@ -116,8 +116,8 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.218_svelte@3.44.3:
-    resolution: {integrity: sha512-reimVgWaFq0qIvxkKnWE4nq35JFd6yQ6Lkge+o3WkX3hV8CAtrLbSAzFaEIUu5Ph09gJkl2PnqQa32WVDaeBZg==}
+  /@sveltejs/kit/1.0.0-next.227_svelte@3.44.3:
+    resolution: {integrity: sha512-AyTM51Mo01sV7Z3k0yEjKeSVfN84cXqu4+63FiSNMSvalIO9UfBYcKqfRZDtR/nPvw1zFNCC2HFAvRJGKIY8Xw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -368,8 +368,8 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/1.21.0:
-    resolution: {integrity: sha512-sdqSI6v/Xc6OsBrZbBKqZKpOCuQyc1foq9s5ZqT8Qdp92kIbR/FBNfTethDjLpvYBPpsohHLCvC0ddWr2OotYA==}
+  /daisyui/1.22.2:
+    resolution: {integrity: sha512-uaG7JC2wOEbcZT6mzODlfUjA0XOsCGcmJTda6qhdlYSaPoJDi9u87sfT64Hh8CNA1eeKpCm9xGt2WAWUcwqzIQ==}
     dev: true
 
   /debug/4.3.3:
