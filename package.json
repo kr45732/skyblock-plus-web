@@ -22,7 +22,7 @@
     "daisyui": "1.22.2",
     "prettier": "2.5.1",
     "postcss": "8.4.5",
-    "svelte": "3.44.3",
+    "svelte": "3.46.1",
     "mdsvex": "0.9.8",
     "tslib": "2.3.1"
   },
