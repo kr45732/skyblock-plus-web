@@ -15,7 +15,7 @@
             SkyBlock players and guild staff!
           </p>
           <button class="btn bg-red-700 hover:bg-red-600 border-red-700 hover:border-red-600"
-            ><a href="https://dsc.gg/inv-skyblock-plus">Inivte Me</a></button
+            ><a href="https://dsc.gg/sb+">Inivte Me</a></button
           >
         </div>
       </div>
