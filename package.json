@@ -19,7 +19,7 @@
     "@sveltejs/kit": "next",
     "tailwindcss": "3.0.22",
     "typescript": "4.5.4",
-    "daisyui": "1.22.2",
+    "daisyui": "1.25.4",
     "prettier": "2.5.1",
     "postcss": "8.4.5",
     "svelte": "3.46.4",
