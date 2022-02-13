@@ -13,7 +13,7 @@
   "devDependencies": {
     "prettier-plugin-svelte": "2.5.1",
     "@sveltejs/adapter-auto": "next",
-    "svelte-preprocess": "4.10.1",
+    "svelte-preprocess": "4.10.3",
     "autoprefixer": "10.4.2",
     "svelte-check": "2.2.12",
     "@sveltejs/kit": "next",
