@@ -14,7 +14,7 @@ specifiers:
   svelte-preprocess: 4.10.3
   tailwindcss: 3.0.22
   tslib: 2.3.1
-  typescript: 4.5.4
+  typescript: 4.5.5
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.17
@@ -27,10 +27,10 @@ devDependencies:
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.4
   svelte: 3.46.4
   svelte-check: 2.4.3_postcss@8.4.5+svelte@3.46.4
-  svelte-preprocess: 4.10.3_89410c2f4701ecf165db92d6c35daca5
+  svelte-preprocess: 4.10.3_4deb65cd7aeee31ad11d3f9712ae349b
   tailwindcss: 3.0.22_autoprefixer@10.4.2
   tslib: 2.3.1
-  typescript: 4.5.4
+  typescript: 4.5.5
 
 packages:
 
@@ -1350,8 +1350,8 @@ packages:
       sade: 1.8.0
       source-map: 0.7.3
       svelte: 3.46.4
-      svelte-preprocess: 4.10.3_89410c2f4701ecf165db92d6c35daca5
-      typescript: 4.5.4
+      svelte-preprocess: 4.10.3_4deb65cd7aeee31ad11d3f9712ae349b
+      typescript: 4.5.5
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -1373,7 +1373,7 @@ packages:
       svelte: 3.46.4
     dev: true
 
-  /svelte-preprocess/4.10.3_89410c2f4701ecf165db92d6c35daca5:
+  /svelte-preprocess/4.10.3_4deb65cd7aeee31ad11d3f9712ae349b:
     resolution: {integrity: sha512-ttw17lJfb/dx2ZJT9sesaXT5l7mPQ9Apx1H496Kli3Hkk7orIRGpOw6rCPkRNzr6ueVPqb4vzodS5x7sBFhKHw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1422,7 +1422,7 @@ packages:
       sorcery: 0.10.0
       strip-indent: 3.0.0
       svelte: 3.46.4
-      typescript: 4.5.4
+      typescript: 4.5.5
     dev: true
 
   /svelte/3.46.4:
@@ -1481,8 +1481,8 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
 
-  /typescript/4.5.4:
-    resolution: {integrity: sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==}
+  /typescript/4.5.5:
+    resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
