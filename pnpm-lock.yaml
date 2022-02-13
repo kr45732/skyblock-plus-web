@@ -5,7 +5,7 @@ specifiers:
   '@sveltejs/kit': next
   autoprefixer: 10.4.2
   daisyui: 1.25.4
-  mdsvex: 0.9.8
+  mdsvex: 0.10.5
   postcss: 8.4.5
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0
@@ -21,7 +21,7 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.267_svelte@3.46.4
   autoprefixer: 10.4.2_postcss@8.4.5
   daisyui: 1.25.4
-  mdsvex: 0.9.8_svelte@3.46.4
+  mdsvex: 0.10.5_svelte@3.46.4
   postcss: 8.4.5
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.4
@@ -1016,8 +1016,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /mdsvex/0.9.8_svelte@3.46.4:
-    resolution: {integrity: sha512-5QvThjRKoKkGH00qdHxLZ5ROd80RgGiJvM2B9opeFreaiGFTLoKKFUgEBCslLrwM24cVGJLmIM3rR83OFDf3tQ==}
+  /mdsvex/0.10.5_svelte@3.46.4:
+    resolution: {integrity: sha512-/B23WZn5Vjrjh7Qp2YsOXLkU9YFm59IEylKNXC10o05ZaCP4LNv32tGXKP6aEssss6hk/LdISJuneELHFIS2pQ==}
     peerDependencies:
       svelte: 3.x
     dependencies:
