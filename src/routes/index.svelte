@@ -4,7 +4,7 @@
   import { onMount } from "svelte";
   let stats = {};
 
-  onMount(async function () {
+  onMount(async () => {
     const response = await fetch(
       "https://api.allorigins.win/get?url=https://skyblock-plus.ml/api/public/get/stats"
     );
@@ -33,14 +33,16 @@
             >
               Servers<br />
               <h3 class="subpixel-antialiased font-semibold">
-                {stats.guild_count || "Loading..."}
+                {stats.guild_count?.toLocaleString() || "Loading..."}
               </h3>
             </div>
             <div
               class="relative object-scale-down subpixel-antialiased px-4 py-2 font-extrabold text-xl text-center rounded-lg bg-red-700 w-36 h-18 text-white"
             >
               Users<br />
-              <h3 class="subpixel-antialiased font-semibold">{stats.user_count || "Loading..."}</h3>
+              <h3 class="subpixel-antialiased font-semibold">
+                {stats.user_count?.toLocaleString() || "Loading..."}
+              </h3>
             </div>
           </div>
         </div>
