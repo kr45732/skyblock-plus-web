@@ -1,4 +1,4 @@
-<script>
+<script type="ts">
   import Navbar from "../components/navbar.svelte";
   import Footer from "../components/footer.svelte";
   import { onMount } from "svelte";
@@ -8,22 +8,61 @@
   import Paper from "@smui/paper";
   import DataTable, { Head, Body, Row, Cell } from "@smui/data-table";
   import LinearProgress from "@smui/linear-progress";
+  import Fuse from "fuse.js";
+  import { HelpData } from "../components/HelpData.js";
 
-  let value = undefined;
-  let commands = [];
-  let active = "General";
+  let value = ""; // Search
+  let commands: HelpData[] = [];
+  let active = "General"; // Selected tab
   let loaded = false;
+  let fuse: Fuse<any>;
+  let commandIndex: any[] = []; // {name, index}
 
-  $: filteredCommands = value
-    ? commands.filter((command) => command?.name.match(`${value}.*`))
-    : commands.filter((command) => command?.category == active.toLocaleLowerCase());
+  $: filteredCommands =
+    value.length > 0
+      ? fuse.search(value).map((r) => commands[r.item.index])
+      : commands.filter((command) => command?.getCategory?.() == active.toLowerCase());
 
   onMount(async () => {
+    function mapCommands(command: HelpData) {
+      let subcommandsProcessed: HelpData[] = [];
+      for (const subcommand of command?.subcommands) {
+        subcommandsProcessed.push(mapCommands(HelpData.from(subcommand).setSuperCommand(command)));
+      }
+      return command.addSubcommands(subcommandsProcessed);
+    }
+
+    function flattenCommands(command: HelpData) {
+      let out = [command];
+      for (const subcommand of command.subcommands) {
+        if (subcommand instanceof HelpData) {
+          out.push(...flattenCommands(subcommand));
+        }
+      }
+      return out;
+    }
+
     const response = await fetch(
       "https://api.allorigins.win/get?url=https://skyblock-plus.ml/api/public/get/commands"
     );
-    const unparsed_json = await response.json();
-    commands = JSON.parse(unparsed_json.contents);
+    let preCommands = JSON.parse((await response.json()).contents);
+
+    let mappedCommands = [];
+    for (const command of preCommands) {
+      mappedCommands.push(mapCommands(HelpData.from(command)));
+    }
+    for (const command of mappedCommands) {
+      commands.push(...flattenCommands(command));
+    }
+
+    for (let i = 0; i < commands.length; i++) {
+      commandIndex.push({ name: commands[i].getName(), index: i });
+    }
+
+    fuse = new Fuse(commandIndex, {
+      findAllMatches: true,
+      keys: ["name"]
+    });
     loaded = true;
   });
 </script>
@@ -74,19 +113,11 @@
       <Body>
         {#each filteredCommands as command}
           <Row>
-            <Cell>{command?.name}</Cell>
-            <Cell>{command?.description}</Cell>
-            <Cell>{command?.usage}</Cell>
-            <Cell>{command?.aliases}</Cell>
+            <Cell>{command?.getName?.()}</Cell>
+            <Cell>{command?.getDescription?.()}</Cell>
+            <Cell>{command?.getUsageFormatted?.()}</Cell>
+            <Cell>{command?.getAliases?.()}</Cell>
           </Row>
-          {#each command?.subcommands as subcommand}
-            <Row>
-              <Cell>{command?.name} {subcommand?.name}</Cell>
-              <Cell>{subcommand?.description}</Cell>
-              <Cell>{command?.usage} {subcommand?.usage}</Cell>
-              <Cell>{subcommand?.aliases}</Cell>
-            </Row>
-          {/each}
         {/each}
       </Body>
 
