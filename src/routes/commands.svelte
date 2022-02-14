@@ -67,7 +67,10 @@
   });
 </script>
 
-<link rel="stylesheet" href="node_modules/svelte-material-ui/bare.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/svelte-material-ui@6.0.0-beta.13/bare.min.css"
+/>
 
 <div class="bg-black h-screen text-white overflow-scroll">
   <Navbar />
