@@ -69,7 +69,7 @@
 
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/svelte-material-ui@6.0.0-beta.13/bare.min.css"
+  href="https://cdn.jsdelivr.net/npm/svelte-material-ui@6.0.0-beta.14/bare.min.css"
 />
 
 <div class="bg-black h-screen text-white overflow-scroll">
@@ -104,7 +104,7 @@
   </div>
 
   <div style="padding: 15px;">
-    <DataTable table$aria-label="Command list" style="width: 100%;">
+    <DataTable table$aria-label="Command list" style="width: 100%; margin-bottom: 65px">
       <Head>
         <Row>
           <Cell>Name</Cell>
