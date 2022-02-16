@@ -12,6 +12,10 @@ export class HelpData {
     prefix = "/";
     category = null;
 
+    /**
+     * @param {String} [name]
+     * @param {String} [description]
+     */
     constructor(name, description, usage = name, ignoreSuperCommand = false) {
         this.name = name;
         this.description = description;
@@ -27,7 +31,7 @@ export class HelpData {
     }
 
     getDescription() {
-        return this.description + (this.secondDescription != null ? "\n\n" + this.secondDescription : "");
+        return this.description + (this.secondDescription != null ? "\n" + this.secondDescription : "");
     }
 
     getCategory(data = this) {
@@ -59,24 +63,13 @@ export class HelpData {
 
     getUsageFormatted(command = this) {
         if (command.subcommands.length == 0) {
-            return (this.prefix + command.getUsage() + (command.secondUsage != null ? ", " + this.prefix + this.getSecondUsage(command) : ""));
+            return (this.prefix + command.getUsage() + (command.secondUsage != null ? "\n" + this.prefix + this.getSecondUsage(command) : ""));
         }
-        return (this.prefix + command.getUsage() + " <subcommand>" + (command.secondUsage != null ? ", " + this.prefix + this.getSecondUsage(command) : ""));
+        return (this.prefix + command.getUsage() + " <subcommand>" + (command.secondUsage != null ? "\n" + this.prefix + this.getSecondUsage(command) : ""));
     }
 
     getSubcommands() {
         return this.subcommands;
-    }
-
-    getSubcommandsFormatted() {
-        let subcommandsStr = "";
-        for (let i = 0; i < this.subcommands.length; i++) {
-            if (i != 0) {
-                subcommandsStr += "\n";
-            }
-            subcommandsStr += this.getUsageFormatted(this.subcommands[i]);
-        }
-        return subcommandsStr.toString();
     }
 
     /**

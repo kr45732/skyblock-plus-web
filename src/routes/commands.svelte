@@ -104,22 +104,25 @@
   </div>
 
   <div style="padding: 15px;">
-    <DataTable table$aria-label="Command list" style="width: 100%; margin-bottom: 65px">
+    <DataTable
+      table$aria-label="Command list"
+      style="max-width: 98vw; min-width: 98vw; margin-bottom: 70px; overflow-x: hidden;"
+    >
       <Head>
         <Row>
-          <Cell>Name</Cell>
-          <Cell>Description</Cell>
-          <Cell>Usage</Cell>
-          <Cell>Aliases</Cell>
+          <Cell class="mdc-data-table__header-cell">Name</Cell>
+          <Cell class="mdc-data-table__header-cell">Description</Cell>
+          <Cell class="mdc-data-table__header-cell">Usage</Cell>
+          <Cell class="mdc-data-table__header-cell">Aliases</Cell>
         </Row>
       </Head>
       <Body>
         {#each filteredCommands as command}
           <Row>
-            <Cell>{command?.getName?.()}</Cell>
-            <Cell>{command?.getDescription?.()}</Cell>
-            <Cell>{command?.getUsageFormatted?.()}</Cell>
-            <Cell>{command?.getAliases?.()}</Cell>
+            <Cell class="mdc-data-table__cell">{command?.getName?.()}</Cell>
+            <Cell class="mdc-data-table__cell">{command?.getDescription?.()}</Cell>
+            <Cell class="mdc-data-table__cell">{command?.getUsageFormatted?.()}</Cell>
+            <Cell class="mdc-data-table__cell">{command?.getAliases?.()}</Cell>
           </Row>
         {/each}
       </Body>
@@ -132,6 +135,12 @@
 </div>
 
 <style>
+  * :global(.mdc-data-table__cell),
+  * :global(.mdc-data-table__header-cell) {
+    overflow: visible;
+    max-width: min-content;
+    white-space: pre-line;
+  }
   * :global(.solo-paper) {
     display: flex;
     align-items: center;
