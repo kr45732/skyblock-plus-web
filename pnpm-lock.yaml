@@ -13,8 +13,8 @@ specifiers:
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   autoprefixer: 10.4.2
-  daisyui: ^2.0.6
-  fuse.js: ^6.5.3
+  daisyui: 2.0.6
+  fuse.js: 6.5.3
   mdsvex: 0.10.5
   postcss: 8.4.6
   prettier: 2.5.1
