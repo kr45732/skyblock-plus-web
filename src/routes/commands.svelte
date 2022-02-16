@@ -72,10 +72,10 @@
   href="https://cdn.jsdelivr.net/npm/svelte-material-ui@6.0.0-beta.14/bare.min.css"
 />
 
-<div class="bg-black h-screen text-white overflow-scroll">
+<div class="bg-zinc-900 h-screen text-white overflow-scroll">
   <Navbar />
 
-  <Paper class="solo-paper" elevation={6}>
+  <Paper class="solo-paper" elevation={6} style="background-color: #292d2e;">
     <Input bind:value placeholder="Search" class="solo-input" />
   </Paper>
 
@@ -106,7 +106,7 @@
   <div style="padding: 15px;">
     <DataTable
       table$aria-label="Command list"
-      style="max-width: 98vw; min-width: 98vw; margin-bottom: 70px; overflow-x: hidden;"
+      style="max-width: 98vw; min-width: 98vw; margin-bottom: 70px; overflow-x: hidden; background-color: #292d2e;"
     >
       <Head>
         <Row>
@@ -140,6 +140,13 @@
     overflow: visible;
     max-width: min-content;
     white-space: pre-line;
+    color: rgb(209 213 219);
+    background-color: #292d2e;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  * :global(.mdc-data-table__header-cell) {
+    font-weight: bold;
   }
   * :global(.solo-paper) {
     display: flex;
@@ -155,10 +162,10 @@
   }
   * :global(.solo-input) {
     flex-grow: 1;
-    color: var(--mdc-theme-on-surface, #000);
+    color: var(--mdc-theme-on-surface, rgb(209 213 219));
   }
   * :global(.solo-input::placeholder) {
-    color: var(--mdc-theme-on-surface, #000);
+    color: var(--mdc-theme-on-surface, rgb(209 213 219));
     opacity: 0.6;
   }
 </style>

@@ -1,4 +1,4 @@
-<div class="navbar bg-navbar mb-4 shadow-lg text-neutral-content subpixel-antialiased">
+<div class="navbar bg-red-800 mb-4 shadow-lg text-neutral-content subpixel-antialiased">
   <div class="flex-1 px-2 mx-2">
     <span class="text-lg font-bold">
       <a href="/" class="hover:opacity-75">SkyBlock Plus</a>

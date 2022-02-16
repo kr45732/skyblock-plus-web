@@ -14,7 +14,7 @@
 </script>
 
 <div>
-  <div class="bg-black h-screen text-white overflow-hidden">
+  <div class="bg-zinc-900 h-screen text-white overflow-hidden">
     <Navbar />
     <div class="hero min-h-screen">
       <div class="text-center hero-content">
