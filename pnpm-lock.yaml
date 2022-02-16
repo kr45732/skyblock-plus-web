@@ -23,7 +23,7 @@ specifiers:
   svelte-check: 2.4.4
   svelte-material-ui: 6.0.0-beta.14
   svelte-preprocess: 4.10.3
-  tailwindcss: 3.0.22
+  tailwindcss: 3.0.23
   tslib: 2.3.1
   typescript: 4.5.5
 
@@ -52,7 +52,7 @@ devDependencies:
   svelte: 3.46.4
   svelte-check: 2.4.4_postcss@8.4.6+svelte@3.46.4
   svelte-preprocess: 4.10.3_88b359da5cac6d8f6ee1bbb7080a3fa9
-  tailwindcss: 3.0.22_autoprefixer@10.4.2
+  tailwindcss: 3.0.23_autoprefixer@10.4.2
   tslib: 2.3.1
   typescript: 4.5.5
 
@@ -1507,7 +1507,7 @@ packages:
     resolution: {integrity: sha512-Ub5hdGXEvyOEW5RfSEZjSEOGYZhxZ7+EVS9EjkYq9cV4qxe0l6eSl92ira5b0MrL5hR16Ntx981Hg7qbYMnljg==}
     dependencies:
       color: 4.2.1
-      tailwindcss: 3.0.22_autoprefixer@10.4.2
+      tailwindcss: 3.0.23_autoprefixer@10.4.2
     transitivePeerDependencies:
       - autoprefixer
       - ts-node
@@ -2634,8 +2634,8 @@ packages:
       svelte: 3.46.4
       typescript: 4.5.5
 
-  /tailwindcss/3.0.22_autoprefixer@10.4.2:
-    resolution: {integrity: sha512-F8lt74RlNZirnkaSk310+vGQta7c0/hgx7/bqxruM4wS9lp8oqV93lzavajC3VT0Lp4UUtUVIt8ifKcmGzkr0A==}
+  /tailwindcss/3.0.23_autoprefixer@10.4.2:
+    resolution: {integrity: sha512-+OZOV9ubyQ6oI2BXEhzw4HrqvgcARY38xv3zKcjnWtMIZstEsXdI9xftd1iB7+RbOnj2HOEzkA0OyB5BaSxPQA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
