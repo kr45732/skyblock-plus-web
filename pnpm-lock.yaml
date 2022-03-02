@@ -4,7 +4,7 @@ specifiers:
   '@smui/button': 6.0.0-beta.15
   '@smui/common': 6.0.0-beta.15
   '@smui/data-table': 6.0.0-beta.15
-  '@smui/fab': 6.0.0-beta.14
+  '@smui/fab': 6.0.0-beta.15
   '@smui/layout-grid': 6.0.0-beta.14
   '@smui/linear-progress': 6.0.0-beta.14
   '@smui/paper': 6.0.0-beta.14
@@ -35,7 +35,7 @@ devDependencies:
   '@smui/button': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
   '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
   '@smui/data-table': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
-  '@smui/fab': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+  '@smui/fab': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
   '@smui/layout-grid': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
   '@smui/linear-progress': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
   '@smui/paper': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
@@ -872,13 +872,13 @@ packages:
       - typescript
     dev: false
 
-  /@smui/fab/6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5:
-    resolution: {integrity: sha512-1J+Fyu1GQpF/cxe0CJzKlxim5fKwSE8MMjrozjiSJzO8fFOUMNyYbTvXSpJsPHPvGGE328nlioJhSVLoEk/V2w==}
+  /@smui/fab/6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-MJJyoliuf0Icq8eVwvwh2DpExpSrZvFIVZzzrFQ3Fk8EuoZlswHQYrukfomhI3tU+Pj8dsfVuuE+duqlLk+WXQ==}
     dependencies:
       '@material/fab': 13.0.0
       '@material/feature-targeting': 13.0.0
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
-      '@smui/ripple': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
     transitivePeerDependencies:
       - svelte
@@ -2506,7 +2506,7 @@ packages:
       '@smui/data-table': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       '@smui/dialog': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
       '@smui/drawer': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
-      '@smui/fab': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/fab': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       '@smui/floating-label': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
       '@smui/form-field': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
       '@smui/icon-button': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
