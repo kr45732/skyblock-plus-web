@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@smui/button': 6.0.0-beta.15
   '@smui/common': 6.0.0-beta.15
-  '@smui/data-table': 6.0.0-beta.14
+  '@smui/data-table': 6.0.0-beta.15
   '@smui/fab': 6.0.0-beta.14
   '@smui/layout-grid': 6.0.0-beta.14
   '@smui/linear-progress': 6.0.0-beta.14
@@ -34,7 +34,7 @@ dependencies:
 devDependencies:
   '@smui/button': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
   '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
-  '@smui/data-table': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+  '@smui/data-table': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
   '@smui/fab': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
   '@smui/layout-grid': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
   '@smui/linear-progress': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
@@ -709,9 +709,9 @@ packages:
     resolution: {integrity: sha512-UeHHGgdCdSAtMdaGdacaF629puovbTmKChY3xKk0u+TddpGW5VESDEGpFXCIHMyGFvEKNOuDu4HG5ImO7irBoA==}
     dependencies:
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
-      '@smui/list': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
-      '@smui/menu': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
-      '@smui/menu-surface': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/list': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/menu': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/menu-surface': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       '@smui/textfield': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
     transitivePeerDependencies:
@@ -766,7 +766,7 @@ packages:
       '@material/card': 13.0.0
       '@smui/button': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
-      '@smui/icon-button': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/icon-button': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       '@smui/ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
     transitivePeerDependencies:
@@ -776,6 +776,18 @@ packages:
 
   /@smui/checkbox/6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5:
     resolution: {integrity: sha512-dxCZHOT4j7JuBXLqyE6IP+qIB/ihsvOuZiaYpwwM+DWKwCk/nRP11Rl+7Jyn3SLmknC6u3gIV6sZHtM37taktg==}
+    dependencies:
+      '@material/checkbox': 13.0.0
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: false
+
+  /@smui/checkbox/6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-0D9oANqCsNT0UeCcj4/sTfMez/y73s6Tn0G0ZAqA2n9klA+9WXkGguOvSx9wELZVSTdeCJuD+JS3lk9lYs2ssQ==}
     dependencies:
       '@material/checkbox': 13.0.0
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
@@ -820,16 +832,16 @@ packages:
       - svelte
       - typescript
 
-  /@smui/data-table/6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5:
-    resolution: {integrity: sha512-e6+SUbT0ylhmNagK68yi3r40mc7eiXGxGJbQt5J/XJR1Cfvc/FbWrzyv53+eO9iqctGaNiY1pcxlP1Xi6IF77A==}
+  /@smui/data-table/6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-XR4HXeB/w1tnjWBjVA/D4KWuRF9OqTerVenr1eu/CqKp0U+WfcHe4ERSopachDJb9oicR3FLKY3/Lyinb5/w6g==}
     dependencies:
       '@material/data-table': 13.0.0
       '@material/dom': 13.0.0
-      '@smui/checkbox': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/checkbox': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
-      '@smui/icon-button': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
-      '@smui/ripple': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
-      '@smui/select': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/icon-button': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/select': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
     transitivePeerDependencies:
       - svelte
@@ -882,6 +894,16 @@ packages:
       - svelte
       - typescript
 
+  /@smui/floating-label/6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-rAJFQtrx+TqycHgYFua/DD/xBVoxgQ7pUIttcyzda7OrWPlmhb0PhHrXm3/tVozAgEIrqU/wni//Yf27uL5UBQ==}
+    dependencies:
+      '@material/floating-label': 13.0.0
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+
   /@smui/form-field/6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5:
     resolution: {integrity: sha512-dAZzODLVIGekBf8McEi4zCbBpHDzbBHm6SGOUtM2SeJOfetLrgZXj0BJIKlnU5n/83c3aoxUhsZH+t7HPrV8ZA==}
     dependencies:
@@ -897,6 +919,19 @@ packages:
 
   /@smui/icon-button/6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5:
     resolution: {integrity: sha512-sp+HHZEiaABRq+QkxDa5aK02rSoZPryz9Rjmj34GC4Y0dPoyg6y9wWZElunKBgXII4Xc7XL8k5iLH5UjfGWR3Q==}
+    dependencies:
+      '@material/density': 13.0.0
+      '@material/icon-button': 13.0.0
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: false
+
+  /@smui/icon-button/6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-gPeLEpK30zw7lDzM7gzGS0em1+YPqgnJY72dQWaIlIju3jLLECGo44wAx3JZRCfMaIXGHKdtEXCr4XbQ25at3A==}
     dependencies:
       '@material/density': 13.0.0
       '@material/icon-button': 13.0.0
@@ -938,6 +973,16 @@ packages:
       - svelte
       - typescript
 
+  /@smui/line-ripple/6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-BVn7pDIkl/6RFfN2HBSM2MYiTZddJ08f2D74sL/D3SIO4MpfBgeBsxMKEUwSc5OpfD+FYZmGyBhNIcDrPPC4PQ==}
+    dependencies:
+      '@material/line-ripple': 13.0.0
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+
   /@smui/linear-progress/6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5:
     resolution: {integrity: sha512-Ne/f2BAaO8gJuCZ2nBJja6yE2Xq+7/4cwqyz/Cay2jNRqQiKsEXTjD2TY9naegleqA1sSnjxV8ESJdFdhOQnkQ==}
     dependencies:
@@ -960,9 +1005,35 @@ packages:
     transitivePeerDependencies:
       - svelte
       - typescript
+    dev: false
+
+  /@smui/list/6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-IBMxNitaz+hZWJdp84rkVB3VcAyJoOIsUNJKrgUAAC2N6I6PV2/88HsUf2c7vg1bx6xTWZfpf++qb7Umud99Iw==}
+    dependencies:
+      '@material/dom': 13.0.0
+      '@material/feature-targeting': 13.0.0
+      '@material/list': 13.0.0
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
+    transitivePeerDependencies:
+      - svelte
+      - typescript
 
   /@smui/menu-surface/6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5:
     resolution: {integrity: sha512-Sh2hcCAYhkOncNCMHMzsPRV7z6XgQP1Ghfjz1dqtaOk/YgpT3Wx7dd99JVDtY8FIGbNYtiTtOalW4lLrxnr+rg==}
+    dependencies:
+      '@material/animation': 13.0.0
+      '@material/menu-surface': 13.0.0
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: false
+
+  /@smui/menu-surface/6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-cca1TSmGf66HFuM/WsD0ua+xPNg9Sd6fj3J1TMk5uukBOUbO84q12wKYewAReVLXO71VF+a+GicLmzmwYggBYw==}
     dependencies:
       '@material/animation': 13.0.0
       '@material/menu-surface': 13.0.0
@@ -978,8 +1049,22 @@ packages:
       '@material/dom': 13.0.0
       '@material/menu': 13.0.0
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
-      '@smui/list': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
-      '@smui/menu-surface': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/list': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/menu-surface': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: false
+
+  /@smui/menu/6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-ZHmoBNlMGw7FqgI4SEGBLeFGMLUykFs21drjCRcVVpv+i/Nhgt7qTv0Rf4UE8Sgn3i/iPFUkPvpSIUl+4Bm49Q==}
+    dependencies:
+      '@material/dom': 13.0.0
+      '@material/menu': 13.0.0
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/list': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/menu-surface': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
     transitivePeerDependencies:
       - svelte
@@ -990,7 +1075,18 @@ packages:
     dependencies:
       '@material/notched-outline': 13.0.0
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
-      '@smui/floating-label': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/floating-label': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+
+  /@smui/notched-outline/6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-qOtc+JtsiwDHIxg61Cv014KbvTvJj7eQUn43x+11W5Af6521fWsq2na7rgeEg8IzSPFsxr7AVROXp3IO20Tu0w==}
+    dependencies:
+      '@material/notched-outline': 13.0.0
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/floating-label': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
     transitivePeerDependencies:
       - svelte
@@ -1065,12 +1161,34 @@ packages:
       '@material/select': 13.0.0
       '@material/theme': 13.0.0
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
-      '@smui/floating-label': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
-      '@smui/line-ripple': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
-      '@smui/list': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
-      '@smui/menu': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
-      '@smui/menu-surface': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
-      '@smui/notched-outline': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/floating-label': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/line-ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/list': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/menu': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/menu-surface': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/notched-outline': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: false
+
+  /@smui/select/6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5:
+    resolution: {integrity: sha512-eUFnQgNi1oqWkcKW/s+cUzEpEqq4BPeKgP7bwo3mKaflYpCMSBRElF/xjFxmfZkK9JPuzDDrbgfxoHjc0Tme3g==}
+    dependencies:
+      '@material/feature-targeting': 13.0.0
+      '@material/ripple': 13.0.0
+      '@material/rtl': 13.0.0
+      '@material/select': 13.0.0
+      '@material/theme': 13.0.0
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/floating-label': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/line-ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/list': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/menu': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/menu-surface': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
+      '@smui/notched-outline': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       '@smui/ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
     transitivePeerDependencies:
@@ -1098,7 +1216,7 @@ packages:
       '@material/snackbar': 13.0.0
       '@smui/button': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
-      '@smui/icon-button': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/icon-button': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       '@smui/ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.5.5
     transitivePeerDependencies:
@@ -2385,7 +2503,7 @@ packages:
       '@smui/chips': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
       '@smui/circular-progress': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
-      '@smui/data-table': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
+      '@smui/data-table': 6.0.0-beta.15_svelte@3.46.4+typescript@4.5.5
       '@smui/dialog': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
       '@smui/drawer': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
       '@smui/fab': 6.0.0-beta.14_svelte@3.46.4+typescript@4.5.5
