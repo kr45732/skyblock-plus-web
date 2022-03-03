@@ -7,7 +7,7 @@ specifiers:
   '@smui/fab': 6.0.0-beta.15
   '@smui/layout-grid': 6.0.0-beta.15
   '@smui/linear-progress': 6.0.0-beta.15
-  '@smui/paper': 6.0.0-beta.14
+  '@smui/paper': 6.0.0-beta.15
   '@smui/tab': 6.0.0-beta.14
   '@smui/tab-bar': 6.0.0-beta.14
   '@smui/textfield': 6.0.0-beta.14
@@ -38,7 +38,7 @@ devDependencies:
   '@smui/fab': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/layout-grid': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/linear-progress': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
-  '@smui/paper': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
+  '@smui/paper': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/tab': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
   '@smui/tab-bar': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
   '@smui/textfield': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
@@ -697,7 +697,7 @@ packages:
       '@material/theme': 13.0.0
       '@material/typography': 13.0.0
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
-      '@smui/paper': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
+      '@smui/paper': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
       '@smui/ripple': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.6.2
     transitivePeerDependencies:
@@ -1092,8 +1092,8 @@ packages:
       - svelte
       - typescript
 
-  /@smui/paper/6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2:
-    resolution: {integrity: sha512-aEfyiu+X3NEDmkxTR7do66YgVXyfDOvr0EgcjcGxVhcASBqplFhXbAesJ5BKWBh/6teiKkmEJDjnslGIEDHx5Q==}
+  /@smui/paper/6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2:
+    resolution: {integrity: sha512-Y/GsbKx7JpXI6mg5Cc1BsBgCe8tKlKwFMaSLnOjdAc/6pZSgEIlzgnn4NpQm8Av1aNgi0yEgLrxBrB5E8qGgXA==}
     dependencies:
       '@material/elevation': 13.0.0
       '@material/feature-targeting': 13.0.0
@@ -2518,7 +2518,7 @@ packages:
       '@smui/menu': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
       '@smui/menu-surface': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
       '@smui/notched-outline': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
-      '@smui/paper': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
+      '@smui/paper': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
       '@smui/radio': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
       '@smui/ripple': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
       '@smui/segmented-button': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
