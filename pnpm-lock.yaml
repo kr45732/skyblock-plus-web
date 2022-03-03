@@ -14,7 +14,7 @@ specifiers:
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   autoprefixer: 10.4.2
-  daisyui: 2.3.5
+  daisyui: 2.3.6
   fuse.js: 6.5.3
   mdsvex: 0.10.5
   postcss: 8.4.7
@@ -45,7 +45,7 @@ devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.30
   '@sveltejs/kit': 1.0.0-next.291_svelte@3.46.4
   autoprefixer: 10.4.2_postcss@8.4.7
-  daisyui: 2.3.5_autoprefixer@10.4.2
+  daisyui: 2.3.6_autoprefixer@10.4.2
   fuse.js: 6.5.3
   mdsvex: 0.10.5_svelte@3.46.4
   postcss: 8.4.7
@@ -1531,8 +1531,8 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.3.5_autoprefixer@10.4.2:
-    resolution: {integrity: sha512-ihkFlRCl3h1bH5avE2VtAyNBjbvVvok7Yprl+ULmC0mzGnY5q0KmGgeRQVjhbPnl4lETZaFNgZQt8AjY9D8vNQ==}
+  /daisyui/2.3.6_autoprefixer@10.4.2:
+    resolution: {integrity: sha512-n8xGVLg3VzJPJG/6Z5kXO9zTd1FcWu+iOs3BeHyL/XJDfzN0vaM3lSoztWzMC0t5e48HG8XSpYhp+zeAL6i3rw==}
     peerDependencies:
       autoprefixer: ^10.0.2
     dependencies:
