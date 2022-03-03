@@ -5,7 +5,7 @@ specifiers:
   '@smui/common': 6.0.0-beta.15
   '@smui/data-table': 6.0.0-beta.15
   '@smui/fab': 6.0.0-beta.15
-  '@smui/layout-grid': 6.0.0-beta.14
+  '@smui/layout-grid': 6.0.0-beta.15
   '@smui/linear-progress': 6.0.0-beta.15
   '@smui/paper': 6.0.0-beta.14
   '@smui/tab': 6.0.0-beta.14
@@ -36,7 +36,7 @@ devDependencies:
   '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/data-table': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/fab': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
-  '@smui/layout-grid': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
+  '@smui/layout-grid': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/linear-progress': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/paper': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
   '@smui/tab': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
@@ -953,8 +953,8 @@ packages:
       - typescript
     dev: false
 
-  /@smui/layout-grid/6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2:
-    resolution: {integrity: sha512-YPtSUIm6US6hThaBRE1e3TUJ3VxMUUcxZpWB7heGPphTepiYFDQjhpSkRkgc6Z7WErxvPJUdGAXlfoJSbbRzYA==}
+  /@smui/layout-grid/6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2:
+    resolution: {integrity: sha512-bdpUoOqhY2DHLZ5p9+l6GITxUb+502EbOscZtwbPmeBdeeEGUzJXcstUeHcRbaA8ZXyzGYp+NQfdUMCatJ/XrA==}
     dependencies:
       '@material/layout-grid': 13.0.0
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
@@ -2511,7 +2511,7 @@ packages:
       '@smui/form-field': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
       '@smui/icon-button': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
       '@smui/image-list': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
-      '@smui/layout-grid': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
+      '@smui/layout-grid': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
       '@smui/line-ripple': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
       '@smui/linear-progress': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
       '@smui/list': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
