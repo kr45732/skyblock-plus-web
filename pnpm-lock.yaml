@@ -9,7 +9,7 @@ specifiers:
   '@smui/linear-progress': 6.0.0-beta.15
   '@smui/paper': 6.0.0-beta.15
   '@smui/tab': 6.0.0-beta.15
-  '@smui/tab-bar': 6.0.0-beta.14
+  '@smui/tab-bar': 6.0.0-beta.15
   '@smui/textfield': 6.0.0-beta.14
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
@@ -40,7 +40,7 @@ devDependencies:
   '@smui/linear-progress': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/paper': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/tab': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
-  '@smui/tab-bar': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
+  '@smui/tab-bar': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/textfield': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
   '@sveltejs/adapter-auto': 1.0.0-next.30
   '@sveltejs/kit': 1.0.0-next.290_svelte@3.46.4
@@ -1238,13 +1238,13 @@ packages:
       - typescript
     dev: false
 
-  /@smui/tab-bar/6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2:
-    resolution: {integrity: sha512-LBA+mSfu5lCLvxSwwT80zfTW13YT5nfKLqQydhqxH3FjNuILvC5eG4K32AzlqWlm+SZ5bJb4Mh5SBQdvP31plw==}
+  /@smui/tab-bar/6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2:
+    resolution: {integrity: sha512-IqVlnt4naqj6p20YVRDycFsuHojb4/AVfS1a2di/rzkXblTi0JC0EqaYEAPM1QMj05jHakKwmsW8MLZmUxuKkw==}
     dependencies:
       '@material/tab-bar': 13.0.0
       '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
       '@smui/tab': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
-      '@smui/tab-scroller': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
+      '@smui/tab-scroller': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
       svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.6.2
     transitivePeerDependencies:
       - svelte
@@ -1273,6 +1273,18 @@ packages:
 
   /@smui/tab-scroller/6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2:
     resolution: {integrity: sha512-j6Xix/aXjGYn6C1tHg8hqBUw+xSynlv2v6sMmkE67ZzwSfRInSW0hIhvvXOJaB2mowzzFvYRv9xJiL9YYiE0mQ==}
+    dependencies:
+      '@material/dom': 13.0.0
+      '@material/tab-scroller': 13.0.0
+      '@smui/common': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
+      svelte2tsx: 0.4.14_svelte@3.46.4+typescript@4.6.2
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: false
+
+  /@smui/tab-scroller/6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2:
+    resolution: {integrity: sha512-8Inl7rYNCC7Ml4JCT05nMcXbUcZpNUSiS7MEJf4PxvJQkbicTH4Z9KWGWRwFfNyS5TYoDsWO74fgAn1JBRtn+w==}
     dependencies:
       '@material/dom': 13.0.0
       '@material/tab-scroller': 13.0.0
@@ -2538,7 +2550,7 @@ packages:
       '@smui/snackbar': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
       '@smui/switch': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
       '@smui/tab': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
-      '@smui/tab-bar': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
+      '@smui/tab-bar': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
       '@smui/tab-indicator': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
       '@smui/tab-scroller': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
       '@smui/textfield': 6.0.0-beta.14_svelte@3.46.4+typescript@4.6.2
