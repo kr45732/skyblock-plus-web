@@ -20,7 +20,7 @@
     "@smui/paper": "6.0.0-beta.15",
     "@smui/tab": "6.0.0-beta.15",
     "@smui/tab-bar": "6.0.0-beta.15",
-    "@smui/textfield": "6.0.0-beta.14",
+    "@smui/textfield": "6.0.0-beta.15",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "autoprefixer": "10.4.2",
