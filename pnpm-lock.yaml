@@ -14,7 +14,7 @@ specifiers:
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   autoprefixer: 10.4.2
-  daisyui: 2.3.0
+  daisyui: 2.3.4
   fuse.js: 6.5.3
   mdsvex: 0.10.5
   postcss: 8.4.7
@@ -43,9 +43,9 @@ devDependencies:
   '@smui/tab-bar': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/textfield': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@sveltejs/adapter-auto': 1.0.0-next.30
-  '@sveltejs/kit': 1.0.0-next.290_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.291_svelte@3.46.4
   autoprefixer: 10.4.2_postcss@8.4.7
-  daisyui: 2.3.0_4585f94de3eac54c17be782e8b51352c
+  daisyui: 2.3.4_autoprefixer@10.4.2
   fuse.js: 6.5.3
   mdsvex: 0.10.5_svelte@3.46.4
   postcss: 8.4.7
@@ -1234,8 +1234,8 @@ packages:
       esbuild: 0.14.23
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.290_svelte@3.46.4:
-    resolution: {integrity: sha512-3Q0uX/auFYsoj3o7+vQtZ+ZsuRLAmVsra5hvkvml18EjfX1wGRNdLlPcl6VE95eAvViWe/65vGaNNC+02h1crA==}
+  /@sveltejs/kit/1.0.0-next.291_svelte@3.46.4:
+    resolution: {integrity: sha512-mFd1EJbxoyPGiomYwYhZnjNLPYahCC2gHfKvPetguL/7BCHcyUjjYQbwTTmjVxtgBs0oLzKVA9bt45gpr9JqBQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1524,17 +1524,16 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.3.0_4585f94de3eac54c17be782e8b51352c:
-    resolution: {integrity: sha512-FHK2cs6LRkiTdaVc3h23folmWFiaWBJN2/Eu8dTbjG3aq1WqV7oS1tkJIV9Cp4xuCB0ZCs5vIm4+bfqc5yxwfg==}
+  /daisyui/2.3.4_autoprefixer@10.4.2:
+    resolution: {integrity: sha512-M+2aNo+lPOaTBc3lhvg+yhXZG+TrgLtSzC2sACmty4VWKCtVM2oVk6NxdWCc16y+nuSE0qbn4sAu787z6Cp39A==}
     peerDependencies:
       autoprefixer: ^10.0.2
-      postcss: ^8.0.9
     dependencies:
       autoprefixer: 10.4.2_postcss@8.4.7
       color: 4.2.1
       postcss: 8.4.7
       postcss-class-prefix: 0.3.0
-      postcss-js: 3.0.3
+      postcss-js: 4.0.0_postcss@8.4.7
       tailwindcss: 3.0.23_autoprefixer@10.4.2
     transitivePeerDependencies:
       - ts-node
@@ -2160,14 +2159,6 @@ packages:
     resolution: {integrity: sha1-1p6G0GKjQDhTs/NMlHZEHD3f59M=}
     dependencies:
       postcss: 5.2.18
-    dev: true
-
-  /postcss-js/3.0.3:
-    resolution: {integrity: sha512-gWnoWQXKFw65Hk/mi2+WTQTHdPD5UJdDXZmX073EY/B3BWnYjO4F4t0VneTCnCGQ5E5GsCdMkzPaTXwl3r5dJw==}
-    engines: {node: '>=10.0'}
-    dependencies:
-      camelcase-css: 2.0.1
-      postcss: 8.4.7
     dev: true
 
   /postcss-js/4.0.0_postcss@8.4.7:
