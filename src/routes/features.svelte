@@ -3,7 +3,16 @@
   import Footer from "../components/footer.svelte";
   import LayoutGrid, { Cell } from "@smui/layout-grid";
 
+  // apply, event, verify
   let featureList = [
+    {
+      title: "Farming Contests",
+      description:
+        "Get notifications five minutes before a farming contest starts with the crops of the contest.",
+      commands:
+        "- /settings jacob enable\n- /settings jacob disable\n- /settings jacob channel <#channel>\n- /settings jacob add <crop>\n- /settings jacob remove <crop>\n- /jacob",
+      images: ["farming.png", "farming1.png"]
+    },
     {
       title: "Mayor Elections",
       description:
@@ -19,6 +28,14 @@
       commands:
         "- /settings set fetchur_channel <#channel>\n- /settings set fetchur_ping <@role>\n- /fetchur",
       images: ["fetchur.png"]
+    },
+    {
+      title: "Party Finder",
+      description:
+        "A customizable party finder system in Discord to improve your dungeons experience. You can set the floor, wanted classes, and requirements. Allows to create, join, manage, and disband parties. A private thread channel is created once the party is full which can be closed by the party leader.",
+      commands:
+        "- /party create\n- /party current\n- /party join <username>\n- /party leave\n- /party list\n- /party disband\n- /party kick <username>",
+      images: ["party.png", "party1.png"]
     }
   ];
 </script>
@@ -68,11 +85,15 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    /* padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px; */
   }
   .features {
     width: 100%;
-    padding-right: 250px;
-    padding-left: 250px;
+    padding-right: 200px;
+    padding-left: 200px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 70px;
