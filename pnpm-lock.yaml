@@ -14,7 +14,7 @@ specifiers:
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   autoprefixer: 10.4.2
-  daisyui: 2.6.3
+  daisyui: 2.6.4
   fuse.js: 6.5.3
   mdsvex: 0.10.5
   postcss: 8.4.8
@@ -43,9 +43,9 @@ devDependencies:
   '@smui/tab-bar': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/textfield': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@sveltejs/adapter-auto': 1.0.0-next.31
-  '@sveltejs/kit': 1.0.0-next.294_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.295_svelte@3.46.4
   autoprefixer: 10.4.2_postcss@8.4.8
-  daisyui: 2.6.3_554c024960c0d85659bdf1e5e950b7f7
+  daisyui: 2.6.4_554c024960c0d85659bdf1e5e950b7f7
   fuse.js: 6.5.3
   mdsvex: 0.10.5_svelte@3.46.4
   postcss: 8.4.8
@@ -1234,8 +1234,8 @@ packages:
       esbuild: 0.14.23
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.294_svelte@3.46.4:
-    resolution: {integrity: sha512-whTYeri/oaV672KErlhCAvAawlsnd8iu/MQmjdu85TApDYolLe8FDTg6GQ55+0IJbx1N7dOer/HopWzKudPgFA==}
+  /@sveltejs/kit/1.0.0-next.295_svelte@3.46.4:
+    resolution: {integrity: sha512-4pO/swXByhU+7bhNikTjh1d4QxAMP9TZ74p7sdPuyJf5cg7Zrfk1nBtaMt0R+8+5j1xfC/XWRcxa3WnhT9bQMA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1510,8 +1510,8 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.6.3_554c024960c0d85659bdf1e5e950b7f7:
-    resolution: {integrity: sha512-QcZxwFKLtismvPmD95xhiLDOHQlT7mRMuTKm7EMlD+5wixWp1qPkqESyJGNCChXME8WwsSkhG1OEW4KY57larg==}
+  /daisyui/2.6.4_554c024960c0d85659bdf1e5e950b7f7:
+    resolution: {integrity: sha512-3l7WHgpOTdyUBVu2TD6uZH4+IbwaBnPXdoWjjvmzT6hxR5+WUHMl4vvPP+7/VB+CcoxSB296qaYWXQcoWcbISw==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
