@@ -21,7 +21,7 @@ specifiers:
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0
   svelte: 3.46.4
-  svelte-check: 2.4.5
+  svelte-check: 2.4.6
   svelte-material-ui: 6.0.0-beta.15
   svelte-preprocess: 4.10.4
   tailwindcss: 3.0.23
@@ -42,8 +42,8 @@ devDependencies:
   '@smui/tab': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/tab-bar': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@smui/textfield': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
-  '@sveltejs/adapter-auto': 1.0.0-next.31
-  '@sveltejs/kit': 1.0.0-next.295_svelte@3.46.4
+  '@sveltejs/adapter-auto': 1.0.0-next.32
+  '@sveltejs/kit': 1.0.0-next.296_svelte@3.46.4
   autoprefixer: 10.4.2_postcss@8.4.8
   daisyui: 2.8.0_554c024960c0d85659bdf1e5e950b7f7
   fuse.js: 6.5.3
@@ -52,7 +52,7 @@ devDependencies:
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.4
   svelte: 3.46.4
-  svelte-check: 2.4.5_postcss@8.4.8+svelte@3.46.4
+  svelte-check: 2.4.6_postcss@8.4.8+svelte@3.46.4
   svelte-preprocess: 4.10.4_72e3ed8438c7a5ad59cfa8f107db69ec
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   tslib: 2.3.1
@@ -1206,8 +1206,8 @@ packages:
       - typescript
     dev: false
 
-  /@sveltejs/adapter-auto/1.0.0-next.31:
-    resolution: {integrity: sha512-N1ZFGxulcSAOJrtdFR567diwbWKUvLrHZiUE9TiEvIahnndeRa50MF9LDg/CuIvpa6fHqz5K827XXrADlPAr9g==}
+  /@sveltejs/adapter-auto/1.0.0-next.32:
+    resolution: {integrity: sha512-dfJKBMHBCBbGfSbwJIXqBRzp+bOu2pv/jq7jeNfaESVRdLEgYh0eEtF/gfOMp7fIcDHjLEzZ2ZymG7AWsO9Wjg==}
     dependencies:
       '@sveltejs/adapter-cloudflare': 1.0.0-next.15
       '@sveltejs/adapter-netlify': 1.0.0-next.50
@@ -1234,8 +1234,8 @@ packages:
       esbuild: 0.14.23
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.295_svelte@3.46.4:
-    resolution: {integrity: sha512-4pO/swXByhU+7bhNikTjh1d4QxAMP9TZ74p7sdPuyJf5cg7Zrfk1nBtaMt0R+8+5j1xfC/XWRcxa3WnhT9bQMA==}
+  /@sveltejs/kit/1.0.0-next.296_svelte@3.46.4:
+    resolution: {integrity: sha512-mZM3vYSg1VPpgL2QHa+My+KviOuSgP4e5JRO9/T/5XLe3o2tsrRnSpjuzZeVdcY3B4+OrUb5JV7B1UPkHISrLA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -2337,8 +2337,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.4.5_postcss@8.4.8+svelte@3.46.4:
-    resolution: {integrity: sha512-nRft8BbG2wcxyCdHDZ7X43xLcvDzua3xLwq6wzHGcAF3ka3Jyhv2rvgq0+SF9NwHLMefp9C2XkM6etzsxK/cMQ==}
+  /svelte-check/2.4.6_postcss@8.4.8+svelte@3.46.4:
+    resolution: {integrity: sha512-luzdly7RJhyXucQe8ID/7CqDgXdMrPYXmyZBjCbp+cixzTopZotuWevrB5hWDOnOU19m2cyetigIIa7WDHnCmQ==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
