@@ -13,7 +13,7 @@ specifiers:
   '@smui/textfield': 6.0.0-beta.15
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
-  autoprefixer: 10.4.3
+  autoprefixer: 10.4.4
   daisyui: 2.8.0
   fuse.js: 6.5.3
   mdsvex: 0.10.5
@@ -44,8 +44,8 @@ devDependencies:
   '@smui/textfield': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@sveltejs/adapter-auto': 1.0.0-next.33
   '@sveltejs/kit': 1.0.0-next.298_svelte@3.46.4
-  autoprefixer: 10.4.3_postcss@8.4.12
-  daisyui: 2.8.0_f6600348627c454bbb253b02c0afe844
+  autoprefixer: 10.4.4_postcss@8.4.12
+  daisyui: 2.8.0_081650f2f4dba35b17265937ab2a2ec0
   fuse.js: 6.5.3
   mdsvex: 0.10.5_svelte@3.46.4
   postcss: 8.4.12
@@ -54,7 +54,7 @@ devDependencies:
   svelte: 3.46.4
   svelte-check: 2.4.6_postcss@8.4.12+svelte@3.46.4
   svelte-preprocess: 4.10.4_d6d3472f638d32ef88915fa6412751db
-  tailwindcss: 3.0.23_autoprefixer@10.4.3
+  tailwindcss: 3.0.23_autoprefixer@10.4.4
   tslib: 2.3.1
   typescript: 4.6.2
 
@@ -1345,8 +1345,8 @@ packages:
     resolution: {integrity: sha512-e0hDa9H2Z9AwFkk2qDlwhoMYE4eToKarchkQHovNdLTCYMHZHeRjI71crOh+dio4K6u1IcwubQqo79Ga4CyAQA==}
     dev: true
 
-  /autoprefixer/10.4.3_postcss@8.4.12:
-    resolution: {integrity: sha512-3EIK6tHl2SyJWCoPsQzL3NEqKOdjCWbPzoOInjVAQYo/y/OCEFG9KwB5162dehG5GadiGfgxu7nrWCpExCfRFQ==}
+  /autoprefixer/10.4.4_postcss@8.4.12:
+    resolution: {integrity: sha512-Tm8JxsB286VweiZ5F0anmbyGiNI3v3wGv3mz9W+cxEDYB/6jbnj6GM9H9mK3wIL8ftgl+C07Lcwb8PG5PCCPzA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -1510,18 +1510,18 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.8.0_f6600348627c454bbb253b02c0afe844:
+  /daisyui/2.8.0_081650f2f4dba35b17265937ab2a2ec0:
     resolution: {integrity: sha512-AU6JH6X5PI3ejM/w/1TdrWlyVGd7MgCweTCWVzmGvt5awoDSllg9fcsyXTfB48eDMRKUZ3IUC4KZv0Wde7MXjA==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
     dependencies:
-      autoprefixer: 10.4.3_postcss@8.4.12
+      autoprefixer: 10.4.4_postcss@8.4.12
       color: 4.2.1
       css-selector-tokenizer: 0.8.0
       postcss: 8.4.12
       postcss-js: 4.0.0_postcss@8.4.12
-      tailwindcss: 3.0.23_autoprefixer@10.4.3
+      tailwindcss: 3.0.23_autoprefixer@10.4.4
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -2491,7 +2491,7 @@ packages:
       svelte: 3.46.4
       typescript: 4.6.2
 
-  /tailwindcss/3.0.23_autoprefixer@10.4.3:
+  /tailwindcss/3.0.23_autoprefixer@10.4.4:
     resolution: {integrity: sha512-+OZOV9ubyQ6oI2BXEhzw4HrqvgcARY38xv3zKcjnWtMIZstEsXdI9xftd1iB7+RbOnj2HOEzkA0OyB5BaSxPQA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -2499,7 +2499,7 @@ packages:
       autoprefixer: ^10.0.2
     dependencies:
       arg: 5.0.1
-      autoprefixer: 10.4.3_postcss@8.4.12
+      autoprefixer: 10.4.4_postcss@8.4.12
       chalk: 4.1.2
       chokidar: 3.5.3
       color-name: 1.1.4
