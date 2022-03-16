@@ -27,7 +27,7 @@
     "daisyui": "2.8.0",
     "fuse.js": "6.5.3",
     "mdsvex": "0.10.5",
-    "postcss": "8.4.11",
+    "postcss": "8.4.12",
     "prettier": "2.6.0",
     "prettier-plugin-svelte": "2.6.0",
     "svelte": "3.46.4",
