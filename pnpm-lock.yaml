@@ -17,7 +17,7 @@ specifiers:
   daisyui: 2.8.0
   fuse.js: 6.5.3
   mdsvex: 0.10.5
-  postcss: 8.4.11
+  postcss: 8.4.12
   prettier: 2.6.0
   prettier-plugin-svelte: 2.6.0
   svelte: 3.46.4
@@ -44,16 +44,16 @@ devDependencies:
   '@smui/textfield': 6.0.0-beta.15_svelte@3.46.4+typescript@4.6.2
   '@sveltejs/adapter-auto': 1.0.0-next.33
   '@sveltejs/kit': 1.0.0-next.298_svelte@3.46.4
-  autoprefixer: 10.4.3_postcss@8.4.11
-  daisyui: 2.8.0_1e3b99cc72137468d8c86184883d1525
+  autoprefixer: 10.4.3_postcss@8.4.12
+  daisyui: 2.8.0_f6600348627c454bbb253b02c0afe844
   fuse.js: 6.5.3
   mdsvex: 0.10.5_svelte@3.46.4
-  postcss: 8.4.11
+  postcss: 8.4.12
   prettier: 2.6.0
   prettier-plugin-svelte: 2.6.0_prettier@2.6.0+svelte@3.46.4
   svelte: 3.46.4
-  svelte-check: 2.4.6_postcss@8.4.11+svelte@3.46.4
-  svelte-preprocess: 4.10.4_d83b2035c277ed4f1aeb84c794b3ae6c
+  svelte-check: 2.4.6_postcss@8.4.12+svelte@3.46.4
+  svelte-preprocess: 4.10.4_d6d3472f638d32ef88915fa6412751db
   tailwindcss: 3.0.23_autoprefixer@10.4.3
   tslib: 2.3.1
   typescript: 4.6.2
@@ -1345,7 +1345,7 @@ packages:
     resolution: {integrity: sha512-e0hDa9H2Z9AwFkk2qDlwhoMYE4eToKarchkQHovNdLTCYMHZHeRjI71crOh+dio4K6u1IcwubQqo79Ga4CyAQA==}
     dev: true
 
-  /autoprefixer/10.4.3_postcss@8.4.11:
+  /autoprefixer/10.4.3_postcss@8.4.12:
     resolution: {integrity: sha512-3EIK6tHl2SyJWCoPsQzL3NEqKOdjCWbPzoOInjVAQYo/y/OCEFG9KwB5162dehG5GadiGfgxu7nrWCpExCfRFQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -1357,7 +1357,7 @@ packages:
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.11
+      postcss: 8.4.12
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -1510,17 +1510,17 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.8.0_1e3b99cc72137468d8c86184883d1525:
+  /daisyui/2.8.0_f6600348627c454bbb253b02c0afe844:
     resolution: {integrity: sha512-AU6JH6X5PI3ejM/w/1TdrWlyVGd7MgCweTCWVzmGvt5awoDSllg9fcsyXTfB48eDMRKUZ3IUC4KZv0Wde7MXjA==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
     dependencies:
-      autoprefixer: 10.4.3_postcss@8.4.11
+      autoprefixer: 10.4.3_postcss@8.4.12
       color: 4.2.1
       css-selector-tokenizer: 0.8.0
-      postcss: 8.4.11
-      postcss-js: 4.0.0_postcss@8.4.11
+      postcss: 8.4.12
+      postcss-js: 4.0.0_postcss@8.4.12
       tailwindcss: 3.0.23_autoprefixer@10.4.3
     transitivePeerDependencies:
       - ts-node
@@ -2130,14 +2130,14 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /postcss-js/4.0.0_postcss@8.4.11:
+  /postcss-js/4.0.0_postcss@8.4.12:
     resolution: {integrity: sha512-77QESFBwgX4irogGVPgQ5s07vLvFqWr228qZY+w6lW599cRlK/HmnlivnnVUxkjHnCu4J16PDMHcH+e+2HbvTQ==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.3.3
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.11
+      postcss: 8.4.12
     dev: true
 
   /postcss-load-config/3.1.3:
@@ -2153,13 +2153,13 @@ packages:
       yaml: 1.10.2
     dev: true
 
-  /postcss-nested/5.0.6_postcss@8.4.11:
+  /postcss-nested/5.0.6_postcss@8.4.12:
     resolution: {integrity: sha512-rKqm2Fk0KbA8Vt3AdGN0FB9OBOMDVajMG6ZCf/GoHgdxUJ4sBFp0A/uMIRm+MJUdo33YXEtjqIz8u7DAp8B7DA==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.11
+      postcss: 8.4.12
       postcss-selector-parser: 6.0.9
     dev: true
 
@@ -2175,8 +2175,8 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
-  /postcss/8.4.11:
-    resolution: {integrity: sha512-D+jFLnT0ilGfy4CVBGbC+XE68HkVpT8+CUkDrcSpgxmo4RKco2uaZ4kIoyVGEm+m8KN/+Vwgs8MtpNbQ3/ma9w==}
+  /postcss/8.4.12:
+    resolution: {integrity: sha512-lg6eITwYe9v6Hr5CncVbK70SoioNQIq81nsaG86ev5hAidQvmOeETBqs7jm43K2F5/Ley3ytDtriImV6TpNiSg==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.1
@@ -2337,7 +2337,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.4.6_postcss@8.4.11+svelte@3.46.4:
+  /svelte-check/2.4.6_postcss@8.4.12+svelte@3.46.4:
     resolution: {integrity: sha512-luzdly7RJhyXucQe8ID/7CqDgXdMrPYXmyZBjCbp+cixzTopZotuWevrB5hWDOnOU19m2cyetigIIa7WDHnCmQ==}
     hasBin: true
     peerDependencies:
@@ -2351,7 +2351,7 @@ packages:
       sade: 1.8.1
       source-map: 0.7.3
       svelte: 3.46.4
-      svelte-preprocess: 4.10.4_d83b2035c277ed4f1aeb84c794b3ae6c
+      svelte-preprocess: 4.10.4_d6d3472f638d32ef88915fa6412751db
       typescript: 4.6.2
     transitivePeerDependencies:
       - '@babel/core'
@@ -2423,7 +2423,7 @@ packages:
       - typescript
     dev: false
 
-  /svelte-preprocess/4.10.4_d83b2035c277ed4f1aeb84c794b3ae6c:
+  /svelte-preprocess/4.10.4_d6d3472f638d32ef88915fa6412751db:
     resolution: {integrity: sha512-fuwol0N4UoHsNQolLFbMqWivqcJ9N0vfWO9IuPAiX/5okfoGXURyJ6nECbuEIv0nU3M8Xe2I1ONNje2buk7l6A==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -2468,7 +2468,7 @@ packages:
       '@types/sass': 1.43.1
       detect-indent: 6.1.0
       magic-string: 0.25.7
-      postcss: 8.4.11
+      postcss: 8.4.12
       sorcery: 0.10.0
       strip-indent: 3.0.0
       svelte: 3.46.4
@@ -2499,7 +2499,7 @@ packages:
       autoprefixer: ^10.0.2
     dependencies:
       arg: 5.0.1
-      autoprefixer: 10.4.3_postcss@8.4.11
+      autoprefixer: 10.4.3_postcss@8.4.12
       chalk: 4.1.2
       chokidar: 3.5.3
       color-name: 1.1.4
@@ -2512,10 +2512,10 @@ packages:
       is-glob: 4.0.3
       normalize-path: 3.0.0
       object-hash: 2.2.0
-      postcss: 8.4.11
-      postcss-js: 4.0.0_postcss@8.4.11
+      postcss: 8.4.12
+      postcss-js: 4.0.0_postcss@8.4.12
       postcss-load-config: 3.1.3
-      postcss-nested: 5.0.6_postcss@8.4.11
+      postcss-nested: 5.0.6_postcss@8.4.12
       postcss-selector-parser: 6.0.9
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
@@ -2581,7 +2581,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.14.23
-      postcss: 8.4.11
+      postcss: 8.4.12
       resolve: 1.22.0
       rollup: 2.68.0
     optionalDependencies:
