@@ -10,7 +10,7 @@ specifiers:
   '@smui/paper': 6.0.0-beta.16
   '@smui/tab': 6.0.0-beta.15
   '@smui/tab-bar': 6.0.0-beta.15
-  '@smui/textfield': 6.0.0-beta.15
+  '@smui/textfield': 6.0.0-beta.16
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   autoprefixer: 10.4.4
@@ -41,7 +41,7 @@ devDependencies:
   '@smui/paper': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
   '@smui/tab': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
   '@smui/tab-bar': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
-  '@smui/textfield': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
+  '@smui/textfield': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
   '@sveltejs/adapter-auto': 1.0.0-next.34
   '@sveltejs/kit': 1.0.0-next.310_svelte@3.47.0
   autoprefixer: 10.4.4_postcss@8.4.12
@@ -872,17 +872,6 @@ packages:
       - svelte
       - typescript
 
-  /@smui/floating-label/6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3:
-    resolution: {integrity: sha512-rAJFQtrx+TqycHgYFua/DD/xBVoxgQ7pUIttcyzda7OrWPlmhb0PhHrXm3/tVozAgEIrqU/wni//Yf27uL5UBQ==}
-    dependencies:
-      '@material/floating-label': 13.0.0
-      '@smui/common': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
-      svelte2tsx: 0.4.14_svelte@3.47.0+typescript@4.6.3
-    transitivePeerDependencies:
-      - svelte
-      - typescript
-    dev: true
-
   /@smui/floating-label/6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3:
     resolution: {integrity: sha512-9Vk7NPoWgL7r7Sk88iWfq+rW/BKL1rQ6S0rJimspsoUIgPpUQYFeBRZFaQiOMJZJrJEGisJbqdKVpsXqqnNq/w==}
     dependencies:
@@ -938,17 +927,6 @@ packages:
     transitivePeerDependencies:
       - svelte
       - typescript
-
-  /@smui/line-ripple/6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3:
-    resolution: {integrity: sha512-BVn7pDIkl/6RFfN2HBSM2MYiTZddJ08f2D74sL/D3SIO4MpfBgeBsxMKEUwSc5OpfD+FYZmGyBhNIcDrPPC4PQ==}
-    dependencies:
-      '@material/line-ripple': 13.0.0
-      '@smui/common': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
-      svelte2tsx: 0.4.14_svelte@3.47.0+typescript@4.6.3
-    transitivePeerDependencies:
-      - svelte
-      - typescript
-    dev: true
 
   /@smui/line-ripple/6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3:
     resolution: {integrity: sha512-+o3lvnmpudOl4CKvCq2B99PKJHQgdLnyFqd1/x75IwhQjuV2El5yuqE+rC5hAVzo6vKqJmWME/1+bNfkPvIvaA==}
@@ -1006,18 +984,6 @@ packages:
     transitivePeerDependencies:
       - svelte
       - typescript
-
-  /@smui/notched-outline/6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3:
-    resolution: {integrity: sha512-qOtc+JtsiwDHIxg61Cv014KbvTvJj7eQUn43x+11W5Af6521fWsq2na7rgeEg8IzSPFsxr7AVROXp3IO20Tu0w==}
-    dependencies:
-      '@material/notched-outline': 13.0.0
-      '@smui/common': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
-      '@smui/floating-label': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
-      svelte2tsx: 0.4.14_svelte@3.47.0+typescript@4.6.3
-    transitivePeerDependencies:
-      - svelte
-      - typescript
-    dev: true
 
   /@smui/notched-outline/6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3:
     resolution: {integrity: sha512-2z01cpWNhqFbNJTnXfR2sBF/icEJnDGfVE9KZwU3OLZSBeoBoXFc9opc+HGKkWt678AS50VRoOMHSkxShk5q9g==}
@@ -1253,25 +1219,6 @@ packages:
       - typescript
     dev: false
 
-  /@smui/textfield/6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3:
-    resolution: {integrity: sha512-NmAFzAG8tQfXDcHfXvVMUNJcNROa+3RiA3BP9bFLePh7aiEgVAdL5rsaWKjN+1NzDiI/wuJ6PGH42N855f2ttg==}
-    dependencies:
-      '@material/dom': 13.0.0
-      '@material/feature-targeting': 13.0.0
-      '@material/ripple': 13.0.0
-      '@material/rtl': 13.0.0
-      '@material/textfield': 13.0.0
-      '@smui/common': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
-      '@smui/floating-label': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
-      '@smui/line-ripple': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
-      '@smui/notched-outline': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
-      '@smui/ripple': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
-      svelte2tsx: 0.4.14_svelte@3.47.0+typescript@4.6.3
-    transitivePeerDependencies:
-      - svelte
-      - typescript
-    dev: true
-
   /@smui/textfield/6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3:
     resolution: {integrity: sha512-lzW9oZ2PTuJRwtJoxxMlbElv6ZaAqT2W4tJAMs6hI8R0iotEyahcZNm8YxilOHIVLiCkeXOqd2LB4QBeq+vvVQ==}
     dependencies:
@@ -1289,7 +1236,6 @@ packages:
     transitivePeerDependencies:
       - svelte
       - typescript
-    dev: false
 
   /@smui/tooltip/6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3:
     resolution: {integrity: sha512-3htoW3eGrH6a6CKlE8nSe0vsXRi2zp27N5mcsfDOe2ZP96ynQvZU60LN+s5qz5pUS8NCXlV4ffGwIFflDzepvw==}
