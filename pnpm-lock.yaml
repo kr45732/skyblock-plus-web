@@ -6,7 +6,7 @@ specifiers:
   '@smui/data-table': 6.0.0-beta.16
   '@smui/fab': 6.0.0-beta.16
   '@smui/layout-grid': 6.0.0-beta.16
-  '@smui/linear-progress': 6.0.0-beta.15
+  '@smui/linear-progress': 6.0.0-beta.16
   '@smui/paper': 6.0.0-beta.15
   '@smui/tab': 6.0.0-beta.15
   '@smui/tab-bar': 6.0.0-beta.15
@@ -37,7 +37,7 @@ devDependencies:
   '@smui/data-table': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
   '@smui/fab': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
   '@smui/layout-grid': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
-  '@smui/linear-progress': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
+  '@smui/linear-progress': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
   '@smui/paper': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
   '@smui/tab': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
   '@smui/tab-bar': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
@@ -983,12 +983,12 @@ packages:
       - svelte
       - typescript
 
-  /@smui/linear-progress/6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3:
-    resolution: {integrity: sha512-V+UjNgIZChIKJaqmFkI1IPdrmJJkx+VwnHV4+ZoqPuKRbzIZc6ljEl+szOGLa9qyFUEetM0P8lV9Rea1iSkz3g==}
+  /@smui/linear-progress/6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3:
+    resolution: {integrity: sha512-lT8nSoEyCoKS3JBvxOY73hRzEhMO5lbOe51S2EKdTqV3KOaw6MODeoHt7xfo/VOkVAX4eYni1MdS5c8UEZ7MIg==}
     dependencies:
       '@material/linear-progress': 13.0.0
       '@smui/common': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
-      svelte2tsx: 0.4.14_svelte@3.47.0+typescript@4.6.3
+      svelte2tsx: 0.5.8_svelte@3.47.0+typescript@4.6.3
     transitivePeerDependencies:
       - svelte
       - typescript
@@ -2546,7 +2546,7 @@ packages:
       '@smui/image-list': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
       '@smui/layout-grid': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
       '@smui/line-ripple': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
-      '@smui/linear-progress': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
+      '@smui/linear-progress': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
       '@smui/list': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
       '@smui/menu': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
       '@smui/menu-surface': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
