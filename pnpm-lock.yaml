@@ -7,7 +7,7 @@ specifiers:
   '@smui/fab': 6.0.0-beta.16
   '@smui/layout-grid': 6.0.0-beta.16
   '@smui/linear-progress': 6.0.0-beta.16
-  '@smui/paper': 6.0.0-beta.15
+  '@smui/paper': 6.0.0-beta.16
   '@smui/tab': 6.0.0-beta.15
   '@smui/tab-bar': 6.0.0-beta.15
   '@smui/textfield': 6.0.0-beta.15
@@ -38,7 +38,7 @@ devDependencies:
   '@smui/fab': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
   '@smui/layout-grid': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
   '@smui/linear-progress': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
-  '@smui/paper': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
+  '@smui/paper': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
   '@smui/tab': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
   '@smui/tab-bar': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
   '@smui/textfield': 6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3
@@ -1030,21 +1030,6 @@ packages:
       - svelte
       - typescript
 
-  /@smui/paper/6.0.0-beta.15_svelte@3.47.0+typescript@4.6.3:
-    resolution: {integrity: sha512-Y/GsbKx7JpXI6mg5Cc1BsBgCe8tKlKwFMaSLnOjdAc/6pZSgEIlzgnn4NpQm8Av1aNgi0yEgLrxBrB5E8qGgXA==}
-    dependencies:
-      '@material/elevation': 13.0.0
-      '@material/feature-targeting': 13.0.0
-      '@material/shape': 13.0.0
-      '@material/theme': 13.0.0
-      '@material/typography': 13.0.0
-      '@smui/common': 6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3
-      svelte2tsx: 0.4.14_svelte@3.47.0+typescript@4.6.3
-    transitivePeerDependencies:
-      - svelte
-      - typescript
-    dev: true
-
   /@smui/paper/6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3:
     resolution: {integrity: sha512-b103emE4DoN6ZuZk5jHD7TbROJYGo3rsfbZlmzUG9plPcOL5rhGVkLhB8m3oWlLqLNG0vl6kJPLiHe2qYny66g==}
     dependencies:
@@ -1058,7 +1043,6 @@ packages:
     transitivePeerDependencies:
       - svelte
       - typescript
-    dev: false
 
   /@smui/radio/6.0.0-beta.16_svelte@3.47.0+typescript@4.6.3:
     resolution: {integrity: sha512-wuHhhaAqgj8a1RWVUHXMAk4sDcmxfkHzvfOemVm7izl5YrR+215+HconkBVPDA1e/2j37jOBeIJ/bgus2TSSWQ==}
