@@ -24,7 +24,7 @@
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "autoprefixer": "10.4.5",
-    "daisyui": "2.14.2",
+    "daisyui": "2.14.3",
     "fuse.js": "6.5.3",
     "mdsvex": "0.10.5",
     "postcss": "8.4.12",
