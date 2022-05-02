@@ -13,7 +13,7 @@ specifiers:
   '@smui/textfield': 6.0.0-beta.16
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
-  autoprefixer: 10.4.6
+  autoprefixer: 10.4.7
   daisyui: 2.14.3
   fuse.js: 6.5.3
   mdsvex: 0.10.5
@@ -44,8 +44,8 @@ devDependencies:
   '@smui/textfield': 6.0.0-beta.16_wwvk7nlptlrqo2czohjtk6eiqm
   '@sveltejs/adapter-auto': 1.0.0-next.40
   '@sveltejs/kit': 1.0.0-next.324_svelte@3.48.0
-  autoprefixer: 10.4.6_postcss@8.4.13
-  daisyui: 2.14.3_z2ezbxhybo2undy2ws7yqbde6a
+  autoprefixer: 10.4.7_postcss@8.4.13
+  daisyui: 2.14.3_cr4sis33dk4di3xnobyqnqmrf4
   fuse.js: 6.5.3
   mdsvex: 0.10.5_svelte@3.48.0
   postcss: 8.4.13
@@ -1308,15 +1308,15 @@ packages:
     resolution: {integrity: sha512-e0hDa9H2Z9AwFkk2qDlwhoMYE4eToKarchkQHovNdLTCYMHZHeRjI71crOh+dio4K6u1IcwubQqo79Ga4CyAQA==}
     dev: true
 
-  /autoprefixer/10.4.6_postcss@8.4.13:
-    resolution: {integrity: sha512-Rvzel0AZO9tJNm3ydySK80PpkWoEZTGC5bHUh/xbrP8qJCy08NFBwNGPcozy3d3SDIM0b2kNxw2K7jAIYFF01A==}
+  /autoprefixer/10.4.7_postcss@8.4.13:
+    resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.20.3
-      caniuse-lite: 1.0.30001334
+      caniuse-lite: 1.0.30001335
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1352,7 +1352,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001334
+      caniuse-lite: 1.0.30001335
       electron-to-chromium: 1.4.129
       escalade: 3.1.1
       node-releases: 2.0.4
@@ -1373,8 +1373,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite/1.0.30001334:
-    resolution: {integrity: sha512-kbaCEBRRVSoeNs74sCuq92MJyGrMtjWVfhltoHUCW4t4pXFvGjUBrfo47weBRViHkiV3eBYyIsfl956NtHGazw==}
+  /caniuse-lite/1.0.30001335:
+    resolution: {integrity: sha512-ddP1Tgm7z2iIxu6QTtbZUv6HJxSaV/PZeSrWFZtbY4JZ69tOeNhBCl3HyRQgeNZKE5AOn1kpV7fhljigy0Ty3w==}
     dev: true
 
   /chokidar/3.5.3:
@@ -1435,13 +1435,13 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.14.3_z2ezbxhybo2undy2ws7yqbde6a:
+  /daisyui/2.14.3_cr4sis33dk4di3xnobyqnqmrf4:
     resolution: {integrity: sha512-EH6cLLaieInq81ACE8FxHsWLsH08sZ62zLxctIHTnLhn0eHvtHdLYZ6yngsy7yd43ZFOstzbyYY4q5xByZdaQQ==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
     dependencies:
-      autoprefixer: 10.4.6_postcss@8.4.13
+      autoprefixer: 10.4.7_postcss@8.4.13
       color: 4.2.1
       css-selector-tokenizer: 0.8.0
       postcss: 8.4.13
