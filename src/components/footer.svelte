@@ -21,6 +21,6 @@
     <a href="privacy-policy" class="subpixel-antialiased font-bold font-lg hover:opacity-75">
       Privacy Policy
     </a>
-    <a href="tos" class="subpixel-antialiased font-bold font-lg mr-10 hover:opacity-75"> TOS </a>
+    <a href="TOS" class="subpixel-antialiased font-bold font-lg mr-10 hover:opacity-75"> TOS </a>
   </div>
 </footer>
