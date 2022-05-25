@@ -1,4 +1,4 @@
-<div>
+<div class="prose p-10">
   <h1 id="privacy-policy">Privacy Policy</h1>
   <p>
     Your privacy is important to us. It is Skyblock Plus&#39;s policy to respect your privacy and
@@ -71,7 +71,7 @@
     details:
   </p>
   <ul>
-    <li>Direct | CrypticPlasma#0820</li>
-    <li>Server | dsc.gg/skyblock-plus</li>
+    <li>Direct | <a href="https://discord.com/users/385939031596466176">CrypticPlasma#0820</a></li>
+    <li>Server | <a href="https://dsc.gg/skyblock-plus">Discord Invite</a></li>
   </ul>
 </div>

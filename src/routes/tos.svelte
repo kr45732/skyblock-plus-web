@@ -1,4 +1,4 @@
-<div>
+<div class="prose p-10">
   <h1 id="terms-and-conditions">Terms and Conditions</h1>
   <h2 id="terms">Terms</h2>
   <p>
