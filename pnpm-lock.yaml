@@ -24,7 +24,7 @@ specifiers:
   svelte-check: 2.7.2
   svelte-material-ui: 6.0.0-beta.16
   svelte-preprocess: 4.10.7
-  tailwindcss: 3.1.0
+  tailwindcss: 3.1.1
   tslib: 2.4.0
   typescript: 4.7.3
 
@@ -44,7 +44,7 @@ devDependencies:
   '@smui/textfield': 6.0.0-beta.16_svelte@3.48.0+typescript@4.7.3
   '@sveltejs/adapter-auto': 1.0.0-next.50
   '@sveltejs/kit': 1.0.0-next.350_svelte@3.48.0
-  '@tailwindcss/typography': 0.5.2_tailwindcss@3.1.0
+  '@tailwindcss/typography': 0.5.2_tailwindcss@3.1.1
   autoprefixer: 10.4.7_postcss@8.4.14
   daisyui: 2.15.2_a191cbaa25c4a0a9f05cc78eac153be7
   fuse.js: 6.6.2
@@ -54,7 +54,7 @@ devDependencies:
   svelte: 3.48.0
   svelte-check: 2.7.2_postcss@8.4.14+svelte@3.48.0
   svelte-preprocess: 4.10.7_a2ffdec363bc9f14ff6ec8bdc6dc6fe6
-  tailwindcss: 3.1.0
+  tailwindcss: 3.1.1
   tslib: 2.4.0
   typescript: 4.7.3
 
@@ -1299,7 +1299,7 @@ packages:
       - supports-color
     dev: true
 
-  /@tailwindcss/typography/0.5.2_tailwindcss@3.1.0:
+  /@tailwindcss/typography/0.5.2_tailwindcss@3.1.1:
     resolution: {integrity: sha512-coq8DBABRPFcVhVIk6IbKyyHUt7YTEC/C992tatFB+yEx5WGBQrCgsSFjxHUr8AWXphWckadVJbominEduYBqw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || insiders'
@@ -1307,7 +1307,7 @@ packages:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
-      tailwindcss: 3.1.0
+      tailwindcss: 3.1.1
     dev: true
 
   /@tsconfig/svelte/3.0.0:
@@ -1601,7 +1601,7 @@ packages:
       css-selector-tokenizer: 0.8.0
       postcss: 8.4.14
       postcss-js: 4.0.0_postcss@8.4.14
-      tailwindcss: 3.1.0
+      tailwindcss: 3.1.1
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -3007,8 +3007,8 @@ packages:
       svelte: 3.48.0
       typescript: 4.7.3
 
-  /tailwindcss/3.1.0:
-    resolution: {integrity: sha512-XzXq31Fj6RizhlFVNLBlDqzs0dXuIEOAknuOcKx2R/IIQbEz5DnngslYY4JNN6e9JkNBjHGm1w2XDABsADg1ng==}
+  /tailwindcss/3.1.1:
+    resolution: {integrity: sha512-F5VFj5FiS4QZqdXPE6T6RJFqbsmISQ2KBUp9bOQyws9TleGToHsa54X8kwXwVdHMQhNeXOlxI47lrRICEVuOvg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
