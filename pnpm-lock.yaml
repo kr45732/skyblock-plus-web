@@ -24,7 +24,7 @@ specifiers:
   svelte-check: 2.7.2
   svelte-material-ui: 6.0.0-beta.16
   svelte-preprocess: 4.10.7
-  tailwindcss: 3.1.1
+  tailwindcss: 3.1.2
   tslib: 2.4.0
   typescript: 4.7.3
 
@@ -44,7 +44,7 @@ devDependencies:
   '@smui/textfield': 6.0.0-beta.16_svelte@3.48.0+typescript@4.7.3
   '@sveltejs/adapter-auto': 1.0.0-next.50
   '@sveltejs/kit': 1.0.0-next.350_svelte@3.48.0
-  '@tailwindcss/typography': 0.5.2_tailwindcss@3.1.1
+  '@tailwindcss/typography': 0.5.2_tailwindcss@3.1.2
   autoprefixer: 10.4.7_postcss@8.4.14
   daisyui: 2.15.2_a191cbaa25c4a0a9f05cc78eac153be7
   fuse.js: 6.6.2
@@ -54,7 +54,7 @@ devDependencies:
   svelte: 3.48.0
   svelte-check: 2.7.2_postcss@8.4.14+svelte@3.48.0
   svelte-preprocess: 4.10.7_a2ffdec363bc9f14ff6ec8bdc6dc6fe6
-  tailwindcss: 3.1.1
+  tailwindcss: 3.1.2
   tslib: 2.4.0
   typescript: 4.7.3
 
@@ -1299,7 +1299,7 @@ packages:
       - supports-color
     dev: true
 
-  /@tailwindcss/typography/0.5.2_tailwindcss@3.1.1:
+  /@tailwindcss/typography/0.5.2_tailwindcss@3.1.2:
     resolution: {integrity: sha512-coq8DBABRPFcVhVIk6IbKyyHUt7YTEC/C992tatFB+yEx5WGBQrCgsSFjxHUr8AWXphWckadVJbominEduYBqw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || insiders'
@@ -1307,7 +1307,7 @@ packages:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
-      tailwindcss: 3.1.1
+      tailwindcss: 3.1.2
     dev: true
 
   /@tsconfig/svelte/3.0.0:
@@ -1601,7 +1601,7 @@ packages:
       css-selector-tokenizer: 0.8.0
       postcss: 8.4.14
       postcss-js: 4.0.0_postcss@8.4.14
-      tailwindcss: 3.1.1
+      tailwindcss: 3.1.2
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -2237,10 +2237,6 @@ packages:
       brace-expansion: 1.1.11
     dev: true
 
-  /minimist/1.2.5:
-    resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
-    dev: true
-
   /minimist/1.2.6:
     resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
     dev: true
@@ -2779,7 +2775,7 @@ packages:
     hasBin: true
     dependencies:
       buffer-crc32: 0.2.13
-      minimist: 1.2.5
+      minimist: 1.2.6
       sander: 0.5.1
       sourcemap-codec: 1.4.8
     dev: true
@@ -3007,8 +3003,8 @@ packages:
       svelte: 3.48.0
       typescript: 4.7.3
 
-  /tailwindcss/3.1.1:
-    resolution: {integrity: sha512-F5VFj5FiS4QZqdXPE6T6RJFqbsmISQ2KBUp9bOQyws9TleGToHsa54X8kwXwVdHMQhNeXOlxI47lrRICEVuOvg==}
+  /tailwindcss/3.1.2:
+    resolution: {integrity: sha512-yJ6L5s1U5AeS5g7HHy212zdQfjwD426FBfm59pet/JsyneuZuD4C2W7PpJEg4ppisiB21uLqtNagv8KXury3+Q==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
@@ -3078,7 +3074,7 @@ packages:
     dev: true
 
   /tr46/0.0.3:
-    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: true
 
   /tslib/2.4.0:
