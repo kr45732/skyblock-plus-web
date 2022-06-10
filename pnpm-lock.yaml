@@ -15,7 +15,7 @@ specifiers:
   '@sveltejs/kit': next
   '@tailwindcss/typography': 0.5.2
   autoprefixer: 10.4.7
-  daisyui: 2.15.2
+  daisyui: 2.15.3
   fuse.js: 6.6.2
   postcss: 8.4.14
   prettier: 2.6.2
@@ -46,7 +46,7 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.350_svelte@3.48.0
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.1.2
   autoprefixer: 10.4.7_postcss@8.4.14
-  daisyui: 2.15.2_a191cbaa25c4a0a9f05cc78eac153be7
+  daisyui: 2.15.3_a191cbaa25c4a0a9f05cc78eac153be7
   fuse.js: 6.6.2
   postcss: 8.4.14
   prettier: 2.6.2
@@ -1590,8 +1590,8 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.15.2_a191cbaa25c4a0a9f05cc78eac153be7:
-    resolution: {integrity: sha512-12hjzlOUkGVzMPKhaBc8soqNY2mJWGTYJF8sTuCibDcdGbHDmYgBUY0OX1HHIVq/qh2vELh5yHb4QCgCDWUAwg==}
+  /daisyui/2.15.3_a191cbaa25c4a0a9f05cc78eac153be7:
+    resolution: {integrity: sha512-SoO5PHvWXLk15QcdAHxXJhFDirdO4w62XRizYVtobXSGf0x0Y1od2DqzhocrK6QwaDso2zreCnLjvunoS9luKQ==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
@@ -2765,7 +2765,7 @@ packages:
     dev: true
 
   /simple-swizzle/0.2.2:
-    resolution: {integrity: sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=}
+    resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
     dependencies:
       is-arrayish: 0.3.2
     dev: true
