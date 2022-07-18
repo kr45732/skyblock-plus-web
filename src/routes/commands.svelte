@@ -1,4 +1,4 @@
-<script type="ts">
+<script>
   import Navbar from "../components/navbar.svelte";
   import Footer from "../components/footer.svelte";
   import { onMount } from "svelte";
@@ -12,11 +12,11 @@
   import { HelpData } from "../components/HelpData.js";
 
   let value = ""; // Search
-  let commands: HelpData[] = [];
+  let commands = [];
   let active = "General"; // Selected tab
   let loaded = false;
-  let fuse: Fuse<any>;
-  let commandIndex: any[] = []; // {name, index}
+  let fuse;
+  let commandIndex = []; // {name, index}
 
   $: filteredCommands =
     value.length > 0
@@ -24,15 +24,15 @@
       : commands.filter((command) => command?.getCategory?.() == active.toLowerCase());
 
   onMount(async () => {
-    function mapCommands(command: HelpData) {
-      let subcommandsProcessed: HelpData[] = [];
+    function mapCommands(command) {
+      let subcommandsProcessed = [];
       for (const subcommand of command?.subcommands) {
         subcommandsProcessed.push(mapCommands(HelpData.from(subcommand).setSuperCommand(command)));
       }
       return command.addSubcommands(subcommandsProcessed);
     }
 
-    function flattenCommands(command: HelpData) {
+    function flattenCommands(command) {
       let out = [command];
       for (const subcommand of command.subcommands) {
         if (subcommand instanceof HelpData) {
