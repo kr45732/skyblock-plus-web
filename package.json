@@ -13,7 +13,7 @@
   "devDependencies": {
     "@smui/button": "6.0.0",
     "@smui/common": "6.0.0-beta.16",
-    "@smui/data-table": "6.0.0-beta.16",
+    "@smui/data-table": "6.0.0",
     "@smui/fab": "6.0.0-beta.16",
     "@smui/layout-grid": "6.0.0-beta.16",
     "@smui/linear-progress": "6.0.0-beta.16",

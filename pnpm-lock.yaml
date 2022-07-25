@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@smui/button': 6.0.0
   '@smui/common': 6.0.0-beta.16
-  '@smui/data-table': 6.0.0-beta.16
+  '@smui/data-table': 6.0.0
   '@smui/fab': 6.0.0-beta.16
   '@smui/layout-grid': 6.0.0-beta.16
   '@smui/linear-progress': 6.0.0-beta.16
@@ -32,7 +32,7 @@ specifiers:
 devDependencies:
   '@smui/button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
   '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/data-table': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+  '@smui/data-table': 6.0.0_uslzfc62di2n2otc2tvfklnwji
   '@smui/fab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/layout-grid': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/linear-progress': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
@@ -759,9 +759,9 @@ packages:
     resolution: {integrity: sha512-ENmfOy4SNj68tDYNjCmwkDIU/dDWu3X7YghcrFkxsJdNinvlzwKnX1dvRvFc9Ov8V2n8V6oNQZsw7f9yhGcOBQ==}
     dependencies:
       '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/list': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/menu': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/menu-surface': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/list': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/menu': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/menu-surface': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/textfield': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
@@ -817,7 +817,7 @@ packages:
       '@material/card': 13.0.0
       '@smui/button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/icon-button': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/icon-button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
@@ -827,6 +827,18 @@ packages:
 
   /@smui/checkbox/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
     resolution: {integrity: sha512-gasHsQjgpPoYfOPl7hCibBiv6PWG8I1VzRrdmSQMbv9H0HI2Nn8Oo3DpYCnAUd6z4JhVk6UWCzqaO+La/tUAHw==}
+    dependencies:
+      '@material/checkbox': 13.0.0
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: true
+
+  /@smui/checkbox/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-zFaGjkVvf4ASctFsI0b8NtWjuLam+4/pM6fBDlmv36tTbkqQgUNe+DhkVDDqABfI0ecz92aaioNDrZYfjCP8BQ==}
     dependencies:
       '@material/checkbox': 13.0.0
       '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
@@ -884,17 +896,17 @@ packages:
       - typescript
     dev: true
 
-  /@smui/data-table/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-nNHIGbGMviTDGivOeaIwV6RnP/Lq7XZqs72gmX40ncLYIu1c//HNhIrcL3qbF+Ne/8gq7cuuKC4F26VUPEPD0g==}
+  /@smui/data-table/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-YVIVf3Q6sCt9bRUJQFUysMK5Z10cUkaWwSYVz1oVEZfgJzj64K9h4bTrbvBfyB4IsRwArk+WLk2uQRpqkA3yFQ==}
     dependencies:
       '@material/data-table': 13.0.0
       '@material/dom': 13.0.0
-      '@smui/checkbox': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/icon-button': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/ripple': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/select': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      svelte2tsx: 0.5.8_uslzfc62di2n2otc2tvfklnwji
+      '@smui/checkbox': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/icon-button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/select': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
       - svelte
       - typescript
@@ -949,6 +961,17 @@ packages:
       - typescript
     dev: true
 
+  /@smui/floating-label/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-ZcUflSPUzc0A/TmaJg96InylZo9V4sv8u1LPm6Rsp9Z5L9+ZGKOc1adyBIQQwqReeHpPN0LIr2jDsF9SmxljyQ==}
+    dependencies:
+      '@material/floating-label': 13.0.0
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: true
+
   /@smui/form-field/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
     resolution: {integrity: sha512-sNzmim4HDM07feYaqRZGy0VwNH6PuerSl6Ha5cxAFaTLN8SIzfNUEJ7iNX1eBImTlrRNHsR6VwUySXX60xUyQA==}
     dependencies:
@@ -964,6 +987,19 @@ packages:
 
   /@smui/icon-button/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
     resolution: {integrity: sha512-2OwRT3smK5S5V+sI2c8URij0Z91/FVeGKZHy4V5q/GYSlaPu1WJtgFY1O/9wNYEYq0PkP4ohwq16ZiURy+rYTQ==}
+    dependencies:
+      '@material/density': 13.0.0
+      '@material/icon-button': 13.0.0
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: true
+
+  /@smui/icon-button/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-UgxPpBTM6BrJyF2hSI58+twNdJp7pD4cEnHoAhY0uZg7Ff1DgsiJityaPzvH9RsnqgD5QQXRbkmsYd+EjpbwBA==}
     dependencies:
       '@material/density': 13.0.0
       '@material/icon-button': 13.0.0
@@ -1008,6 +1044,17 @@ packages:
       - typescript
     dev: true
 
+  /@smui/line-ripple/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-cEBux/pSuFcOPLLqM06RNDcGASfYqjcpVzBKiWZ+pJg4Zm/yx/6wGG4w31WyIbgPg6Bx0RkasEhjEYfejQJlgA==}
+    dependencies:
+      '@material/line-ripple': 13.0.0
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: true
+
   /@smui/linear-progress/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
     resolution: {integrity: sha512-lT8nSoEyCoKS3JBvxOY73hRzEhMO5lbOe51S2EKdTqV3KOaw6MODeoHt7xfo/VOkVAX4eYni1MdS5c8UEZ7MIg==}
     dependencies:
@@ -1033,8 +1080,34 @@ packages:
       - typescript
     dev: true
 
+  /@smui/list/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-6m8Jh74c3dCHWHafRca71tsGn97RI5rxmcT8hEaFanBrApB7EzRTlBAha9u2XjGFujhAor6HZc2nhu4z8kpIDQ==}
+    dependencies:
+      '@material/dom': 13.0.0
+      '@material/feature-targeting': 13.0.0
+      '@material/list': 13.0.0
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: true
+
   /@smui/menu-surface/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
     resolution: {integrity: sha512-a8hLHBcu6+XDgdcdcR22arjsPr1G/4cpFLToWirSYfhk2pEfK9a/gkQiNOII0LHwZlreIgo/1FeUeAClJGCqhA==}
+    dependencies:
+      '@material/animation': 13.0.0
+      '@material/menu-surface': 13.0.0
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: true
+
+  /@smui/menu-surface/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-qWYlIRNEYfmyf2sDUYy5GrHVuQF2Q1RAUxcaVoNdZi+E9b5VfFl+trC2UVlvDYQFmfcejAtgkgJ59WRlPTMV3w==}
     dependencies:
       '@material/animation': 13.0.0
       '@material/menu-surface': 13.0.0
@@ -1051,8 +1124,22 @@ packages:
       '@material/dom': 13.0.0
       '@material/menu': 13.0.0
       '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/list': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/menu-surface': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/list': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/menu-surface': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: true
+
+  /@smui/menu/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-UjnQvlKEGhoCBbooMVeFTDbpD04s9K+aZL/0//m6GvWpghCsrb8XXLRjeGH3wGInSKoeU7C7CZ0Pdu267F+6zw==}
+    dependencies:
+      '@material/dom': 13.0.0
+      '@material/menu': 13.0.0
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/list': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/menu-surface': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
       - svelte
@@ -1064,7 +1151,19 @@ packages:
     dependencies:
       '@material/notched-outline': 13.0.0
       '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/floating-label': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/floating-label': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: true
+
+  /@smui/notched-outline/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-GHCIRdKSiWAKvw7LAbsOV/gPspH5fnUf9Dj+oA4OnCEJ8Ez3UZ1Mjdc06/bCJj37AxDRA59FahPVFnoVmeGthg==}
+    dependencies:
+      '@material/notched-outline': 13.0.0
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/floating-label': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
       - svelte
@@ -1143,12 +1242,34 @@ packages:
       '@material/select': 13.0.0
       '@material/theme': 13.0.0
       '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/floating-label': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/line-ripple': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/list': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/menu': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/menu-surface': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/notched-outline': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/floating-label': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/line-ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/list': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/menu': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/menu-surface': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/notched-outline': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
+    transitivePeerDependencies:
+      - svelte
+      - typescript
+    dev: true
+
+  /@smui/select/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-fxAulMH/7s4TvFho2tJWNcAnMq7/71adjnytao8EytIelqNrYyOP4VhN4RcY1qoBU9oQUSOwWinL6PVswrCcEw==}
+    dependencies:
+      '@material/feature-targeting': 13.0.0
+      '@material/ripple': 13.0.0
+      '@material/rtl': 13.0.0
+      '@material/select': 13.0.0
+      '@material/theme': 13.0.0
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/floating-label': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/line-ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/list': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/menu': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/menu-surface': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/notched-outline': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
@@ -1177,7 +1298,7 @@ packages:
       '@material/snackbar': 13.0.0
       '@smui/button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/icon-button': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/icon-button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
@@ -2986,7 +3107,7 @@ packages:
       '@smui/chips': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
       '@smui/circular-progress': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
       '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/data-table': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/data-table': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/dialog': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
       '@smui/drawer': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
       '@smui/fab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
