@@ -6,7 +6,7 @@ specifiers:
   '@smui/data-table': 6.0.0-beta.16
   '@smui/fab': 6.0.0-beta.16
   '@smui/layout-grid': 6.0.0-beta.16
-  '@smui/linear-progress': 6.0.0-beta.16
+  '@smui/linear-progress': 6.0.0
   '@smui/paper': 6.0.0-beta.16
   '@smui/tab': 6.0.0-beta.16
   '@smui/tab-bar': 6.0.0-beta.16
@@ -35,7 +35,7 @@ devDependencies:
   '@smui/data-table': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/fab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/layout-grid': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/linear-progress': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+  '@smui/linear-progress': 6.0.0_uslzfc62di2n2otc2tvfklnwji
   '@smui/paper': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/tab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/tab-bar': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
@@ -1024,11 +1024,11 @@ packages:
       - typescript
     dev: true
 
-  /@smui/linear-progress/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-lT8nSoEyCoKS3JBvxOY73hRzEhMO5lbOe51S2EKdTqV3KOaw6MODeoHt7xfo/VOkVAX4eYni1MdS5c8UEZ7MIg==}
+  /@smui/linear-progress/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-UTPBIuALdxhuYmBYZ57O8zn1B9TLr8TV3SF1nrhR5dhZpAAsYhn15Pqbi/xXZSKGDC7TMhwcEIB4U5w1T5rd4g==}
     dependencies:
       '@material/linear-progress': 13.0.0
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
       - svelte
@@ -1659,7 +1659,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /console-control-strings/1.1.0:
@@ -2763,7 +2763,7 @@ packages:
       '@smui/image-list': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/layout-grid': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
       '@smui/line-ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/linear-progress': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/linear-progress': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/list': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/menu': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/menu-surface': 6.0.0_uslzfc62di2n2otc2tvfklnwji
