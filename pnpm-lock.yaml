@@ -4,7 +4,7 @@ specifiers:
   '@smui/button': 6.0.0-beta.16
   '@smui/common': 6.0.0-beta.16
   '@smui/data-table': 6.0.0-beta.16
-  '@smui/fab': 6.0.0-beta.16
+  '@smui/fab': 6.0.0
   '@smui/layout-grid': 6.0.0-beta.16
   '@smui/linear-progress': 6.0.0-beta.16
   '@smui/paper': 6.0.0-beta.16
@@ -33,7 +33,7 @@ devDependencies:
   '@smui/button': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/data-table': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/fab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+  '@smui/fab': 6.0.0_uslzfc62di2n2otc2tvfklnwji
   '@smui/layout-grid': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/linear-progress': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/paper': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
@@ -941,12 +941,12 @@ packages:
       - typescript
     dev: true
 
-  /@smui/fab/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-bv71H/EgQh8VbWokQuhio5I5mvygofJZnBRZvVdMX1YTrvDafJzbLf4A2zLycVMJmOX124at86G9t8hAAQQ4KQ==}
+  /@smui/fab/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-JXj1LKuDx4jqWaceG2snlRbDn8ComHD+eKPKBUDVnwu8a0kKl4AbF4Rrl7w4EJuBTFNcMDuEEMZEqxT60bM46A==}
     dependencies:
       '@material/fab': 13.0.0
       '@material/feature-targeting': 13.0.0
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
@@ -1659,7 +1659,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /console-control-strings/1.1.0:
@@ -2756,7 +2756,7 @@ packages:
       '@smui/data-table': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
       '@smui/dialog': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/drawer': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/fab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/fab': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/floating-label': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/form-field': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/icon-button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
