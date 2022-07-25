@@ -7,7 +7,7 @@ specifiers:
   '@smui/fab': 6.0.0-beta.16
   '@smui/layout-grid': 6.0.0-beta.16
   '@smui/linear-progress': 6.0.0-beta.16
-  '@smui/paper': 6.0.0-beta.16
+  '@smui/paper': 6.0.0
   '@smui/tab': 6.0.0-beta.16
   '@smui/tab-bar': 6.0.0-beta.16
   '@smui/textfield': 6.0.0-beta.16
@@ -36,7 +36,7 @@ devDependencies:
   '@smui/fab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/layout-grid': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/linear-progress': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/paper': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+  '@smui/paper': 6.0.0_uslzfc62di2n2otc2tvfklnwji
   '@smui/tab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/tab-bar': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
   '@smui/textfield': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
@@ -1087,21 +1087,6 @@ packages:
       - typescript
     dev: true
 
-  /@smui/paper/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-b103emE4DoN6ZuZk5jHD7TbROJYGo3rsfbZlmzUG9plPcOL5rhGVkLhB8m3oWlLqLNG0vl6kJPLiHe2qYny66g==}
-    dependencies:
-      '@material/elevation': 13.0.0
-      '@material/feature-targeting': 13.0.0
-      '@material/shape': 13.0.0
-      '@material/theme': 13.0.0
-      '@material/typography': 13.0.0
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      svelte2tsx: 0.5.12_uslzfc62di2n2otc2tvfklnwji
-    transitivePeerDependencies:
-      - svelte
-      - typescript
-    dev: true
-
   /@smui/paper/6.0.0_uslzfc62di2n2otc2tvfklnwji:
     resolution: {integrity: sha512-zfctECCdRMIcK7lSx0IX8HmK8dj0XJci8R+S71kViPCr/08A5yTRyjWsVUEZY4ouKp9+RVBgeEJE+r6iGR0iqQ==}
     dependencies:
@@ -1659,7 +1644,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /console-control-strings/1.1.0:
@@ -2768,7 +2753,7 @@ packages:
       '@smui/menu': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/menu-surface': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/notched-outline': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/paper': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/paper': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/radio': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/segmented-button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
