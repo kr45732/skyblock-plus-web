@@ -1,20 +1,20 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@smui/button': 6.0.0-beta.16
-  '@smui/common': 6.0.0-beta.16
-  '@smui/data-table': 6.0.0-beta.16
-  '@smui/fab': 6.0.0-beta.16
-  '@smui/layout-grid': 6.0.0-beta.16
-  '@smui/linear-progress': 6.0.0-beta.16
-  '@smui/paper': 6.0.0-beta.16
-  '@smui/tab': 6.0.0-beta.16
-  '@smui/tab-bar': 6.0.0-beta.16
-  '@smui/textfield': 6.0.0-beta.16
+  '@smui/button': 6.0.0
+  '@smui/common': 6.0.0
+  '@smui/data-table': 6.0.0
+  '@smui/fab': 6.0.0
+  '@smui/layout-grid': 6.0.0
+  '@smui/linear-progress': 6.0.0
+  '@smui/paper': 6.0.0
+  '@smui/tab': 6.0.0
+  '@smui/tab-bar': 6.0.0
+  '@smui/textfield': 6.0.0
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   '@tailwindcss/typography': 0.5.4
-  autoprefixer: 10.4.7
+  autoprefixer: 10.4.8
   daisyui: 2.19.0
   fuse.js: 6.6.2
   postcss: 8.4.14
@@ -22,7 +22,7 @@ specifiers:
   prettier-plugin-svelte: 2.7.0
   svelte: 3.49.0
   svelte-check: 2.8.0
-  svelte-material-ui: 6.0.0-beta.16
+  svelte-material-ui: 6.0.0
   svelte-preprocess: 4.10.7
   tailwindcss: 3.1.6
   tslib: 2.4.0
@@ -30,28 +30,28 @@ specifiers:
   vite: 3.0.2
 
 devDependencies:
-  '@smui/button': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/data-table': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/fab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/layout-grid': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/linear-progress': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/paper': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/tab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/tab-bar': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-  '@smui/textfield': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+  '@smui/button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+  '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+  '@smui/data-table': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+  '@smui/fab': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+  '@smui/layout-grid': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+  '@smui/linear-progress': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+  '@smui/paper': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+  '@smui/tab': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+  '@smui/tab-bar': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+  '@smui/textfield': 6.0.0_uslzfc62di2n2otc2tvfklnwji
   '@sveltejs/adapter-auto': 1.0.0-next.64
   '@sveltejs/kit': 1.0.0-next.403_svelte@3.49.0+vite@3.0.2
   '@tailwindcss/typography': 0.5.4_tailwindcss@3.1.6
-  autoprefixer: 10.4.7_postcss@8.4.14
-  daisyui: 2.19.0_ugi4xkrfysqkt4c4y6hkyfj344
+  autoprefixer: 10.4.8_postcss@8.4.14
+  daisyui: 2.19.0_6qxuh3ctkxhae7jnbdaexscv2m
   fuse.js: 6.6.2
   postcss: 8.4.14
   prettier: 2.7.1
   prettier-plugin-svelte: 2.7.0_o3ioganyptcsrh6x4hnxvjkpqi
   svelte: 3.49.0
   svelte-check: 2.8.0_nxvsp6sjiltnatqa6jdm4mr6zu
-  svelte-material-ui: 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+  svelte-material-ui: 6.0.0_uslzfc62di2n2otc2tvfklnwji
   svelte-preprocess: 4.10.7_bgntxiihuqhg5mwaa7nczjwpga
   tailwindcss: 3.1.6
   tslib: 2.4.0
@@ -804,22 +804,6 @@ packages:
       - typescript
     dev: true
 
-  /@smui/button/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-+sBnqo8PlbvV7R3sHUOu+/y2xqiDwcpjLkW7BVvbK0r3Rit87yKCb5Octa0DnnTmNh9W6bHGe162v760drcSfw==}
-    dependencies:
-      '@material/button': 13.0.0
-      '@material/elevation': 13.0.0
-      '@material/feature-targeting': 13.0.0
-      '@material/ripple': 13.0.0
-      '@material/theme': 13.0.0
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      svelte2tsx: 0.5.13_uslzfc62di2n2otc2tvfklnwji
-    transitivePeerDependencies:
-      - svelte
-      - typescript
-    dev: true
-
   /@smui/button/6.0.0_uslzfc62di2n2otc2tvfklnwji:
     resolution: {integrity: sha512-YYhT9iOTPCJi+fElOBf2GOP/Akbz+AAYg342A3aBGDqwCI9AxtzdNPrrZ7hKyTsFq+ZMk3rgkyaITe//PCWdIA==}
     dependencies:
@@ -887,17 +871,6 @@ packages:
       - typescript
     dev: true
 
-  /@smui/common/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-Ual6505AOP75T+IneOQ6e1tnlhDflJX+yxa9T8Hx5X00MOiULvWACg/RW3c8UEQAc96YnEsA3utv5qDy8tZpmg==}
-    dependencies:
-      '@material/dom': 13.0.0
-      '@tsconfig/svelte': 3.0.0
-      svelte2tsx: 0.5.13_uslzfc62di2n2otc2tvfklnwji
-    transitivePeerDependencies:
-      - svelte
-      - typescript
-    dev: true
-
   /@smui/common/6.0.0_uslzfc62di2n2otc2tvfklnwji:
     resolution: {integrity: sha512-FU9e/1+KnocxjNfOl3Cdpb+nJEXXnvyfTDUPsBV5bJ0tfOVhfEf3wb0maIGx2wZF1hWyRXlkrk8cU0coBwfGjQ==}
     dependencies:
@@ -909,13 +882,13 @@ packages:
       - typescript
     dev: true
 
-  /@smui/data-table/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-nNHIGbGMviTDGivOeaIwV6RnP/Lq7XZqs72gmX40ncLYIu1c//HNhIrcL3qbF+Ne/8gq7cuuKC4F26VUPEPD0g==}
+  /@smui/data-table/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-YVIVf3Q6sCt9bRUJQFUysMK5Z10cUkaWwSYVz1oVEZfgJzj64K9h4bTrbvBfyB4IsRwArk+WLk2uQRpqkA3yFQ==}
     dependencies:
       '@material/data-table': 13.0.0
       '@material/dom': 13.0.0
       '@smui/checkbox': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/icon-button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/select': 6.0.0_uslzfc62di2n2otc2tvfklnwji
@@ -950,12 +923,12 @@ packages:
       - typescript
     dev: true
 
-  /@smui/fab/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-bv71H/EgQh8VbWokQuhio5I5mvygofJZnBRZvVdMX1YTrvDafJzbLf4A2zLycVMJmOX124at86G9t8hAAQQ4KQ==}
+  /@smui/fab/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-JXj1LKuDx4jqWaceG2snlRbDn8ComHD+eKPKBUDVnwu8a0kKl4AbF4Rrl7w4EJuBTFNcMDuEEMZEqxT60bM46A==}
     dependencies:
       '@material/fab': 13.0.0
       '@material/feature-targeting': 13.0.0
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.13_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
@@ -1011,11 +984,11 @@ packages:
       - typescript
     dev: true
 
-  /@smui/layout-grid/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-xJFYyuEfRpM/SGP5B1f6EzRE+ZUhykRQWi4+PEqI/TERvMeb/9MK0vydGavAg+3Ye4b9R7nx3H2CNlsXs79q1A==}
+  /@smui/layout-grid/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-UZPd17TvwGwuYkEnTuJUqiJXrWH1FKsElf24xxXDaCHhDCdIj35jIteJXCI1o/LVxPURGFHhrNW4yH/YrQHKFw==}
     dependencies:
       '@material/layout-grid': 13.0.0
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.13_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
       - svelte
@@ -1033,11 +1006,11 @@ packages:
       - typescript
     dev: true
 
-  /@smui/linear-progress/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-lT8nSoEyCoKS3JBvxOY73hRzEhMO5lbOe51S2EKdTqV3KOaw6MODeoHt7xfo/VOkVAX4eYni1MdS5c8UEZ7MIg==}
+  /@smui/linear-progress/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-UTPBIuALdxhuYmBYZ57O8zn1B9TLr8TV3SF1nrhR5dhZpAAsYhn15Pqbi/xXZSKGDC7TMhwcEIB4U5w1T5rd4g==}
     dependencies:
       '@material/linear-progress': 13.0.0
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.13_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
       - svelte
@@ -1090,21 +1063,6 @@ packages:
       '@material/notched-outline': 13.0.0
       '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/floating-label': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      svelte2tsx: 0.5.13_uslzfc62di2n2otc2tvfklnwji
-    transitivePeerDependencies:
-      - svelte
-      - typescript
-    dev: true
-
-  /@smui/paper/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-b103emE4DoN6ZuZk5jHD7TbROJYGo3rsfbZlmzUG9plPcOL5rhGVkLhB8m3oWlLqLNG0vl6kJPLiHe2qYny66g==}
-    dependencies:
-      '@material/elevation': 13.0.0
-      '@material/feature-targeting': 13.0.0
-      '@material/shape': 13.0.0
-      '@material/theme': 13.0.0
-      '@material/typography': 13.0.0
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.13_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
       - svelte
@@ -1227,12 +1185,12 @@ packages:
       - typescript
     dev: true
 
-  /@smui/tab-bar/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-YCOJxlGIX8sRrvZsljy0KUowb0e0ED7XtbUVIJUldHmY6hFeFSDt6MI1QoNpNfns+7rptYbVIfx7xzSF7PVyYQ==}
+  /@smui/tab-bar/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-uznlklz7y4e02EaEvHPwXj8Akf10Et2PV0h6B5Sd6Za6aKP7oD07MFMBOPAPQVJycNwXhY0r40DM1Y9zlpSU/g==}
     dependencies:
       '@material/tab-bar': 13.0.0
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/tab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/tab': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/tab-scroller': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.13_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
@@ -1263,32 +1221,13 @@ packages:
       - typescript
     dev: true
 
-  /@smui/tab/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-eizOqQcjLOOMq1bvrrF6b8QPrOYJHz9fQ2hhozk9d7HsX4fw5G4RyJ6psowd/qkG+SYaWj2EuBAs16ZAmxFHOg==}
+  /@smui/tab/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-2iGDNs+P2D3QadCJuMcY3X8B2Hl9fq2ANv02NClhBaHtnbDMhqFdj7J9jZFI9CUQA34nDsJj67ThYxWeIgGX8Q==}
     dependencies:
       '@material/tab': 13.0.0
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/tab-indicator': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      svelte2tsx: 0.5.13_uslzfc62di2n2otc2tvfklnwji
-    transitivePeerDependencies:
-      - svelte
-      - typescript
-    dev: true
-
-  /@smui/textfield/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-lzW9oZ2PTuJRwtJoxxMlbElv6ZaAqT2W4tJAMs6hI8R0iotEyahcZNm8YxilOHIVLiCkeXOqd2LB4QBeq+vvVQ==}
-    dependencies:
-      '@material/dom': 13.0.0
-      '@material/feature-targeting': 13.0.0
-      '@material/ripple': 13.0.0
-      '@material/rtl': 13.0.0
-      '@material/textfield': 13.0.0
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/floating-label': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/line-ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/notched-outline': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       svelte2tsx: 0.5.13_uslzfc62di2n2otc2tvfklnwji
     transitivePeerDependencies:
       - svelte
@@ -1548,8 +1487,8 @@ packages:
     resolution: {integrity: sha512-tLRNUXati5MFePdAk8dw7Qt7DpxPB60ofAgn8WRhW6a2rcimZnYBP9oxHiv0OHy+Wz7kPMG+t4LGdt31+4EmGg==}
     dev: true
 
-  /autoprefixer/10.4.7_postcss@8.4.14:
-    resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
+  /autoprefixer/10.4.8_postcss@8.4.14:
+    resolution: {integrity: sha512-75Jr6Q/XpTqEf6D2ltS5uMewJIx5irCU1oBYJrWjFenq/m12WRRrz6g15L1EIoYvPLXTbEry7rDOwrcYNj77xw==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -1694,13 +1633,13 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.19.0_ugi4xkrfysqkt4c4y6hkyfj344:
+  /daisyui/2.19.0_6qxuh3ctkxhae7jnbdaexscv2m:
     resolution: {integrity: sha512-lLOz4cHm3xpm0AfdFojDFrhiDu4hZTdEbcVJri+KzQn1HvxmZS4STVujn8tV4RQXjchGdnIsXFqxd6F7rVZBiA==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
     dependencies:
-      autoprefixer: 10.4.7_postcss@8.4.14
+      autoprefixer: 10.4.8_postcss@8.4.14
       color: 4.2.3
       css-selector-tokenizer: 0.8.0
       postcss: 8.4.14
@@ -2756,35 +2695,35 @@ packages:
       svelte: 3.49.0
     dev: true
 
-  /svelte-material-ui/6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji:
-    resolution: {integrity: sha512-lztDBPv6+/Xhdlf7sxdrYAbo+1N+TwXTbhncl00FF7mU05ZWhhmtDtqMUeMLEX8x956XSV8TT1J1bywRjbSdtQ==}
+  /svelte-material-ui/6.0.0_uslzfc62di2n2otc2tvfklnwji:
+    resolution: {integrity: sha512-fSgYlwHHWydUwbyNw52rqW1ziSS223mhz9uQgVknbbfgaf/QOZvvi8Gby7NaW3euN3MUKlJuSXlGhqjMi7ku0g==}
     dependencies:
       '@smui-extra/accordion': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui-extra/autocomplete': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui-extra/badge': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/banner': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/button': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/card': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/checkbox': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/chips': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/circular-progress': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/common': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/data-table': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/common': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/data-table': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/dialog': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/drawer': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/fab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/fab': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/floating-label': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/form-field': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/icon-button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/image-list': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/layout-grid': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/layout-grid': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/line-ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/linear-progress': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/linear-progress': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/list': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/menu': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/menu-surface': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/notched-outline': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/paper': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/paper': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/radio': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/ripple': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/segmented-button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
@@ -2792,11 +2731,11 @@ packages:
       '@smui/slider': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/snackbar': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/switch': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/tab': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
-      '@smui/tab-bar': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/tab': 6.0.0_uslzfc62di2n2otc2tvfklnwji
+      '@smui/tab-bar': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/tab-indicator': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/tab-scroller': 6.0.0_uslzfc62di2n2otc2tvfklnwji
-      '@smui/textfield': 6.0.0-beta.16_uslzfc62di2n2otc2tvfklnwji
+      '@smui/textfield': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/tooltip': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/top-app-bar': 6.0.0_uslzfc62di2n2otc2tvfklnwji
       '@smui/touch-target': 6.0.0_uslzfc62di2n2otc2tvfklnwji
