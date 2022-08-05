@@ -27,7 +27,7 @@ specifiers:
   tailwindcss: 3.1.8
   tslib: 2.4.0
   typescript: 4.7.4
-  vite: 3.0.2
+  vite: 3.0.4
 
 devDependencies:
   '@smui/button': 6.0.0_uslzfc62di2n2otc2tvfklnwji
@@ -41,7 +41,7 @@ devDependencies:
   '@smui/tab-bar': 6.0.0_uslzfc62di2n2otc2tvfklnwji
   '@smui/textfield': 6.0.0_uslzfc62di2n2otc2tvfklnwji
   '@sveltejs/adapter-auto': 1.0.0-next.64
-  '@sveltejs/kit': 1.0.0-next.403_svelte@3.49.0+vite@3.0.2
+  '@sveltejs/kit': 1.0.0-next.403_svelte@3.49.0+vite@3.0.4
   '@tailwindcss/typography': 0.5.4_tailwindcss@3.1.8
   autoprefixer: 10.4.8_postcss@8.4.14
   daisyui: 2.19.0_6qxuh3ctkxhae7jnbdaexscv2m
@@ -56,7 +56,7 @@ devDependencies:
   tailwindcss: 3.1.8
   tslib: 2.4.0
   typescript: 4.7.4
-  vite: 3.0.2
+  vite: 3.0.4
 
 packages:
 
@@ -1325,7 +1325,7 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.403_svelte@3.49.0+vite@3.0.2:
+  /@sveltejs/kit/1.0.0-next.403_svelte@3.49.0+vite@3.0.4:
     resolution: {integrity: sha512-pKlmthl1SZkbx671Jp+LBoRne0vNzsjSgta9iRhqW/bt/0mx/IjlMd/NOeLuJGo30dAJdefrySoSamiaq47M/g==}
     engines: {node: '>=16.9'}
     hasBin: true
@@ -1334,17 +1334,17 @@ packages:
       svelte: ^3.44.0
       vite: ^3.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.1_svelte@3.49.0+vite@3.0.2
+      '@sveltejs/vite-plugin-svelte': 1.0.1_svelte@3.49.0+vite@3.0.4
       chokidar: 3.5.3
       sade: 1.8.1
       svelte: 3.49.0
-      vite: 3.0.2
+      vite: 3.0.4
     transitivePeerDependencies:
       - diff-match-patch
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.1_svelte@3.49.0+vite@3.0.2:
+  /@sveltejs/vite-plugin-svelte/1.0.1_svelte@3.49.0+vite@3.0.4:
     resolution: {integrity: sha512-PorCgUounn0VXcpeJu+hOweZODKmGuLHsLomwqSj+p26IwjjGffmYQfVHtiTWq+NqaUuuHWWG7vPge6UFw4Aeg==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
@@ -1362,7 +1362,7 @@ packages:
       magic-string: 0.26.2
       svelte: 3.49.0
       svelte-hmr: 0.14.12_svelte@3.49.0
-      vite: 3.0.2
+      vite: 3.0.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2899,8 +2899,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite/3.0.2:
-    resolution: {integrity: sha512-TAqydxW/w0U5AoL5AsD9DApTvGb2iNbGs3sN4u2VdT1GFkQVUfgUldt+t08TZgi23uIauh1TUOQJALduo9GXqw==}
+  /vite/3.0.4:
+    resolution: {integrity: sha512-NU304nqnBeOx2MkQnskBQxVsa0pRAH5FphokTGmyy8M3oxbvw7qAXts2GORxs+h/2vKsD+osMhZ7An6yK6F1dA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
