@@ -15,7 +15,7 @@ specifiers:
   '@sveltejs/kit': next
   '@tailwindcss/typography': 0.5.4
   autoprefixer: 10.4.8
-  daisyui: 2.22.0
+  daisyui: 2.22.1
   fuse.js: 6.6.2
   postcss: 8.4.16
   prettier: 2.7.1
@@ -44,7 +44,7 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.405_svelte@3.49.0+vite@3.0.7
   '@tailwindcss/typography': 0.5.4_tailwindcss@3.1.8
   autoprefixer: 10.4.8_postcss@8.4.16
-  daisyui: 2.22.0_25hquoklqeoqwmt7fwvvcyxm5e
+  daisyui: 2.22.1_25hquoklqeoqwmt7fwvvcyxm5e
   fuse.js: 6.6.2
   postcss: 8.4.16
   prettier: 2.7.1
@@ -1634,8 +1634,8 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.22.0_25hquoklqeoqwmt7fwvvcyxm5e:
-    resolution: {integrity: sha512-H08aQP+Mfl2fQOmyaxd1NP54gQbr2xRUj2MmFFvfJ5EDGbthVBICDMNFKyia/zBfR58G8eTJo3CmydglM81/7Q==}
+  /daisyui/2.22.1_25hquoklqeoqwmt7fwvvcyxm5e:
+    resolution: {integrity: sha512-5OjK3kYhqgwKVrun7itvR9Am98SGuhgBx/9vYScBT6GBBhKoVTbSaYDv9Hv+E65Tt5qTgSoEzIxelDlfxQFG7Q==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
