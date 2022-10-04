@@ -32,7 +32,7 @@
     "prettier-plugin-svelte": "2.7.1",
     "svelte": "3.50.1",
     "svelte-check": "2.9.1",
-    "svelte-material-ui": "6.0.0",
+    "svelte-material-ui": "6.2.0",
     "svelte-preprocess": "4.10.7",
     "tailwindcss": "3.1.8",
     "tslib": "2.4.0",
