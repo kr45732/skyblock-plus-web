@@ -16,7 +16,7 @@
     "@smui/data-table": "6.0.0",
     "@smui/fab": "6.0.0",
     "@smui/layout-grid": "6.0.0",
-    "@smui/linear-progress": "6.0.0",
+    "@smui/linear-progress": "6.1.4",
     "@smui/paper": "6.0.0",
     "@smui/tab": "6.0.0",
     "@smui/tab-bar": "6.0.0",
