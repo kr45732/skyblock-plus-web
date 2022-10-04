@@ -113,7 +113,6 @@
           <Cell class="mdc-data-table__header-cell">Name</Cell>
           <Cell class="mdc-data-table__header-cell">Description</Cell>
           <Cell class="mdc-data-table__header-cell">Usage</Cell>
-          <Cell class="mdc-data-table__header-cell">Aliases</Cell>
         </Row>
       </Head>
       <Body>
@@ -122,7 +121,6 @@
             <Cell class="mdc-data-table__cell">{command?.getName?.()}</Cell>
             <Cell class="mdc-data-table__cell">{command?.getDescription?.()}</Cell>
             <Cell class="mdc-data-table__cell">{command?.getUsageFormatted?.()}</Cell>
-            <Cell class="mdc-data-table__cell">{command?.getAliases?.()}</Cell>
           </Row>
         {/each}
       </Body>

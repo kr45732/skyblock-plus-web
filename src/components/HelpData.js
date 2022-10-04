@@ -2,7 +2,6 @@ export class HelpData {
     name = null;
     description = null;
     usage = null;
-    aliases = new Array();
     examples = new Array();
     subcommands = new Array();
     ignoreSuperCommand = false;
@@ -80,17 +79,6 @@ export class HelpData {
             this.subcommands.push(HelpData.from(subcommand).setSuperCommand(this));
         }
         return this;
-    }
-
-    getAliases() {
-        let aliasesStr = "";
-        for (let i = 0; i < this.aliases.length; i++) {
-            if (i != 0) {
-                aliasesStr += ", ";
-            }
-            aliasesStr += this.aliases[i];
-        }
-        return aliasesStr.toString();
     }
 
     getExamples() {
