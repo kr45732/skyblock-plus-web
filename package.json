@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@smui/button": "6.0.0",
-    "@smui/common": "6.0.0",
+    "@smui/common": "6.1.4",
     "@smui/data-table": "6.0.0",
     "@smui/fab": "6.0.0",
     "@smui/layout-grid": "6.0.0",
