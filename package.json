@@ -25,7 +25,7 @@
     "@sveltejs/kit": "next",
     "@tailwindcss/typography": "0.5.7",
     "autoprefixer": "10.4.12",
-    "daisyui": "2.19.0",
+    "daisyui": "2.31.0",
     "fuse.js": "6.6.2",
     "postcss": "8.4.17",
     "prettier": "2.7.1",
