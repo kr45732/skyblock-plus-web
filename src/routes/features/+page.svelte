@@ -1,6 +1,6 @@
 <script type="ts">
-  import Navbar from "../components/navbar.svelte";
-  import Footer from "../components/footer.svelte";
+  import Navbar from "../../components/navbar.svelte";
+  import Footer from "../../components/footer.svelte";
   import LayoutGrid, { Cell } from "@smui/layout-grid";
 
   // apply, event, verify

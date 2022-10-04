@@ -1,6 +1,6 @@
 <script>
-  import Navbar from "../components/navbar.svelte";
-  import Footer from "../components/footer.svelte";
+  import Navbar from "../../components/navbar.svelte";
+  import Footer from "../../components/footer.svelte";
   import { onMount } from "svelte";
   import Tab, { Label } from "@smui/tab";
   import TabBar from "@smui/tab-bar";
@@ -9,7 +9,7 @@
   import DataTable, { Head, Body, Row, Cell } from "@smui/data-table";
   import LinearProgress from "@smui/linear-progress";
   import Fuse from "fuse.js";
-  import { HelpData } from "../components/HelpData.js";
+  import { HelpData } from "../../components/HelpData.js";
 
   let value = ""; // Search
   let commands = [];
