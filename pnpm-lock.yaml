@@ -24,7 +24,7 @@ specifiers:
   svelte-check: 2.9.2
   svelte-material-ui: 6.2.0
   svelte-preprocess: 4.10.7
-  tailwindcss: 3.1.8
+  tailwindcss: 3.2.0
   tslib: 2.4.0
   typescript: 4.8.4
   vite: 3.1.8
@@ -42,7 +42,7 @@ devDependencies:
   '@smui/textfield': 6.1.4_besnmoibwkhwtentvwuriss7pa
   '@sveltejs/adapter-auto': 1.0.0-next.84
   '@sveltejs/kit': 1.0.0-next.520_svelte@3.52.0+vite@3.1.8
-  '@tailwindcss/typography': 0.5.7_tailwindcss@3.1.8
+  '@tailwindcss/typography': 0.5.7_tailwindcss@3.2.0
   autoprefixer: 10.4.12_postcss@8.4.18
   daisyui: 2.33.0_xkowlklhtk6sfvtndbucb3hfiy
   fuse.js: 6.6.2
@@ -53,7 +53,7 @@ devDependencies:
   svelte-check: 2.9.2_vidagnlh55bt6yxji7dk5y5wla
   svelte-material-ui: 6.2.0_besnmoibwkhwtentvwuriss7pa
   svelte-preprocess: 4.10.7_thgq75zisbcmm7d6lsbrpbdhti
-  tailwindcss: 3.1.8_postcss@8.4.18
+  tailwindcss: 3.2.0_postcss@8.4.18
   tslib: 2.4.0
   typescript: 4.8.4
   vite: 3.1.8
@@ -1388,7 +1388,7 @@ packages:
       - supports-color
     dev: true
 
-  /@tailwindcss/typography/0.5.7_tailwindcss@3.1.8:
+  /@tailwindcss/typography/0.5.7_tailwindcss@3.2.0:
     resolution: {integrity: sha512-JTTSTrgZfp6Ki4svhPA4mkd9nmQ/j9EfE7SbHJ1cLtthKkpW2OxsFXzSmxbhYbEkfNIyAyhle5p4SYyKRbz/jg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -1397,7 +1397,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.1.8_postcss@8.4.18
+      tailwindcss: 3.2.0_postcss@8.4.18
     dev: true
 
   /@tsconfig/svelte/3.0.0:
@@ -1682,7 +1682,7 @@ packages:
       css-selector-tokenizer: 0.8.0
       postcss: 8.4.18
       postcss-js: 4.0.0_postcss@8.4.18
-      tailwindcss: 3.1.8_postcss@8.4.18
+      tailwindcss: 3.2.0_postcss@8.4.18
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -2462,8 +2462,8 @@ packages:
       yaml: 1.10.2
     dev: true
 
-  /postcss-nested/5.0.6_postcss@8.4.18:
-    resolution: {integrity: sha512-rKqm2Fk0KbA8Vt3AdGN0FB9OBOMDVajMG6ZCf/GoHgdxUJ4sBFp0A/uMIRm+MJUdo33YXEtjqIz8u7DAp8B7DA==}
+  /postcss-nested/6.0.0_postcss@8.4.18:
+    resolution: {integrity: sha512-0DkamqrPcmkBDsLn+vQDIrtkSbNkv5AD/M322ySo9kqFkCIYklym2xEmWkwo+Y3/qZo34tzEPNUw4y7yMCdv5w==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
@@ -2876,8 +2876,8 @@ packages:
       typescript: 4.8.4
     dev: true
 
-  /tailwindcss/3.1.8_postcss@8.4.18:
-    resolution: {integrity: sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==}
+  /tailwindcss/3.2.0_postcss@8.4.18:
+    resolution: {integrity: sha512-ARh/W0uH5UlWIC2nn02V0+5fyF0k6qZliyt4QYic2upOhPUE/Spu1EURNc9txJ3+4j8OEmdigqfDpw4d2tA4vA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -2900,7 +2900,7 @@ packages:
       postcss-import: 14.1.0_postcss@8.4.18
       postcss-js: 4.0.0_postcss@8.4.18
       postcss-load-config: 3.1.4_postcss@8.4.18
-      postcss-nested: 5.0.6_postcss@8.4.18
+      postcss-nested: 6.0.0_postcss@8.4.18
       postcss-selector-parser: 6.0.10
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
