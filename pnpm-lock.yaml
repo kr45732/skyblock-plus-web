@@ -15,7 +15,7 @@ specifiers:
   '@sveltejs/kit': next
   '@tailwindcss/typography': 0.5.7
   autoprefixer: 10.4.12
-  daisyui: 2.31.0
+  daisyui: 2.33.0
   fuse.js: 6.6.2
   postcss: 8.4.17
   prettier: 2.7.1
@@ -40,11 +40,11 @@ devDependencies:
   '@smui/tab': 6.1.4_c36sqhgzdfaw4kmxogryyrffx4
   '@smui/tab-bar': 6.1.4_c36sqhgzdfaw4kmxogryyrffx4
   '@smui/textfield': 6.1.4_c36sqhgzdfaw4kmxogryyrffx4
-  '@sveltejs/adapter-auto': 1.0.0-next.81
-  '@sveltejs/kit': 1.0.0-next.512_svelte@3.51.0+vite@3.1.7
+  '@sveltejs/adapter-auto': 1.0.0-next.84
+  '@sveltejs/kit': 1.0.0-next.520_svelte@3.51.0+vite@3.1.7
   '@tailwindcss/typography': 0.5.7_tailwindcss@3.1.8
   autoprefixer: 10.4.12_postcss@8.4.17
-  daisyui: 2.31.0_5zjlt5w4ir2cay3te66iu3k3ji
+  daisyui: 2.33.0_5zjlt5w4ir2cay3te66iu3k3ji
   fuse.js: 6.6.2
   postcss: 8.4.17
   prettier: 2.7.1
@@ -1300,35 +1300,35 @@ packages:
       - typescript
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.81:
-    resolution: {integrity: sha512-q+0Rh2upU7i3m0fVi/CHrkt+BbTR7bkQ2OoVTVMKwSqrBenr6utPB/7y8tyRrZ21gzUihMSbeFpzbpmzVOI+2g==}
+  /@sveltejs/adapter-auto/1.0.0-next.84:
+    resolution: {integrity: sha512-95NI5dZ3ZNd4vs1/N5knTcArBlWL9pBw2IANCBAcGzwVMoGPjKyyMKZt1gEX74LVwCN6RSRPZ36+6Z6HEb/ojQ==}
     dependencies:
-      '@sveltejs/adapter-cloudflare': 1.0.0-next.38
-      '@sveltejs/adapter-netlify': 1.0.0-next.79
-      '@sveltejs/adapter-vercel': 1.0.0-next.77
+      '@sveltejs/adapter-cloudflare': 1.0.0-next.39
+      '@sveltejs/adapter-netlify': 1.0.0-next.81
+      '@sveltejs/adapter-vercel': 1.0.0-next.80
     transitivePeerDependencies:
       - encoding
       - supports-color
     dev: true
 
-  /@sveltejs/adapter-cloudflare/1.0.0-next.38:
-    resolution: {integrity: sha512-N6jdTomRZkdKlcNoguwYD7lpdXSt0beIyUJsp0MS/YLm/4gI83y698zFYInFKJ9t5e6DAnuEBSAXcg568z2oFA==}
+  /@sveltejs/adapter-cloudflare/1.0.0-next.39:
+    resolution: {integrity: sha512-95iRY3+mFVqEp4BqTJQGAyga7gSovIsm4SvhqsfBE/IQLkb2MnwLq2usRkXm9R6nby4w/jzEwgQM2ohsZD2HHA==}
     dependencies:
       '@cloudflare/workers-types': 3.16.0
       esbuild: 0.15.10
       worktop: 0.8.0-next.14
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.79:
-    resolution: {integrity: sha512-XaihONVwUeXVVt9f2xcFgRExfG8jWKPkyqi715kzPbrgpqH3zaRgLJM2ABEGQ3g2MEn+6op+Z2olIWhM+RA0Cg==}
+  /@sveltejs/adapter-netlify/1.0.0-next.81:
+    resolution: {integrity: sha512-jWZHw2uqUMJk8lFPzRm0xxmBZoDc430tbeCU9EtYhG+ypze2B6pJAlNTtcN3/J7wapHq19TgEK5oNt4LqORfNg==}
     dependencies:
       '@iarna/toml': 2.2.5
       esbuild: 0.15.10
       set-cookie-parser: 2.5.1
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.77:
-    resolution: {integrity: sha512-r4MqtP+lzx83HfcvI8PU0Yxzmxt6WQq9nzZETLboJouJzhSBUFIN5RmNZfEn6nNIlUwZbGQUEK/FxsRnnxI/Ig==}
+  /@sveltejs/adapter-vercel/1.0.0-next.80:
+    resolution: {integrity: sha512-a1ibKgN5RsNw6HPzhNKrPuEndgYRXCYlGIioVzfKpt/tEr4RuV5o/bST2FBgjCIWCqajKhWg1QLZmN2DZfPy6Q==}
     dependencies:
       '@vercel/nft': 0.22.1
       esbuild: 0.15.10
@@ -1337,8 +1337,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.512_svelte@3.51.0+vite@3.1.7:
-    resolution: {integrity: sha512-/KywzSMXdNxYGujJfdlAbLgV9m0TSSKqC8XluZ46M6oPAM1fUsjfBBtukU/Vx3hP7ldR8d/vpKX3amENAMw50g==}
+  /@sveltejs/kit/1.0.0-next.520_svelte@3.51.0+vite@3.1.7:
+    resolution: {integrity: sha512-flroQQEwIHx6IEkskHGQ90Ri+gFCnAs4ZFRsG7QuTbuBu7XSeJNQs3J73pmBQoKp0pWnbwZ3YZMtwBJWF/I7qA==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -1671,8 +1671,8 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.31.0_5zjlt5w4ir2cay3te66iu3k3ji:
-    resolution: {integrity: sha512-qepRXgQPLNcJ8ZPZy+dUvsC7mRWvMLRcVMe85/wZA60Tnhm/bkidhOzdllL8aAk2JX+W/xlIsTJ8NZFpPm+eyw==}
+  /daisyui/2.33.0_5zjlt5w4ir2cay3te66iu3k3ji:
+    resolution: {integrity: sha512-NviwGs9oC9NW7IEZiLexHtxkpzP38AKxb9GTUCqUa0qoU8NHKQGqJUzQWZwWSZakU57KsQLblFVe0xMhqw4TlA==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
