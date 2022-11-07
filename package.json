@@ -23,7 +23,7 @@
     "@smui/textfield": "6.1.4",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
-    "@tailwindcss/typography": "0.5.7",
+    "@tailwindcss/typography": "0.5.8",
     "autoprefixer": "10.4.13",
     "daisyui": "2.38.1",
     "fuse.js": "6.6.2",
