@@ -15,7 +15,7 @@ specifiers:
   '@sveltejs/kit': next
   '@tailwindcss/typography': 0.5.8
   autoprefixer: 10.4.13
-  daisyui: 2.41.0
+  daisyui: 2.42.0
   fuse.js: 6.6.2
   postcss: 8.4.19
   prettier: 2.8.0
@@ -41,10 +41,10 @@ devDependencies:
   '@smui/tab-bar': 6.1.4_7dvewpees4iyn2tkw2qzal77a4
   '@smui/textfield': 6.1.4_7dvewpees4iyn2tkw2qzal77a4
   '@sveltejs/adapter-auto': 1.0.0-next.89
-  '@sveltejs/kit': 1.0.0-next.559_svelte@3.53.1+vite@3.2.4
+  '@sveltejs/kit': 1.0.0-next.560_svelte@3.53.1+vite@3.2.4
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
   autoprefixer: 10.4.13_postcss@8.4.19
-  daisyui: 2.41.0_2lwn2upnx27dqeg6hqdu7sq75m
+  daisyui: 2.42.0_2lwn2upnx27dqeg6hqdu7sq75m
   fuse.js: 6.6.2
   postcss: 8.4.19
   prettier: 2.8.0
@@ -1272,8 +1272,8 @@ packages:
       import-meta-resolve: 2.1.0
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.559_svelte@3.53.1+vite@3.2.4:
-    resolution: {integrity: sha512-8Dx5w7O5LGbzzCQ0SG/1FI7cKtfsA1y0qr+mIfFHxb78oUW3P1h88Xs4nlrO7nJslaZ/BuBcj4yblMv1C5+rpQ==}
+  /@sveltejs/kit/1.0.0-next.560_svelte@3.53.1+vite@3.2.4:
+    resolution: {integrity: sha512-ldZJyd+jfQWVkOkRHq25cXMffhL5MgB1Uzhhw1ngF8ezB38P/g4T+5ohP8wuk2lxPJIjbY3S6BeXN5mod9XOhA==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -1525,8 +1525,8 @@ packages:
     hasBin: true
     dev: true
 
-  /daisyui/2.41.0_2lwn2upnx27dqeg6hqdu7sq75m:
-    resolution: {integrity: sha512-M/MPbTERJK4iBIXRGQpQdHTmy53HRqrgca4rsbPhio1Sqq0w2GH/RJSVX8b14hYB0E9E8R+t5bHIeqW1oHT97A==}
+  /daisyui/2.42.0_2lwn2upnx27dqeg6hqdu7sq75m:
+    resolution: {integrity: sha512-OCrpiKKzgLeWbEC8qykewAGKYTeRbnzdsKOICOwUlz/1eFz/2spgeNm62fDY5P9SsXKARTkAgf/J2NOA+1wngQ==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
