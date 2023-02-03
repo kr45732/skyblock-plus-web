@@ -10,16 +10,33 @@
   import LinearProgress from "@smui/linear-progress";
   import Fuse from "fuse.js";
   import { HelpData } from "../../components/HelpData.js";
+  import { page } from "$app/stores";
+  import { goto } from "$app/navigation";
 
-  let value = ""; // Search
+  let tabList = [
+    "General",
+    "Slayer",
+    "Skills",
+    "Dungeons",
+    "Guild",
+    "Price",
+    "Inventory",
+    "Miscellaneous",
+    "Party",
+    "Event",
+    "Settings"
+  ];
+
+  let value = $page.url.searchParams.get("command") || ""; // Search
   let commands = [];
-  let active = "General"; // Selected tab
+  let active =
+    new Fuse(tabList).search($page.url.searchParams.get("category") || "")[0]?.item || "General"; // Selected tab
   let loaded = false;
   let fuse;
   let commandIndex = []; // {name, index}
 
   $: filteredCommands =
-    value.length > 0
+    loaded && value.length > 0
       ? fuse.search(value).map((r) => commands[r.item.index])
       : commands.filter((command) => command?.getCategory?.() == active.toLowerCase());
 
@@ -63,6 +80,8 @@
       findAllMatches: true,
       keys: ["name"]
     });
+
+    goto($page.url.pathname);
     loaded = true;
   });
 </script>
@@ -80,23 +99,7 @@
   </Paper>
 
   <div class="px-3 pt-3">
-    <TabBar
-      tabs={[
-        "General",
-        "Slayer",
-        "Skills",
-        "Dungeons",
-        "Guild",
-        "Price",
-        "Inventory",
-        "Miscellaneous",
-        "Party",
-        "Event",
-        "Settings"
-      ]}
-      let:tab
-      bind:active
-    >
+    <TabBar tabs={tabList} let:tab bind:active>
       <Tab {tab}>
         <Label style="color: white;">{tab}</Label>
       </Tab>
