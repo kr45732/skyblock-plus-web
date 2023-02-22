@@ -59,11 +59,10 @@
       return out;
     }
 
-    const response = await fetch("https://api.skyblock-plus.ml/commands");
-    let preCommands = JSON.parse((await response.json()).contents);
+    const response = await (await fetch("https://api.skyblock-plus.ml/commands")).json();
 
     let mappedCommands = [];
-    for (const command of preCommands) {
+    for (const command of response) {
       mappedCommands.push(mapCommands(HelpData.from(command)));
     }
     for (const command of mappedCommands) {
