@@ -59,9 +59,7 @@
       return out;
     }
 
-    const response = await fetch(
-      "https://api.allorigins.win/get?url=https://skyblock-plus.ml/api/public/get/commands"
-    );
+    const response = await fetch("https://api.skyblock-plus.ml/commands");
     let preCommands = JSON.parse((await response.json()).contents);
 
     let mappedCommands = [];

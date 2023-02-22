@@ -5,9 +5,7 @@
   let stats = {};
 
   onMount(async () => {
-    const response = await fetch(
-      "https://api.allorigins.win/get?url=https://skyblock-plus.ml/api/public/get/stats"
-    );
+    const response = await fetch("https://api.skyblock-plus.ml/stats");
     const unparsed_json = await response.json();
     stats = JSON.parse(unparsed_json.contents);
   });
