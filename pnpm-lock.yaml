@@ -1,10 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@smui/button': 7.0.0-beta.0
-  '@smui/common': 7.0.0-beta.0
   '@smui/data-table': 7.0.0-beta.0
-  '@smui/fab': 7.0.0-beta.0
   '@smui/linear-progress': 7.0.0-beta.0
   '@smui/paper': 7.0.0-beta.0
   '@smui/tab': 7.0.0-beta.0
@@ -24,15 +21,12 @@ specifiers:
   svelte-material-ui: 7.0.0-beta.0
   svelte-preprocess: 5.0.1
   tailwindcss: 3.2.7
-  tslib: 2.5.0
+  tslib: ^2.5.0
   typescript: 4.9.5
   vite: 4.1.4
 
 devDependencies:
-  '@smui/button': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
-  '@smui/common': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
   '@smui/data-table': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
-  '@smui/fab': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
   '@smui/linear-progress': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
   '@smui/paper': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
   '@smui/tab': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
