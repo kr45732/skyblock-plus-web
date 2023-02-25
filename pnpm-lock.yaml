@@ -5,7 +5,6 @@ specifiers:
   '@smui/common': 7.0.0-beta.0
   '@smui/data-table': 7.0.0-beta.0
   '@smui/fab': 7.0.0-beta.0
-  '@smui/layout-grid': 7.0.0-beta.0
   '@smui/linear-progress': 7.0.0-beta.0
   '@smui/paper': 7.0.0-beta.0
   '@smui/tab': 7.0.0-beta.0
@@ -34,7 +33,6 @@ devDependencies:
   '@smui/common': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
   '@smui/data-table': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
   '@smui/fab': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
-  '@smui/layout-grid': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
   '@smui/linear-progress': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
   '@smui/paper': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa
   '@smui/tab': 7.0.0-beta.0_4x7phaipmicbaooxtnresslofa

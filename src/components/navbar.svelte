@@ -12,6 +12,15 @@
       <a class="btn btn-ghost btn-sm rounded-btn font-bold hover:opacity-75" href="features">
         Features
       </a>
+      <a class="btn btn-ghost btn-sm rounded-btn font-bold hover:opacity-75" href="linked-roles">
+        Linked Roles
+      </a>
+      <a
+        class="btn btn-ghost btn-sm rounded-btn font-bold hover:opacity-75"
+        href="https://dsc.gg/sb+"
+      >
+        Invite
+      </a>
       <a
         class="btn btn-ghost btn-sm rounded-btn font-bold hover:opacity-75"
         href="https://dsc.gg/skyblock-plus"

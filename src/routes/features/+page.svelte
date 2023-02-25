@@ -1,16 +1,45 @@
 <script type="ts">
   import Navbar from "../../components/navbar.svelte";
   import Footer from "../../components/footer.svelte";
-  import LayoutGrid, { Cell } from "@smui/layout-grid";
 
-  // apply, event, verify
+  // guild roles/ranks
   let featureList = [
+    {
+      title: "Automatic Applications",
+      description: "System that automatically manages guild applications.",
+      commands:
+        "- /setup\n- /settings guild create\n- /settings guild <name> apply enable\n- /settings guild <name> apply message <message>\n- /settings guild <name> apply channel <#channel>\n- /settings guild <name> apply category <category>\n- /settings guild <name> apply accept_message <message>\n- /settings guild <name> apply deny_message <message>\n- /settings guild <name> apply staff_channel <#channel>\n- /settings guild <name> apply staff_roles add <@role>",
+      images: ["apply.png", "apply1.png", "apply2.png", "apply3.png"]
+    },
+    {
+      title: "Automatic Verification",
+      description:
+        "System that manages verification of members automatically. Can be configured to update verified roles, nickname, verify remove role, and more.",
+      commands:
+        "- /setup\n- /settings verify enable\n- /settings verify message <message>\n- /settings verify role add <@role>\n- /settings verify channel <#channel>\n- /settings verify nickname [prefix] [IGN] [postfix]\n- /settings verify remove_role <@role>",
+      images: ["verification.png", "verification1.png"]
+    },
+    {
+      title: "Automatic Skyblock Roles",
+      description:
+        "System that automatically skyblock roles. Can be configured with over 40 different type of roles!",
+      commands:
+        "- /setup\n- /settings roles enable\n- /settings roles add <role_name> <value> <@role>\n- /settings roles set <role_name> <@role>\n- /settings roles use_highest <enable|disable>",
+      images: ["roles.png", "roles1.png"]
+    },
+    {
+      title: "Skyblock Event",
+      description:
+        "Create Skyblock competitions in skills, slayers, dungeons, collections, and more! Can be configured to set the required guild, prizes, minimum amount, maximum amount, required roles, and more.",
+      commands: "- /event create\n- /event join [profile]\n- /event leaderboard",
+      images: ["event.png", "event1.png"]
+    },
     {
       title: "Farming Contests",
       description:
         "Get notifications five minutes before a farming contest starts with the crops of the contest.",
       commands:
-        "- /settings jacob enable\n- /settings jacob disable\n- /settings jacob channel <#channel>\n- /settings jacob add <crop>\n- /settings jacob remove <crop>\n- /jacob",
+        "- /settings jacob enable\n- /settings jacob channel <#channel>\n- /settings jacob add <crop|all> [@role]\n- /jacob",
       images: ["farming.png", "farming1.png"]
     },
     {
@@ -19,7 +48,7 @@
         "A live view of the current election. Shows perks, vote count, and a graph of the vote counts. Sends notifications when the election closes.",
       commands:
         "- /settings set mayor_channel <#channel>\n- /settings set mayor_ping <@role>\n- /mayor",
-      images: ["mayor.png", "mayor2.png", "mayor3.png"]
+      images: ["mayor.png", "mayor1.png"]
     },
     {
       title: "Fetchur Notifications",
@@ -52,23 +81,23 @@
     <hr />
     {#each featureList as feature}
       <div class="feature">
-        <LayoutGrid>
-          <Cell spanDevices={{ desktop: 6, tablet: 4, phone: 2 }}>
-            <div class="feature-title">{feature.title}</div>
-            <div class="feature-description">
-              {feature.description}
-            </div>
-            <div class="feature-commands">
-              {feature.commands}
-            </div>
-          </Cell>
+        <div class="feature-text">
+          <div class="feature-title">
+            <a href="commands?category=settings">{feature.title}</a>
+          </div>
+          <div class="feature-description">
+            {feature.description}
+          </div>
+          <div class="feature-commands">
+            {feature.commands}
+          </div>
+        </div>
+
+        <div class="feature-images">
           {#each feature.images as image}
-            <Cell spanDevices={{ desktop: 6, tablet: 4, phone: 2 }}>
-              <img src="features/{image}" alt={image} />
-            </Cell>
-            <Cell spanDevices={{ desktop: 6, tablet: 4, phone: 2 }} />
+            <img src="features/{image}" alt={image} />
           {/each}
-        </LayoutGrid>
+        </div>
       </div>
       <hr />
     {/each}
@@ -81,22 +110,31 @@
   @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
   img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    /* padding-bottom: 0px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px; */
+    padding: 10px;
   }
+
+  .feature-text {
+    width: 60%;
+    float: left;
+  }
+
+  .feature-images {
+    width: 40%;
+    float: right;
+    padding-left: 100px;
+    text-align: right;
+  }
+
+  .feature {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: auto;
+  }
+
   .features {
-    width: 100%;
     padding-right: 200px;
     padding-left: 200px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
   }
   .feature-commands {
     margin-top: 15px;
@@ -117,6 +155,7 @@
   hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.26);
+    border-top: 5px solid rgba(255, 255, 255, 0.26);
+    border-style: dotted;
   }
 </style>
