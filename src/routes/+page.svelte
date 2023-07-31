@@ -5,7 +5,7 @@
   let stats = {};
 
   onMount(async () => {
-    stats = await (await fetch("https://api.skyblock-plus.ml/stats")).json();
+    stats = await (await fetch("https://api.sbplus.codes/stats")).json();
   });
 </script>
 

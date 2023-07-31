@@ -59,7 +59,7 @@
       return out;
     }
 
-    const response = await (await fetch("https://api.skyblock-plus.ml/commands")).json();
+    const response = await (await fetch("https://api.sbplus.codes/commands")).json();
 
     let mappedCommands = [];
     for (const command of response) {

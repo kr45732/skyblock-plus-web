@@ -56,10 +56,10 @@
           To create a Linked role, head into Server Settings > Linked Roles. Select the linked role
           you just created and follow the instructions to connect your Discord account to Skyblock
           Plus. Note that you will be redirected outside of Discord to
-          <a href="https://verify.skyblock-plus.ml/">https://verify.skyblock-plus.ml/</a>. The bot
-          will <b>NEVER</b> ask you to connect your Microsoft account so don't fall for those kind of
-          verification scams! One you complete all the steps and meet any set requirements, you will
-          have the linked role!
+          <a href="https://verify.sbplus.codes/">https://verify.sbplus.codes/</a>. The bot will
+          <b>NEVER</b> ask you to connect your Microsoft account so don't fall for those kind of verification
+          scams! One you complete all the steps and meet any set requirements, you will have the linked
+          role!
         </div>
       </div>
 
