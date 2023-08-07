@@ -35,5 +35,8 @@
     "typescript": "4.9.5",
     "vite": "4.1.4"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "flowbite": "^1.8.1"
+  }
 }

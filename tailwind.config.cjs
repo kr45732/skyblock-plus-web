@@ -1,5 +1,5 @@
 const config = {
-  content: ["./src/**/*.{html,js,svelte,ts}"],
+  content: ["./src/**/*.{html,js,svelte,ts}", "./node_modules/flowbite/**/*.js"],
   theme: {
     extend: {
       colors: {
@@ -13,7 +13,7 @@ const config = {
     themes: false,
     utils: false
   },
-  plugins: [require("daisyui"), require('@tailwindcss/typography')]
+  plugins: [require("daisyui"), require('@tailwindcss/typography'), require('flowbite/plugin')]
 };
 
 module.exports = config;

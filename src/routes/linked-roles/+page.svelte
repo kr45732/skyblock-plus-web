@@ -100,26 +100,41 @@
   }
 
   .feature-text {
-    width: 60%;
-    float: left;
+    flex: 1.2;
   }
 
   .feature-images {
-    width: 40%;
-    float: right;
+    flex: 0.8;
     padding-left: 100px;
     text-align: right;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .feature-images {
+      padding-top: 15px;
+      padding-left: 0px;
+      align-self: center;
+    }
+
+    .feature-text {
+      width: 100%;
+    }
+
+    .feature {
+      flex-direction: column;
+    }
   }
 
   .feature {
     padding-top: 10px;
     padding-bottom: 10px;
     overflow: auto;
+    display: flex;
   }
 
   .features {
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 15%;
+    padding-left: 15%;
     margin-bottom: 100px;
   }
   .feature-title {
