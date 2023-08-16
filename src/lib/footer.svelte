@@ -1,4 +1,4 @@
-<footer class="items-center p-6 footer bg-footer bottom-0 fixed">
+<footer class="items-center p-6 footer bg-zinc-900 bottom-0 fixed">
   <div class="items-center grid-flow-col">
     <svg
       width="36"
@@ -14,13 +14,21 @@
       />
     </svg>
     <p class="subpixel-antialiased font-semibold font-lg">
-      Copyright © 2022 SkyBlockPlus - All right reserved
+      Copyright © 2021 - 2023 SkyBlockPlus - All right reserved
     </p>
   </div>
-  <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end ">
-    <a href="privacy-policy" class="subpixel-antialiased font-bold font-lg hover:opacity-75">
+  <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+    <a
+      href="privacy-policy"
+      class="subpixel-antialiased font-bold font-lg hover:opacity-75"
+    >
       Privacy Policy
     </a>
-    <a href="tos" class="subpixel-antialiased font-bold font-lg mr-10 hover:opacity-75"> TOS </a>
+    <a
+      href="tos"
+      class="subpixel-antialiased font-bold font-lg mr-10 hover:opacity-75"
+    >
+      TOS
+    </a>
   </div>
 </footer>

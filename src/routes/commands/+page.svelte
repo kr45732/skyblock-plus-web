@@ -1,6 +1,6 @@
 <script>
-  import Navbar from "../../components/navbar.svelte";
-  import Footer from "../../components/footer.svelte";
+  import Navbar from "../../lib/navbar.svelte";
+  import Footer from "../../lib/footer.svelte";
   import { onMount } from "svelte";
   import Tab, { Label } from "@smui/tab";
   import TabBar from "@smui/tab-bar";
@@ -9,7 +9,7 @@
   import DataTable, { Head, Body, Row, Cell } from "@smui/data-table";
   import LinearProgress from "@smui/linear-progress";
   import Fuse from "fuse.js";
-  import { HelpData } from "../../components/HelpData.js";
+  import { HelpData } from "../../lib/HelpData.js";
   import { page } from "$app/stores";
   import { goto } from "$app/navigation";
 
@@ -24,13 +24,14 @@
     "Miscellaneous",
     "Party",
     "Event",
-    "Settings"
+    "Settings",
   ];
 
   let value = $page.url.searchParams.get("command") || ""; // Search
   let commands = [];
   let active =
-    new Fuse(tabList).search($page.url.searchParams.get("category") || "")[0]?.item || "General"; // Selected tab
+    new Fuse(tabList).search($page.url.searchParams.get("category") || "")[0]
+      ?.item || "General"; // Selected tab
   let loaded = false;
   let fuse;
   let commandIndex = []; // {name, index}
@@ -38,13 +39,17 @@
   $: filteredCommands =
     loaded && value.length > 0
       ? fuse.search(value).map((r) => commands[r.item.index])
-      : commands.filter((command) => command?.getCategory?.() == active.toLowerCase());
+      : commands.filter(
+          (command) => command?.getCategory?.() == active.toLowerCase()
+        );
 
   onMount(async () => {
     function mapCommands(command) {
       let subcommandsProcessed = [];
       for (const subcommand of command?.subcommands) {
-        subcommandsProcessed.push(mapCommands(HelpData.from(subcommand).setSuperCommand(command)));
+        subcommandsProcessed.push(
+          mapCommands(HelpData.from(subcommand).setSuperCommand(command))
+        );
       }
       return command.addSubcommands(subcommandsProcessed);
     }
@@ -59,7 +64,9 @@
       return out;
     }
 
-    const response = await (await fetch("https://api.sbplus.codes/commands")).json();
+    const response = await (
+      await fetch("https://api.sbplus.codes/commands")
+    ).json();
 
     let mappedCommands = [];
     for (const command of response) {
@@ -75,7 +82,7 @@
 
     fuse = new Fuse(commandIndex, {
       findAllMatches: true,
-      keys: ["name"]
+      keys: ["name"],
     });
 
     goto($page.url.pathname);
@@ -88,7 +95,7 @@
   href="https://cdn.jsdelivr.net/npm/svelte-material-ui@6.0.0-beta.14/bare.min.css"
 />
 
-<div class="bg-zinc-900 h-screen text-white overflow-scroll">
+<div class="bg-zinc-900 h-screen text-white overflow-auto no-scrollbar">
   <Navbar />
 
   <Paper class="solo-paper" elevation={6} style="background-color: #292d2e;">
@@ -119,13 +126,22 @@
         {#each filteredCommands as command}
           <Row>
             <Cell class="mdc-data-table__cell">{command?.getName?.()}</Cell>
-            <Cell class="mdc-data-table__cell">{command?.getDescription?.()}</Cell>
-            <Cell class="mdc-data-table__cell">{command?.getUsageFormatted?.()}</Cell>
+            <Cell class="mdc-data-table__cell"
+              >{command?.getDescription?.()}</Cell
+            >
+            <Cell class="mdc-data-table__cell"
+              >{command?.getUsageFormatted?.()}</Cell
+            >
           </Row>
         {/each}
       </Body>
 
-      <LinearProgress indeterminate bind:closed={loaded} aria-label="Loading..." slot="progress" />
+      <LinearProgress
+        indeterminate
+        bind:closed={loaded}
+        aria-label="Loading..."
+        slot="progress"
+      />
     </DataTable>
   </div>
 

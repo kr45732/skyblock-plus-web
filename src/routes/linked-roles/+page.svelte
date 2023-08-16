@@ -1,6 +1,6 @@
 <script type="ts">
-  import Navbar from "../../components/navbar.svelte";
-  import Footer from "../../components/footer.svelte";
+  import Navbar from "../../lib/navbar.svelte";
+  import Footer from "../../lib/footer.svelte";
 </script>
 
 <link
@@ -8,7 +8,7 @@
   href="https://cdn.jsdelivr.net/npm/svelte-material-ui@6.0.0-beta.14/bare.min.css"
 />
 
-<div class="bg-zinc-900 h-screen text-white overflow-scroll">
+<div class="bg-zinc-900 h-screen text-white overflow-auto no-scrollbar">
   <Navbar />
 
   <div class="features">
@@ -17,11 +17,13 @@
       <div class="feature-text">
         <div class="feature-title">What Are Linked Roles?</div>
         <div class="feature-description">
-          <a href="https://support.discord.com/hc/en-us/articles/8063233404823">Linked roles</a> alow
-          server members to connect to their favorite applications to display even more details about
-          those applications. They are similar to auto-roles or reaction-roles but allow the display
-          of more information! For this bot, linked roles can be used as a verified role, different statistic
-          requirements, or just to display statistics about a player.
+          <a href="https://support.discord.com/hc/en-us/articles/8063233404823"
+            >Linked roles</a
+          > alow server members to connect to their favorite applications to display
+          even more details about those applications. They are similar to auto-roles
+          or reaction-roles but allow the display of more information! For this bot,
+          linked roles can be used as a verified role, different statistic requirements,
+          or just to display statistics about a player.
         </div>
       </div>
 
@@ -35,11 +37,13 @@
       <div class="feature-text">
         <div class="feature-title">Creating Linked Roles</div>
         <div class="feature-description">
-          To create a Linked role, head into Server Settings > Roles > Create new role > Links.
-          After creating a new role or choosing an existing role, you will see a new tab at the top
-          labeled Links. Press on add requirement and select Skyblock Plus. Now you can choose what
-          requirements a member must have (if any). All four statistics & verified will also be
-          shown under application connections on your profile.
+          To create a Linked role, head into Server Settings > Roles > Create
+          new role > Links. After creating a new role or choosing an existing
+          role, you will see a new tab at the top labeled Links. Press on add
+          requirement and select Skyblock Plus. Now you can choose what
+          requirements a member must have (if any). All four statistics &
+          verified will also be shown under application connections on your
+          profile.
         </div>
       </div>
 
@@ -53,13 +57,15 @@
       <div class="feature-text">
         <div class="feature-title">Obtaining Linked Roles</div>
         <div class="feature-description">
-          To create a Linked role, head into Server Settings > Linked Roles. Select the linked role
-          you just created and follow the instructions to connect your Discord account to Skyblock
-          Plus. Note that you will be redirected outside of Discord to
-          <a href="https://verify.sbplus.codes/">https://verify.sbplus.codes/</a>. The bot will
-          <b>NEVER</b> ask you to connect your Microsoft account so don't fall for those kind of verification
-          scams! One you complete all the steps and meet any set requirements, you will have the linked
-          role!
+          To create a Linked role, head into Server Settings > Linked Roles.
+          Select the linked role you just created and follow the instructions to
+          connect your Discord account to Skyblock Plus. Note that you will be
+          redirected outside of Discord to
+          <a href="https://verify.sbplus.codes/">https://verify.sbplus.codes/</a
+          >. The bot will
+          <b>NEVER</b> ask you to connect your Microsoft account so don't fall for
+          those kind of verification scams! One you complete all the steps and meet
+          any set requirements, you will have the linked role!
         </div>
       </div>
 
@@ -74,10 +80,11 @@
       <div class="feature-text">
         <div class="feature-title">Linked Role Features</div>
         <div class="feature-description">
-          You will now be able to see the linked role on your profile. For channels that have a
-          linked role as a permission override, you will be able to see a tag in the chat. You can
-          also see if a member is verified, their statistics, and Skyblock profile. Feel free to
-          contact me if you have any questions, concerns, or comments!
+          You will now be able to see the linked role on your profile. For
+          channels that have a linked role as a permission override, you will be
+          able to see a tag in the chat. You can also see if a member is
+          verified, their statistics, and Skyblock profile. Feel free to contact
+          me if you have any questions, concerns, or comments!
         </div>
       </div>
 
