@@ -36,6 +36,7 @@
     <NavLi href="/linked-roles">Linked Roles</NavLi>
     <NavLi href="https://dsc.gg/sb+">Invite</NavLi>
     <NavLi href="https://dsc.gg/skyblock-plus">Discord</NavLi>
+    <NavLi href="https://github.com/kr45732">GitHub</NavLi>
     <NavLi href="https://www.patreon.com/skyblock_plus">Pateron</NavLi>
   </NavUl>
 </Navbar>

@@ -75,7 +75,9 @@
   href="https://cdn.jsdelivr.net/npm/svelte-material-ui@6.0.0-beta.14/bare.min.css"
 />
 
-<div class="bg-zinc-900 h-screen text-white overflow-auto no-scrollbar">
+<div
+  class="bg-zinc-900 h-screen text-white overflow-auto no-scrollbar scroll-smooth"
+>
   <Navbar />
 
   <div class="features">
