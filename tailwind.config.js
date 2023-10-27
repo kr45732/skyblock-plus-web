@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require('flowbite/plugin'), require("daisyui"),
+  plugins: [require('flowbite/plugin'), require("daisyui"), require('@tailwindcss/typography'),
   plugin(function ({ addUtilities }) {
     addUtilities({
       '.no-scrollbar::-webkit-scrollbar': {
