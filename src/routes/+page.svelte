@@ -23,7 +23,7 @@
                     </p>
                     <button
                         class="btn bg-red-700 hover:bg-red-600 border-red-700 hover:border-red-600 text-white"
-                        ><a href="https://dsc.gg/sb+">Invite Me</a></button
+                        ><a href="/invite">Invite Me</a></button
                     >
                     <div
                         class="flex justify-center mb-0 p-12 grid-flow-row space-x-14"

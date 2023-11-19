@@ -1,7 +1,7 @@
 <script>
-  import { onMount } from "svelte";
+  import { beforeUpdate } from "svelte";
 
-  onMount(async () => {
+  beforeUpdate(async () => {
     window.location.replace("https://dsc.gg/sb+");
   });
 </script>
