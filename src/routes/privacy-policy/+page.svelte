@@ -86,6 +86,6 @@
         >CrypticPlasma#0820</a
       >
     </li>
-    <li>Server | <a href="/invite">Discord Invite</a></li>
+    <li>Server | <a href="/support">Discord Invite</a></li>
   </ul>
 </div>
