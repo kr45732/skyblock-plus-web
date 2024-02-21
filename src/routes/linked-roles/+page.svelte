@@ -37,8 +37,8 @@
       <div class="feature-text">
         <div class="feature-title">Creating Linked Roles</div>
         <div class="feature-description">
-          To create a Linked role, head into Server Settings > Roles > Create
-          new role > Links. After creating a new role or choosing an existing
+          To create a linked role, head into Server Settings > Roles > Create
+          new role. After creating a new role or choosing an existing
           role, you will see a new tab at the top labeled Links. Press on add
           requirement and select Skyblock Plus. Now you can choose what
           requirements a member must have (if any). All four statistics &
@@ -57,7 +57,7 @@
       <div class="feature-text">
         <div class="feature-title">Obtaining Linked Roles</div>
         <div class="feature-description">
-          To create a Linked role, head into Server Settings > Linked Roles.
+          To obtain a linked role, head into Server Settings > Linked Roles.
           Select the linked role you just created and follow the instructions to
           connect your Discord account to Skyblock Plus. Note that you will be
           redirected outside of Discord to
