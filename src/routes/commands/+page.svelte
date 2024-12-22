@@ -65,7 +65,7 @@
     }
 
     const response = await (
-      await fetch("https://api.sbplus.codes/commands")
+      await fetch("commands.json")
     ).json();
 
     let mappedCommands = [];
