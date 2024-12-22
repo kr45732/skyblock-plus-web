@@ -1,0 +1,1801 @@
+[
+  {
+    "name": "help",
+    "description": "Show the help menu with all commands or a specific command.",
+    "usage": "help [command]",
+    "examples": [
+      "help",
+      "help settings guild create"
+    ],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "general"
+  },
+  {
+    "name": "information",
+    "description": "Get information about the bot.",
+    "usage": "information",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "general"
+  },
+  {
+    "name": "invite",
+    "description": "Get the invite link and support server link for the bot.",
+    "usage": "invite",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "general"
+  },
+  {
+    "name": "link",
+    "description": "Link your Hypixel account to the bot.",
+    "usage": "link <player>",
+    "examples": [
+      "link CrypticPlasma"
+    ],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "general"
+  },
+  {
+    "name": "unlink",
+    "description": "Unlink your account from the bot.",
+    "usage": "unlink",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "general"
+  },
+  {
+    "name": "vote",
+    "description": "Get links to upvote the bot.",
+    "usage": "vote",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "general"
+  },
+  {
+    "name": "slayer",
+    "description": "Get a player's slayer data.",
+    "usage": "slayer [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "slayer"
+  },
+  {
+    "name": "calcslayer",
+    "description": "Calculate the number of slayer bosses needed to reach a certain level or xp amount.",
+    "usage": "calcslayer <type> [player] [profile] [level] [xp] [system]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "slayer"
+  },
+  {
+    "name": "skills",
+    "description": "Get a player's skill data.",
+    "usage": "skills [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "skills"
+  },
+  {
+    "name": "hotm",
+    "description": "Get a player's heart of the mountain statistics.",
+    "usage": "hotm [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "skills"
+  },
+  {
+    "name": "forge",
+    "description": "Get a player's forge items and ending times.",
+    "usage": "forge [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "skills"
+  },
+  {
+    "name": "crimson",
+    "description": "Get a player's crimson isle statistics.",
+    "usage": "crimson [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "skills"
+  },
+  {
+    "name": "dungeons",
+    "description": "Get a player's dungeon data.",
+    "usage": "dungeons [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "dungeons"
+  },
+  {
+    "name": "essence",
+    "description": "Main essence command.",
+    "usage": "essence",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "upgrade",
+        "description": "Interactive message to calculate the amount of essence and items to upgrade an item.",
+        "usage": "upgrade <item>",
+        "examples": [
+          "upgrade Hyperion"
+        ],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "information",
+        "description": "Get the amount of essence and items to upgrade an item for each level.",
+        "usage": "information <item>",
+        "examples": [
+          "information Hyperion"
+        ],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "player",
+        "description": "Get a player's essence amounts and essence shop upgrades.",
+        "usage": "player [player] [profile]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "category": "dungeons"
+  },
+  {
+    "name": "calcruns",
+    "description": "Calculate the number of runs needed to reach a certain catacombs level.",
+    "usage": "calcruns <level> <floor> [player] [profile] [system]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "dungeons"
+  },
+  {
+    "name": "calcdrops",
+    "description": "Calculate the drop rate and cost of all chests for a dungeons floor or for an item.",
+    "usage": "calcdrops <floor> [item] [luck] [accessory]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "dungeons"
+  },
+  {
+    "name": "guild",
+    "description": "Main guild command",
+    "usage": "guild",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "information",
+        "description": "Get information and statistics about a guild.",
+        "usage": "information [player] [guild]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "members",
+        "description": "List all members in a guild.",
+        "usage": "members [player] [guild]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "experience",
+        "description": "Get the experience leaderboard for a guild. Defaults to seven days.",
+        "usage": "experience [player] [guild] [days]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "leaderboard",
+        "description": "Get a leaderboard for a guild.",
+        "usage": "leaderboard <type> [player] [guild] [gamemode]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "kicker",
+        "description": "Get all player's who don't meet the provided requirements. Requirements are in the format `[type:value ...] ...`. The requirement type can be skills, slayer, catacombs, weight, or level. The requirement value must be an integer. Requirements inside the brackets require at least one to be met, while outside require all to be met.",
+        "usage": "kicker <requirements...> [player] [gamemode]",
+        "examples": [
+          "kicker [level:300] [skills:40]",
+          "kicker [level:200 slayer:2000000] [level:300]"
+        ],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "top",
+        "description": "Get a guild's average and top 5 leaderboards of slayer, skills, catacombs, weight, networth, and level.",
+        "usage": "top [player] [guild] [gamemode]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "check",
+        "description": "A customizable helper that will tell you who to kick, promote or demote in your Hypixel guild based on numerical requirements. Please join the [Skyblock Plus Discord](https://discord.gg/Z4Fn3eNDXT) and mention CrypticPlasma to setup this for your guild.",
+        "usage": "check <player> [gamemode]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "category": "guild"
+  },
+  {
+    "name": "guildlb",
+    "description": "Get a global guild leaderboard.",
+    "usage": "guildlb <type> [guild] [mode] [comparison]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "guild"
+  },
+  {
+    "name": "auctions",
+    "description": "Get and/or track a player's unclaimed auctions on all profiles. Set verbose to true to show an estimated price breakdown for each auction.",
+    "usage": "auctions [player] [filter] [sort] [verbose]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "price"
+  },
+  {
+    "name": "viewauction",
+    "description": "Get information about an auction by it's UUID.",
+    "usage": "viewauction <uuid>",
+    "examples": [
+      "viewauction 77df55d9c0084473b113265ef48fb396"
+    ],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "price"
+  },
+  {
+    "name": "bin",
+    "description": "Get the lowest bin of an item.",
+    "usage": "bin <item>",
+    "examples": [
+      "bin Wither Chestplate"
+    ],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "price"
+  },
+  {
+    "name": "attributes",
+    "description": "Get the lowest priced attribute combination for an item.",
+    "usage": "attributes <item> <attribute_one> <attribute_two>",
+    "examples": [
+      "bin Aurora Boots Mana Pool Mana Regeneration"
+    ],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "price"
+  },
+  {
+    "name": "bazaar",
+    "description": "Get the bazaar prices of an item.",
+    "usage": "bazaar <item>",
+    "examples": [
+      "bazaar Booster Cookie"
+    ],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "price"
+  },
+  {
+    "name": "average",
+    "description": "Get the average auction and bin price of an item.",
+    "usage": "average <item>",
+    "examples": [
+      "average Necron's Handle"
+    ],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "price"
+  },
+  {
+    "name": "bids",
+    "description": "Get a player's auction house bids",
+    "usage": "bids [player]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "price"
+  },
+  {
+    "name": "price",
+    "description": "Query the auction house for the lowest prices of an item. Allows for more specific queries than bin or average command. Defaults to searching auctions and bins.",
+    "usage": "price <item> [type]",
+    "examples": [
+      "price Necron's Chestplate ✪✪✪✪✪"
+    ],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "price"
+  },
+  {
+    "name": "bits",
+    "description": "Get the coins to bits ratio for items in the bits shop.",
+    "usage": "bits",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "price"
+  },
+  {
+    "name": "copper",
+    "description": "Get the coins to copper ratio for items in the SkyMart shop.",
+    "usage": "copper",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "price"
+  },
+  {
+    "name": "flips",
+    "description": "Get current auction flips (**experimental**).",
+    "usage": "flips",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "price"
+  },
+  {
+    "name": "inventory",
+    "description": "Main inventory command.",
+    "usage": "inventory",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "emoji",
+        "description": "Get a player's inventory represented in emojis.",
+        "usage": "emoji [player] [profile]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "list",
+        "description": "Get a player's inventory with lore.",
+        "usage": "list [player] [profile] [slot]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "category": "inventory"
+  },
+  {
+    "name": "museum",
+    "description": "Main museum command.",
+    "usage": "museum",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "view",
+        "description": "View a player's museum items.",
+        "usage": "view [player] [profile]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "cheapest",
+        "description": "Get the cheapest items to donate to a player's museum.",
+        "usage": "cheapest [player] [profile]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "category": "inventory"
+  },
+  {
+    "name": "armor",
+    "description": "Main armor command.",
+    "usage": "armor",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "emoji",
+        "description": "Get a player's armor and equipment represented in emojis.",
+        "usage": "emoji [player] [profile]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "list",
+        "description": "Get a player's armor and equipment with lore.",
+        "usage": "list [player] [profile] [slot]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "category": "inventory"
+  },
+  {
+    "name": "enderchest",
+    "description": "Main enderchest command.",
+    "usage": "enderchest",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "emoji",
+        "description": "Get a player's enderchest represented in emojis.",
+        "usage": "emoji [player] [profile]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "list",
+        "description": "Get a player's enderchest with lore.",
+        "usage": "list [player] [profile] [slot]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "category": "inventory"
+  },
+  {
+    "name": "storage",
+    "description": "Get a player's storage represented in emojis.",
+    "usage": "storage [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "inventory"
+  },
+  {
+    "name": "talisman",
+    "description": "Main talisman command.",
+    "usage": "talisman",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "emoji",
+        "description": "Get a player's talisman bag represented in emojis.",
+        "usage": "emoji [player] [profile]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "list",
+        "description": "Get a player's talisman bag with lore.",
+        "usage": "list [player] [profile] [slot]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "tuning",
+        "description": "Get a player's power stone stats and tuning stats",
+        "usage": "list [player] [profile]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "category": "inventory"
+  },
+  {
+    "name": "sacks",
+    "description": "Get a player's sacks content bag represented in a list and sorted by descending price. Costs can be calculated from (source) bazaar only, npc only, or npc and bazaar.",
+    "usage": "sacks [player] [profile] [source]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "inventory"
+  },
+  {
+    "name": "wardrobe",
+    "description": "Main wardrobe command.",
+    "usage": "wardrobe",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "emoji",
+        "description": "Get a player's wardrobe represented in emojis.",
+        "usage": "emoji [player] [profile]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "list",
+        "description": "Get a player's wardrobe with lore.",
+        "usage": "list [player] [profile] [slot]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "category": "inventory"
+  },
+  {
+    "name": "pets",
+    "description": "Get a player's pets and missing pets.",
+    "usage": "pets [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "inventory"
+  },
+  {
+    "name": "roles",
+    "description": "Main roles command.",
+    "usage": "roles",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "claim",
+        "description": "Claim your automatic Skyblock roles. You must be linked to the bot.",
+        "usage": "claim [profile]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "list",
+        "description": "List all claimable roles for this server.",
+        "usage": "list",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "coins",
+    "description": "Get a player's coins and bank history.",
+    "usage": "coins [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "networth",
+    "description": "Calculate a player's networth. Set verbose to true to get a detailed breakdown of the calculations.",
+    "usage": "networth [player] [profile] [verbose]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "weight",
+    "description": "Get a player's slayer, skills, dungeons, and total weight. Shows both Senither and Lily weight.",
+    "usage": "weight [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "calcweight",
+    "description": "Calculate predicted weight change for a reaching a skills, slayers, or dungeons level/amount.",
+    "usage": "calcweight <type> <amount> [player] [profile] [system]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "hypixel",
+    "description": "Get Hypixel information about a player.",
+    "usage": "hypixel [player]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "missing",
+    "description": "Get a player's missing talismans and cheapest ones to buy.",
+    "usage": "missing [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "checkapi",
+    "description": "Get a player's enabled and disabled Skyblock APIs",
+    "usage": "checkapi [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "cakes",
+    "description": "Get a player's active and inactive cake buffs.",
+    "usage": "cakes [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "bestiary",
+    "description": "Get a player's bestiary statistics.",
+    "usage": "bestiary [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "harp",
+    "description": "Get a player's harp statistics.",
+    "usage": "harp [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "checkreqs",
+    "description": "Check if a player meets any of the setup automated guild requirements.",
+    "usage": "checkreqs [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "uuid",
+    "description": "Convert username to UUID or UUID to username.",
+    "usage": "uuid [username|uuid]",
+    "examples": [
+      "uuid CrypticPlasma",
+      "uuid 044903b7a9d3416d957f929557af6c88"
+    ],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "fetchur",
+    "description": "Get today's fetchur item.",
+    "usage": "fetchur",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "level",
+    "description": "Get a player's skyblock level.",
+    "usage": "level [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "collections",
+    "description": "Get a player's collections.",
+    "usage": "collections [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "jacob",
+    "description": "Get the upcoming contests and their crops.",
+    "usage": "jacob [crop]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "mayor",
+    "description": "Get the current mayor and their perks.",
+    "usage": "mayor",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "leaderboard",
+    "description": "Get a global leaderboard.",
+    "usage": "leaderboard <type> [player] [gamemode] [page] [rank] [amount]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "serverlb",
+    "description": "Get a leaderboard for this server.",
+    "usage": "serverlb <type> [player] [gamemode]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "skyblock",
+    "description": "Get an overview of a player's Skyblock profiles",
+    "usage": "skyblock [player] [profile]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "bingo",
+    "description": "Get the current bingo goals and a player's live bingo card.",
+    "usage": "bingo [player]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "recipe",
+    "description": "Get the crafting recipe of an item.",
+    "usage": "recipe <item>",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "craft",
+    "description": "Calculate the cost of an item and added upgrades.",
+    "usage": "craft <item>",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "calendar",
+    "description": "Get the current Skyblock datetime and running or upcoming events",
+    "usage": "calendar",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "scammer",
+    "description": "Check if a player is marked as a scammer in the SkyblockZ database with the reason, Discords, and Minecraft alts",
+    "usage": "scammer [player]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "calcdrags",
+    "description": "Calculate your loot quality and predicted loot from dragons in the end. The ratio is your damage divided by first place damage.",
+    "usage": "calcdrags [position] [eyes] [ratio]",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "reforge",
+    "description": "Get the reforge stone stats for each rarity.",
+    "usage": "reforge <stone>",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "miscellaneous"
+  },
+  {
+    "name": "party",
+    "description": "Main party command.",
+    "usage": "party",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "create",
+        "description": "Interactive message to create a new party.",
+        "usage": "create",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "current",
+        "description": "Get information about your current party.",
+        "usage": "current",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "join",
+        "description": "Join a player's party by the party leader's IGN.",
+        "usage": "join <username>",
+        "examples": [
+          "join CrypticPlasma"
+        ],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "leave",
+        "description": "Leave your current party.",
+        "usage": "leave",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "list",
+        "description": "List all active parties",
+        "usage": "list",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "disband",
+        "description": "Disband your current party.",
+        "usage": "disband",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "kick",
+        "description": "Kick a member from your party",
+        "usage": "kick <username>",
+        "examples": [
+          "kick CrypticPlasma"
+        ],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "category": "party"
+  },
+  {
+    "name": "event",
+    "description": "Main event command.",
+    "usage": "event",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "create",
+        "description": "Interactive message to create a Skyblock event.",
+        "usage": "create",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "current",
+        "description": "Get information about the current event.",
+        "usage": "current",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "join",
+        "description": "Join the current event.",
+        "usage": "join",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "add",
+        "description": "Force add a player to the current event.",
+        "usage": "add <player> [profile]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "leave",
+        "description": "Leave the current event.",
+        "usage": "leave",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "remove",
+        "description": "Force remove a player from the current event.",
+        "usage": "remove <player>",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "leaderboard",
+        "description": "Get the leaderboard for current event.",
+        "usage": "leaderboard",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "end",
+        "description": "Force end the event. If silent is true, the event will be canceled and no prizes or winners will be announced.",
+        "usage": "end [silent]",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "category": "event"
+  },
+  {
+    "name": "settings",
+    "description": "Main settings command.",
+    "usage": "settings",
+    "examples": [],
+    "subcommands": [
+      {
+        "name": "general",
+        "description": "View general settings for this server.",
+        "usage": "general",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "reset",
+        "description": "Clear and reset the current server settings.",
+        "usage": "reset",
+        "examples": [],
+        "subcommands": [],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "set",
+        "description": "Set certain settings.",
+        "usage": "set",
+        "examples": [],
+        "subcommands": [
+          {
+            "name": "fetchur_channel",
+            "description": "Set the channel where fetchur notifications will be posted at 12 am EST every day.",
+            "usage": "fetchur_channel <#channel>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "fetchur_ping",
+            "description": "Set the role that will be pinged with the daily fetchur notifications.",
+            "usage": "fetchur_ping <@role>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "mayor_channel",
+            "description": "Set the channel where notifications will be sent when a new mayor is elected or perks rotate.",
+            "usage": "mayor_channel <#channel>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "mayor_ping",
+            "description": "Set the role that will be pinged with mayor notifications.",
+            "usage": "mayor_ping <@role>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "guest_role",
+            "description": "Set the role that will be given to linked users that are not in any of the setup automatic guilds. Requires at least one automatic guild to be setup.",
+            "usage": "guest_role <@role>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "sync_unlinked",
+            "description": "Enable or disable whether unlinked members should also be synced for verified roles, automatic roles, and guild roles during automatic updates.",
+            "usage": "sync_unlinked <enable|disable>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          }
+        ],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "bot_manager",
+        "description": "Manage bot manager roles.",
+        "usage": "bot_manager",
+        "examples": [],
+        "subcommands": [
+          {
+            "name": "add",
+            "description": "Add a bot manager role. This allows members with this role to use features that are admin only.",
+            "usage": "add <@role>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "remove",
+            "description": "Remove a bot manager role.",
+            "usage": "remove <@role>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          }
+        ],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "log",
+        "description": "Manage log settings.",
+        "usage": "log",
+        "examples": [],
+        "subcommands": [
+          {
+            "name": "channel",
+            "description": "Set the channel where events will be logged to.",
+            "usage": "channel <#channel>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "add",
+            "description": "Add a log event. Valid events are user_verify, guild_sync, and bot_permission_error.",
+            "usage": "add <event>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "remove",
+            "description": "Remove a log event.",
+            "usage": "remove <event>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          }
+        ],
+        "ignoreSuperCommand": false
+      },
+      {
+        "name": "blacklist",
+        "description": "View or manage the application blacklist for this server.",
+        "usage": "blacklist",
+        "examples": [],
+        "subcommands": [
+          {
+            "name": "add",
+            "description": "Add a player to the blacklist. Reason will default to 'not provided' if not set.",
+            "usage": "add <player> [reason]",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "ban",
+            "description": "Add a player to the blacklist and ban them from the server. Reason will default to 'not provided' if not set.",
+            "usage": "ban <player> <discord> [reason]",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "remove",
+            "description": "Remove a player from the blacklist.",
+            "usage": "remove <player>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "search",
+            "description": "Search for a player in the blacklist. Will show top five closest results.",
+            "usage": "search <player>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "share",
+            "description": "Share your blacklist with another server.",
+            "usage": "share <server_id>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "unshare",
+            "description": "Stop sharing your blacklist with another server.",
+            "usage": "unshare <server_id>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "use",
+            "description": "Use a shared blacklist from another server.",
+            "usage": "use <server_id>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "stop_using",
+            "description": "Stop using a shared blacklist from another server.",
+            "usage": "stop_using <server_id>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "enable",
+            "description": "Blacklisted people will not be able to use this feature. Feature can be verify or apply.",
+            "usage": "enable <feature>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "disable",
+            "description": "Blacklisted people will be able to use this feature.",
+            "usage": "disable <feature>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          }
+        ],
+        "ignoreSuperCommand": false,
+        "secondDescription": "Get a list of all the blacklisted players on this server with the reasons and NameMC links.",
+        "secondUsage": "blacklist"
+      },
+      {
+        "name": "jacob",
+        "description": "Main command for jacob event settings.",
+        "usage": "jacob",
+        "examples": [],
+        "subcommands": [
+          {
+            "name": "enable",
+            "description": "Enable farming event notifications.",
+            "usage": "enable",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "disable",
+            "description": "Disable farming event notifications.",
+            "usage": "disable",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "channel",
+            "description": "Set the channel where farming event notifications will be posted.",
+            "usage": "channel <#channel>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "add",
+            "description": "Add a crop to be tracked and notified.",
+            "usage": "add <crop|all> [role]",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "remove",
+            "description": "Remove a crop from the tracking list.",
+            "usage": "remove <crop>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          }
+        ],
+        "ignoreSuperCommand": false,
+        "secondDescription": "Get the current farming event settings for the bot.",
+        "secondUsage": "jacob"
+      },
+      {
+        "name": "event",
+        "description": "Main command for event notification settings.",
+        "usage": "event",
+        "examples": [],
+        "subcommands": [
+          {
+            "name": "enable",
+            "description": "Enable event notifications.",
+            "usage": "enable",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "disable",
+            "description": "Disable event notifications.",
+            "usage": "disable",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "add",
+            "description": "Add an event to be tracked and notified.",
+            "usage": "add <event|all> <#channel> [@role]",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "remove",
+            "description": "Remove an event from the tracking list.",
+            "usage": "remove <event>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          }
+        ],
+        "ignoreSuperCommand": false,
+        "secondDescription": "Get the current event notification settings for the bot.",
+        "secondUsage": "event"
+      },
+      {
+        "name": "verify",
+        "description": "Main command for verification settings.",
+        "usage": "verify",
+        "examples": [],
+        "subcommands": [
+          {
+            "name": "enable",
+            "description": "Enable automatic verify.",
+            "usage": "enable",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "disable",
+            "description": "Disable automatic verify.",
+            "usage": "disable",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "message",
+            "description": "The message that users will see when verifying.",
+            "usage": "message <message>",
+            "examples": [
+              "message Run /link <IGN> replacing IGN with your IGN to verify!"
+            ],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "roles",
+            "description": "Modify roles given on verification",
+            "usage": "roles",
+            "examples": [],
+            "subcommands": [
+              {
+                "name": "add",
+                "description": "Add a role that user will receive upon being verified. The role cannot be @everyone or a managed role. You can add a max of 5 roles.",
+                "usage": "add <@role>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": false
+              },
+              {
+                "name": "remove",
+                "description": "Remove a verify role.",
+                "usage": "remove <@role>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": false
+              }
+            ],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "channel",
+            "description": "The channel where the verify message and verify button will be sent.",
+            "usage": "channel <#channel>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "nickname",
+            "description": "The nickname template that a user will be renamed to on verifying. Can be set to none. Add .{text} for text that should only be added if the previous template was met. See example [here](https://discord.com/channels/796790757947867156/802749920679165994/937099157200580618).\n\nYou can use the following templates:\n• [GUILD.NAME]\n• [GUILD.TAG]\n• [GUILD.RANK]\n• [PLAYER.SKILLS]\n• [PLAYER.CATACOMBS]\n• [PLAYER.SLAYER]\n• [PLAYER.WEIGHT]\n• [PLAYER.CLASS]\n• [PLAYER.LEVEL]\n• [PLAYER.IRONMAN]\n• [PLAYER.EMBLEM]\n",
+            "usage": "nickname [prefix] [IGN] [postfix]",
+            "examples": [
+              "nickname Verified | [IGN]",
+              "nickname [[GUILD.RANK]] [IGN]"
+            ],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "remove_role",
+            "description": "Set the role that will be removed on verifying and re-added when un-verifying.",
+            "usage": "remove_role <@role>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "sync",
+            "description": "Enable or disable verification automatic sync. This will sync the verified role(s) and nickname when a user joins the server or every hour (up to 160 members per sync).",
+            "usage": "sync <enable|disable>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "dm_on_join",
+            "description": "Enable or disable verification automatic DM on join sync. This will toggle if a user should be messaged when their roles are synced on joining the server.",
+            "usage": "dm_on_join <enable|disable>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "roles_claim",
+            "description": "Enable or disable automatic roles claim sync. This is the same as running the roles claim command on joining/linking/verifying.",
+            "usage": "roles_claim <enable|disable>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          }
+        ],
+        "ignoreSuperCommand": false,
+        "secondDescription": "Get the current verification settings for the bot.",
+        "secondUsage": "verify"
+      },
+      {
+        "name": "roles",
+        "description": "Main command for automatic roles settings.",
+        "usage": "roles",
+        "examples": [],
+        "subcommands": [
+          {
+            "name": "enable",
+            "description": "Enable automatic roles.",
+            "usage": "enable",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "disable",
+            "description": "Disable automatic roles.",
+            "usage": "disable",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "add",
+            "description": "Add a new level to a role with its corresponding Discord role.",
+            "usage": "add <role_name> <value> <@role>",
+            "examples": [
+              "add wolf 400000 @wolf 8",
+              "add alchemy 50 @alchemy 50"
+            ],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "remove",
+            "description": "Remove a role level for a role.",
+            "usage": "remove <role_name> <value>",
+            "examples": [
+              "remove wolf 400000",
+              "remove alchemy 50"
+            ],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "use_highest",
+            "description": "Enable or disable using the highest values across all profile. Default is false",
+            "usage": "use_highest <enable|disable>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "sync",
+            "description": "Enable or disable automatic roles claim sync. This is the same as running `/roles claim` automatically every hour (up to 45 members will be updated per sync).",
+            "usage": "sync <enable|disable>",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          }
+        ],
+        "ignoreSuperCommand": false,
+        "secondDescription": "Get the current roles settings for the bot.",
+        "secondUsage": "roles"
+      },
+      {
+        "name": "guild",
+        "description": "Main command for automatic guild (application and guild role/ranks).",
+        "usage": "guild",
+        "examples": [],
+        "subcommands": [
+          {
+            "name": "create",
+            "description": "Create a new automatic guild for a guild.",
+            "usage": "create <name>",
+            "examples": [
+              "create my_guild"
+            ],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "remove",
+            "description": "Remove an automatic guild.",
+            "usage": "remove <name>",
+            "examples": [
+              "remove my_guild"
+            ],
+            "subcommands": [],
+            "ignoreSuperCommand": false
+          },
+          {
+            "name": "member_role",
+            "description": "Automatic guild member role.",
+            "usage": "settings guild <name> member_role",
+            "examples": [],
+            "subcommands": [
+              {
+                "name": "enable",
+                "description": "Enable automatic guild role.",
+                "usage": "enable",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": false
+              },
+              {
+                "name": "disable",
+                "description": "Disable automatic guild role.",
+                "usage": "disable",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": false
+              },
+              {
+                "name": "role",
+                "description": "Set the role to give guild members.",
+                "usage": "<@role>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": false
+              }
+            ],
+            "ignoreSuperCommand": true
+          },
+          {
+            "name": "ranks",
+            "description": "Automatic guild ranks.",
+            "usage": "settings guild <name> ranks",
+            "examples": [],
+            "subcommands": [
+              {
+                "name": "enable",
+                "description": "Enable automatic guild ranks.",
+                "usage": "enable",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": false
+              },
+              {
+                "name": "disable",
+                "description": "Disable automatic guild ranks.",
+                "usage": "disable",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": false
+              },
+              {
+                "name": "add",
+                "description": "Add a guild rank.",
+                "usage": "add <rank> <@role>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": false
+              },
+              {
+                "name": "remove",
+                "description": "Remove a guild rank.",
+                "usage": "remove <rank>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": false
+              }
+            ],
+            "ignoreSuperCommand": true
+          },
+          {
+            "name": "counter",
+            "description": "Enable or disable the guild member counter. This will create the voice channel to display the current guild member count and updates every hour.",
+            "usage": "settings guild <name> counter",
+            "examples": [],
+            "subcommands": [],
+            "ignoreSuperCommand": true
+          },
+          {
+            "name": "apply",
+            "description": "Automatic application system for this guild.",
+            "usage": "settings guild <name> apply",
+            "examples": [],
+            "subcommands": [
+              {
+                "name": "enable",
+                "description": "Enable automatic apply.",
+                "usage": "settings guild <name> apply enable",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "disable",
+                "description": "Disable automatic apply.",
+                "usage": "settings guild <name> apply disable",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "close",
+                "description": "Close automatic apply. Disables the button to create a new application.",
+                "usage": "settings guild <name> apply close",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "open",
+                "description": "Re-enable the button to create a new application.",
+                "usage": "settings guild <name> apply open",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "message",
+                "description": "The message that users will see when verifying.",
+                "usage": "settings guild <name> apply message <message>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "staff_roles",
+                "description": "Modify roles that will be pinged for an application",
+                "usage": "settings guild <name> apply staff_roles",
+                "examples": [],
+                "subcommands": [
+                  {
+                    "name": "add",
+                    "description": "Add a role which will be pinged when a new application is submitted.",
+                    "usage": "settings guild <name> apply staff_roles add <@role>",
+                    "examples": [],
+                    "subcommands": [],
+                    "ignoreSuperCommand": true
+                  },
+                  {
+                    "name": "remove",
+                    "description": "Remove a staff ping role.",
+                    "usage": "settings guild <name> apply staff_roles remove <@role>",
+                    "examples": [],
+                    "subcommands": [],
+                    "ignoreSuperCommand": true
+                  }
+                ],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "channel",
+                "description": "Channel where the message to react for applying will sent.",
+                "usage": "settings guild <name> apply channel <#channel>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "check_api",
+                "description": "Whether an applicant must have all APIs enabled in order to apply.",
+                "usage": "settings guild <name> apply check_api <enable|disable>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "category",
+                "description": "Category where new apply channels will be made. Run `categories` to get the ID's of all categories in the server.",
+                "usage": "settings guild <name> apply category <category>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "staff_channel",
+                "description": "Channel where new applications will be sent to be reviewed by staff.",
+                "usage": "settings guild <name> apply staff_channel <#channel>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "waiting_channel",
+                "description": "Channel where the players who were accepted or waitlisted will be sent. Optional and can be set to none.",
+                "usage": "settings guild <name> apply waiting_channel <#channel>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "accept_message",
+                "description": "Message that will be sent if applicant is accepted.",
+                "usage": "settings guild <name> apply accept_message <message>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "waitlist_message",
+                "description": "Message that will be sent if applicant is waitlisted. Optional and can be set to none.",
+                "usage": "settings guild <name> apply waitlist_message <message>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "gamemode",
+                "description": "Whether applicants must use a certain gamemode profile in their application. Defaults to all. Options are: all, regular, ironman, stranded, or ironman_stranded.",
+                "usage": "settings guild <name> apply gamemode <gamemode>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "deny_message",
+                "description": "Message that will be sent if applicant is denied.",
+                "usage": "settings guild <name> apply deny_message <message>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "requirements",
+                "description": "Requirements applications must meet. An application will be auto-denied if they do not meet the requirements.",
+                "usage": "settings guild <name> apply requirements",
+                "examples": [],
+                "subcommands": [
+                  {
+                    "name": "add",
+                    "description": "Add a requirement that applicant must meet. Types are slayer, skills, catacombs, weight, lily_weight, level, networth, and farming_weight. At least one of the requirement types must be set.",
+                    "usage": "settings guild <name> apply requirements add [type:amount] ...",
+                    "examples": [],
+                    "subcommands": [],
+                    "ignoreSuperCommand": true
+                  },
+                  {
+                    "name": "remove",
+                    "description": "Remove a requirement by its index. Run `settings guild <name>` to see the index for all current requirements.",
+                    "usage": "settings guild <name> apply requirements remove <index>",
+                    "examples": [],
+                    "subcommands": [],
+                    "ignoreSuperCommand": true
+                  }
+                ],
+                "ignoreSuperCommand": true
+              },
+              {
+                "name": "scammer_check",
+                "description": "Enable or disable if a player should automatically be denied if they are marked as a scammer in the SkyblockZ database. Defaults to false.",
+                "usage": "settings guild <name> apply scammer_check <enable|disable>",
+                "examples": [],
+                "subcommands": [],
+                "ignoreSuperCommand": true
+              }
+            ],
+            "ignoreSuperCommand": true
+          }
+        ],
+        "ignoreSuperCommand": false,
+        "secondDescription": "List all setup automatic guilds.",
+        "secondUsage": "guild"
+      }
+    ],
+    "ignoreSuperCommand": false,
+    "secondDescription": "View the current settings for this server.",
+    "secondUsage": "settings",
+    "category": "settings"
+  },
+  {
+    "name": "setup",
+    "description": "A guide on how to setup the bot.",
+    "usage": "setup",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "settings"
+  },
+  {
+    "name": "categories",
+    "description": "Get the ids of all categories in this server.",
+    "usage": "categories",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "settings"
+  },
+  {
+    "name": "reload",
+    "description": "Reload the automatic guild application(s) and automatic verification settings. This is required for most changes to take effect for both of these features.",
+    "usage": "reload",
+    "examples": [],
+    "subcommands": [],
+    "ignoreSuperCommand": false,
+    "category": "settings"
+  }
+]
